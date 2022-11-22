@@ -57,6 +57,12 @@ public:
     T inner(const Vector&);
     Matrix<T> outer(const Vector&);
 
+    void unit(void);
+    T magnitude(void) const;
+
+    T& operator()(unsigned int);
+    T operator()(unsigned int) const;
+
     T get(unsigned int) const;
     void set(unsigned int, T);
     void fill(T[]);

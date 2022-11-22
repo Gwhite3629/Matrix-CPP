@@ -12,6 +12,10 @@ public:
     unsigned int rows;
     unsigned int cols;
     bool is_square;
+    bool is_symmetric;
+    bool is_definite;
+    bool is_positive; // Only valid if definite is true
+    bool is_hermitian;
 
     Matrix(unsigned int, unsigned int);
     Matrix(unsigned int, unsigned int, T, T);
@@ -84,6 +88,10 @@ public:
     T infnorm(void) const;
 
     void QR(Matrix *, Matrix *) const;
+    void QR_fast(Matrix *, Matrix *) const;
+    Matrix Cholesky_fast(void) const;
+    void LU_fast(Matrix *, Matrix *) const;
+    void SVD(Matrix *, Matrix *, Matrix *) const;
 
     T& operator()(unsigned int, unsigned int);
     T operator()(unsigned int, unsigned int) const;
@@ -104,6 +112,13 @@ public:
     void random(T, T);
 
     void print(unsigned int) const;
+
+    void print(unsigned int w, unsigned int p) const;
+
+    void verify_square(void);
+    void verify_symmetric(void);
+    void verify_definite(void);
+    void verify_hermitian(void);
 
 private:
     T *data;

@@ -822,6 +822,121 @@ void Matrix<T>::QR(Matrix *Q, Matrix *R) const
     delete P;
 }
 
+/*
+template <class T>
+void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
+{
+    unsigned int s = this->rows;
+    unsigned int n = this->rows;
+    unsigned int z = 0;
+    Matrix<T> A(this->rows, this->cols);
+    A = this->copy();
+    Matrix<T> M(this->rows, this->cols);
+    M = this->copy();
+    Vector<T> v(this->rows);
+
+    for (unsigned int c = 0; c < n; c++) {
+        if (c == (z + s)) {
+            
+        }
+        v = M.get_col(c);
+        for (unsigned int j = z; j < c; j++) {
+            u = Q->get_col(j);
+            v -= (u.)
+        }
+        v.unit;
+        for (unsigned int i = 0; i < n; i++) {
+            (*Q)(i, c) = v(i);
+        }
+    }
+}
+*/
+
+template <class T>
+Matrix<T> Matrix<T>::Cholesky_fast(void) const
+{
+    unsigned int s = this->rows;
+    unsigned int n = this->rows;
+    unsigned int z = 0;
+    Matrix<T> L(this->rows, this->cols);
+    Matrix<T> A(this->rows, this->cols);
+    A = this->copy();
+
+    for (unsigned int c = 0; c < n; c++) {
+        if (c == (z + s)) {
+            Matrix<T> R(n - c, (c - 1) - z);
+            R = L.slice(c, n, z, c - 1);
+            Matrix<T> S(n - c, n - c);
+            S = R.outer(R.copy_transpose());
+            for (unsigned int i = c; i < n; i++) {
+                for (unsigned int j = c; j < n; j++) {
+                    A(i, j) -= S(i - c, j - c + 1);
+                }
+            }
+            z = c;
+        }
+        L(c, c) = A(c, c);
+        for(unsigned int k = z; k < c; k++) {
+            L(c, c) -= (L(c, k) * L(c, k));
+        }
+        L(c, c) = sqrt(L(c, c));
+        for (unsigned int i = (c + 1); i < n; i++) {
+            L(i, c) = A(i, c);
+            for (unsigned int k = z; k < c; k++) {
+                L(i, c) -= (L(i, k)*L(c, k));
+            }
+            L(i, c) /= L(c, c);
+        }
+    }
+
+    return L;
+}
+
+template <class T>
+void Matrix<T>::LU_fast(Matrix *L, Matrix *U) const
+{
+    unsigned int s = this->rows;
+    unsigned int n = this->rows;
+    unsigned int z = 0;
+    Matrix<T> A(this->rows, this->cols);
+    A = this->copy();
+
+    for (unsigned int c = 0; c < n; c++) {
+        if (c == (z + s)) {
+            Matrix<T> RL(n - c, (c - 1) - z);
+            Matrix<T> RU((c - 1) - z, n - c);
+            RL = L->slice(c, n, z, c - 1);
+            RU = U->slice(z, c - 1, c, n);
+            Matrix<T> S(n - c, n - c);
+            S = RL.outer(RU);
+            for (unsigned int i = c; i < n; i++) {
+                for (unsigned int j = c; j < n; j++) {
+                    A(i, j) -= S(i - c + 1, j - c + 1);
+                }
+            }
+        }
+        for (unsigned int i = c; i < n; i++) {
+            (*L)(i, c) = A(i, c);
+            for (unsigned int k = z; k < c; k++) {
+                (*L)(i, c) -= ((*L)(i, k)*(*U)(k, c));
+            }
+        }
+        for (unsigned int i = c; i < n; i++) {
+            (*U)(c, i) = A(c, i);
+            for (unsigned int k = z; k < c; k++) {
+                (*U)(c, i) -= ((*L)(c, k)*(*U)(k, i));
+            }
+            (*U)(c, i) /= (*L)(c, c);
+        }
+    }
+}
+
+template <class T>
+void Matrix<T>::SVD(Matrix *E, Matrix *U, Matrix *V) const
+{
+
+}
+
 template <class T>
 T& Matrix<T>::operator()(unsigned int row, unsigned int col)
 {
@@ -829,7 +944,7 @@ T& Matrix<T>::operator()(unsigned int row, unsigned int col)
 }
 
 template <class T>
-T Matrix<T>::operator()(unsigned int, unsigned int) const
+T Matrix<T>::operator()(unsigned int row, unsigned int col) const
 {
     return this->data[row*this->cols + col];
 }
@@ -988,11 +1103,60 @@ void Matrix<T>::print(unsigned int w) const
     for (unsigned int i = 0; i < this->rows; i++) {
         std::cout << "|";
         for (unsigned int j = 0; j < this->cols; j++) {
-            std::cout << std::setw(w) << this->get(i, j);
+            std::cout << std::setw(w) << std::setprecision(w) << std::fixed << std::setfill(' ') << this->get(i, j);
             if (j != cols - 1) {
                 std::cout << ",";
             }
         }
         std::cout << "|" << std::endl;
     }
+}
+
+template <class T>
+void Matrix<T>::print(unsigned int w, unsigned int p) const
+{
+    for (unsigned int i = 0; i < this->rows; i++) {
+        std::cout << "|";
+        for (unsigned int j = 0; j < this->cols; j++) {
+            std::cout << std::setw(w) << std::setprecision(p) << std::fixed << std::setfill(' ') << this->get(i, j);
+            if (j != cols - 1) {
+                std::cout << ", ";
+            }
+        }
+        std::cout << "|" << std::endl;
+    }
+}
+
+template <class T>
+void Matrix<T>::verify_square(void)
+{
+    this->square = ((this->rows == this->cols) ? 1 : 0);
+}
+
+template <class T>
+void Matrix<T>::verify_symmetric(void)
+{
+    this->is_symmetric = 1;
+    if (this->is_square == 0) {
+        this->is_symmetric = 0;
+        return;
+    }
+    this->is_symmetric = this->compare(this->copy_transpose());
+}
+
+template <class T>
+void Matrix<T>::verify_definite(void)
+{
+
+}
+
+template <class T>
+void Matrix<T>::verify_hermitian(void)
+{
+    this->is_hermitian = 1;
+    if (this->is_square == 0) {
+        this->is_hermitian = 0;
+        return;
+    }
+    this->is_hermitian = this->compare(this->copy_conjugate_transpose());
 }

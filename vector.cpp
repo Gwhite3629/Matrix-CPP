@@ -294,6 +294,34 @@ Matrix<T> Vector<T>::outer(const Vector& v)
 }
 
 template <class T>
+void Vector<T>::unit(void)
+{
+    this /= this.magnitude;
+}
+
+template <class T>
+T Vector<T>::magnitude(void) const
+{
+    T temp;
+    for (unsigned int i = 0; i < this->length; i++) {
+        temp += this.data[i]*this.data[i];
+    }
+    return sqrt(temp);
+}
+
+template <class T>
+T& Vector<T>::operator()(unsigned int i)
+{
+    return this->data[i];
+}
+
+template <class T>
+T Vector<T>::operator()(unsigned int i) const
+{
+    return this->data[i];
+}
+
+template <class T>
 T Vector<T>::get(unsigned int i) const
 {
     return this->data[i];
