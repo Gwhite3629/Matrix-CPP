@@ -557,12 +557,11 @@ Matrix<T> Matrix<T>::outer(const Matrix& M) const
     Matrix<T> out(this->rows, M.cols);
     T temp;
     for (unsigned int i = 0; i < this->rows; i++) {
-        for (unsigned int j = 0; j < M.cols; j++) {
+        for (unsigned int k = 0; k < this->cols; k++) {
             temp = 0;
-            for (unsigned int n = 0; n < this->cols; n++) {
-                temp += this->get(i, n)*M.get(n, j);
+            for (unsigned int j = 0; j < M.cols; j++) {
+                out(i, j) += this->get(i, k)*M.get(k, j);
             }
-            out.set(i, j, temp);
         }
     }
 
