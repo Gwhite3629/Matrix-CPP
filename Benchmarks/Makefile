@@ -64,5 +64,7 @@ clean:
 	rm -f ${MATMUL} core*
 	rm -f ${QR} core*
 	rm -f ${INVERT} core*
+	rm -f ${CHOLESKY} core*
+	rm -f ${LU} core*
 	rm -f *.o core*
 	rm -f ../*.o core*

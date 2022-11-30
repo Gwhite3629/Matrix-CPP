@@ -873,7 +873,7 @@ Matrix<T> Matrix<T>::Cholesky_fast(void) const
     A = this->copy();
 
     for (unsigned int c = 0; c < n; c++) {
-        if (c == (z + s)) {
+        /*if (c == (z + s)) {
             Matrix<T> R(n - c, (c - 1) - z);
             R = L.slice(c, n, z, c - 1);
             Matrix<T> S(n - c, n - c);
@@ -884,7 +884,7 @@ Matrix<T> Matrix<T>::Cholesky_fast(void) const
                 }
             }
             z = c;
-        }
+        }*/
         L(c, c) = A(c, c);
         for(unsigned int k = z; k < c; k++) {
             L(c, c) -= (L(c, k) * L(c, k));

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+PATH1="preliminary/"
+PATH2=("BRANCH", "CACHE", "dTLB-LOAD", "dTLB-STORE", "IPC", "L1-LOADS")
+
+SIZES=("50", "100", "150", "200", "250", "300", "350", "400", "450", "500")
+
+TESTS=("branches:uppp,branch-misses:uppp",
+"cache-misses:uppp,cache-references:uppp",
+"dTLB-loads:uppp,dTLB-load-misses:uppp",
+"dTLB-stores:uppp,dTLB-store-misses:uppp",
+"insutrctions:uppp,cycles:uppp",
+"L1-dcache-load-misses:uppp,L1-dcache-loads:uppp")
+
+PERF1="perf record -o $PATH1"
+PERF2="--stat --call-graph dwarf -e "
+
+# $PERF1 $1 / ${PATH2[i]} / ${SIZES[@]} - ${PATH2[i]} .data PERF2 ${TESTS[i]}
+# ./$1 ${SIZES[@]} -10 10
+
+# Build directory tree
+for p in ${PATH2[@]}; do
+	mkdir $PATH1$1$p
+	mkdir $PATH1$1$p/text
+done
+
+for i in ${!PATH2[@]}; do
+	for s in ${SIZES[@]}; do
+		$PERF1$1/${PATH2[$i]}/$s-${PATH2[$i]}.data $PERF2 ${TESTS[$i]}
+		./$1 $s -10 10
+	done
+done
