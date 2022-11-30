@@ -120,11 +120,11 @@ public:
     void verify_definite(void);
     void verify_hermitian(void);
 
-private:
-    T *data;
-
     T get(unsigned int, unsigned int) const;
     void set(unsigned int, unsigned int, T);
+
+private:
+    T *data;
 };
 
 #endif // _MATRIX_H_

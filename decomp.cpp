@@ -10,21 +10,24 @@ int main(void)
     M(2,0) =  5;M(2,1) = 11;M(2,2) = 21;
 
     {
-        Matrix<double> L(3, 3);
-        L = M.Cholesky_fast();
+        Matrix<double> Q(3, 3);
+        Matrix<double> R(3, 3);
+        M.QR(&Q, &R);
 
-        L.print(2, 2);
+        Q.print(2, 2);
+        R.print(2, 2);
+        Q.outer(R).print(2, 2);
         std::cout << std::endl;
     }
 
     {
-        Matrix<double> U(3, 3);
-        Matrix<double> L(3, 3);
+        Matrix<double> Q(3, 3);
+        Matrix<double> R(3, 3);
+        M.QR_fast(&Q, &R);
 
-        M.LU_fast(&L, &U);
-        L.print(2, 2);
-        std::cout << std::endl;
-        U.print(2, 2);
+        Q.print(2, 2);
+        R.print(2, 2);
+        Q.outer(R).print(2, 2);
         std::cout << std::endl;
     }
 

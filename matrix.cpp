@@ -555,10 +555,8 @@ Matrix<T> Matrix<T>::outer(const Matrix& M) const
 {
     assert(this->cols == M.rows);
     Matrix<T> out(this->rows, M.cols);
-    T temp;
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int k = 0; k < this->cols; k++) {
-            temp = 0;
             for (unsigned int j = 0; j < M.cols; j++) {
                 out(i, j) += this->get(i, k)*M.get(k, j);
             }
@@ -821,7 +819,6 @@ void Matrix<T>::QR(Matrix *Q, Matrix *R) const
     delete P;
 }
 
-/*
 template <class T>
 void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
 {
@@ -832,24 +829,38 @@ void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
     A = this->copy();
     Matrix<T> M(this->rows, this->cols);
     M = this->copy();
-    Vector<T> v(this->rows);
+    Vector<T> v(this->rows, 0);
+    Vector<T> u(this->rows, 0);
 
     for (unsigned int c = 0; c < n; c++) {
         if (c == (z + s)) {
-            
+            Matrix<T> BQ(n, (c - 1) - z);
+            Matrix<T> BM(n, n - c);
+            BQ = Q->slice(0, n, z, c - 1);
+            BM = M.slice(0, n, c, n);
+            Matrix<T> C((c - 1) - z, n - c);
+            C = BQ.copy_transpose().outer(BM);
+            Matrix<T> S(n, n - c);
+            S = BQ.outer(C);
+            for (unsigned int i = 0; i < n; i++) {
+                for (unsigned int j = c; j < n; j++) {
+                    M(i, j) -= S(i, j - c + 1);
+                }
+            }
+            z = c;
         }
         v = M.get_col(c);
         for (unsigned int j = z; j < c; j++) {
             u = Q->get_col(j);
-            v -= (u.)
+            v -= (u * ((u.copy_transpose()).outer(v))(0, 0));
         }
-        v.unit;
+        v.unit();
         for (unsigned int i = 0; i < n; i++) {
             (*Q)(i, c) = v(i);
         }
     }
+    (*R) = (Q->copy_transpose()).outer((*this));
 }
-*/
 
 template <class T>
 Matrix<T> Matrix<T>::Cholesky_fast(void) const

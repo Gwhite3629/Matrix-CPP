@@ -201,7 +201,7 @@ template <class T>
 void Vector<T>::operator/=(const T v)
 {
     for (unsigned int i = 0; i < this->length; i++) {
-        this->data[i] *= v;
+        this->data[i] /= v;
     }
 }
 
@@ -296,15 +296,15 @@ Matrix<T> Vector<T>::outer(const Vector& v)
 template <class T>
 void Vector<T>::unit(void)
 {
-    this /= this.magnitude;
+    (*this) /= this->magnitude();
 }
 
 template <class T>
 T Vector<T>::magnitude(void) const
 {
-    T temp;
+    T temp = 0;
     for (unsigned int i = 0; i < this->length; i++) {
-        temp += this.data[i]*this.data[i];
+        temp += this->data[i]*this->data[i];
     }
     return sqrt(temp);
 }
