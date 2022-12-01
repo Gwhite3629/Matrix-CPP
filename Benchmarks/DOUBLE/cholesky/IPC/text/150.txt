@@ -1,0 +1,352 @@
+cholesky  2458 72595.097704:          1       cycles:uppp: 
+	    7fbebd9da090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097709:          1       cycles:uppp: 
+	    7fbebd9da090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097712:          7       cycles:uppp: 
+	    7fbebd9da090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097715:         84       cycles:uppp: 
+	    7fbebd9da090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097718:       1028       cycles:uppp: 
+	    7fbebd9da090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097723:      12340       cycles:uppp: 
+	    7fbebd9da090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097734:      87432       cycles:uppp: 
+	    7fbebd9ef65c __GI___tunables_init+0x13c (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9f14f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9db117 _dl_start_final+0x7 (inlined)
+	    7fbebd9db117 _dl_start+0x7 (inlined)
+	    7fbebd9da097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097856:     307404       cycles:uppp: 
+	    7fbebd9f7a9f memset+0x4f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9df96f _dl_map_segments+0xc8f (inlined)
+	    7fbebd9df96f _dl_map_object_from_fd+0xc8f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e1a9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e62a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9f257a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e6615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9dcb0a dl_main+0xcfe (inlined)
+	    7fbebd9f165f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9db117 _dl_start_final+0x7 (inlined)
+	    7fbebd9db117 _dl_start+0x7 (inlined)
+	    7fbebd9da097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.097979:     347800       cycles:uppp: 
+	    7fbebd9e2aa5 do_lookup_x+0x345 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e339e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e4d6d elf_machine_rela+0x50d (inlined)
+	    7fbebd9e4d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fbebd9e4d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9dd0eb dl_main+0x49b (inlined)
+	    7fbebd9f165f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9db117 _dl_start_final+0x7 (inlined)
+	    7fbebd9db117 _dl_start+0x7 (inlined)
+	    7fbebd9da097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.098065:     393174       cycles:uppp: 
+	    7fbebd9e27f4 do_lookup_x+0x94 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e339e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e4d6d elf_machine_rela+0x50d (inlined)
+	    7fbebd9e4d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fbebd9e4d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9dd0eb dl_main+0x49b (inlined)
+	    7fbebd9f165f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9db117 _dl_start_final+0x7 (inlined)
+	    7fbebd9db117 _dl_start+0x7 (inlined)
+	    7fbebd9da097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.098160:     486327       cycles:uppp: 
+	    7fbebd9e329b dl_new_hash+0x4b (inlined)
+	    7fbebd9e329b _dl_lookup_symbol_x+0x4b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9e4d6d elf_machine_rela+0x50d (inlined)
+	    7fbebd9e4d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fbebd9e4d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9dd0eb dl_main+0x49b (inlined)
+	    7fbebd9f165f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fbebd9db117 _dl_start_final+0x7 (inlined)
+	    7fbebd9db117 _dl_start+0x7 (inlined)
+	    7fbebd9da097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  2458 72595.098337:     584964       cycles:uppp: 
+	    55dbe25136b7 Matrix<double>::Matrix+0xc9 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251334a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.098504:     615222       cycles:uppp: 
+	    55dbe25136b0 Matrix<double>::Matrix+0xc2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251334a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.098788:     653780       cycles:uppp: 
+	    55dbe251413b Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25140ad Matrix<double>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513801 Matrix<double>::Cholesky_fast+0x75 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.098940:     643820       cycles:uppp: 
+	    55dbe2513ae7 Matrix<double>::operator=+0x41 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513814 Matrix<double>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.099099:     696114       cycles:uppp: 
+	    55dbe25140de Matrix<double>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139e4 Matrix<double>::Cholesky_fast+0x258 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.099260:     746282       cycles:uppp: 
+	    55dbe25139e5 Matrix<double>::Cholesky_fast+0x259 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.099433:     797063       cycles:uppp: 
+	    55dbe25139e9 Matrix<double>::Cholesky_fast+0x25d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.099618:     841404       cycles:uppp: 
+	    55dbe25140e8 Matrix<double>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.099812:     878793       cycles:uppp: 
+	    55dbe2514104 Matrix<double>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139e4 Matrix<double>::Cholesky_fast+0x258 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100015:     910088       cycles:uppp: 
+	    55dbe2514100 Matrix<double>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100226:     936393       cycles:uppp: 
+	    55dbe25139a1 Matrix<double>::Cholesky_fast+0x215 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100442:     958572       cycles:uppp: 
+	    55dbe25139a1 Matrix<double>::Cholesky_fast+0x215 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100663:     977314       cycles:uppp: 
+	    55dbe2514104 Matrix<double>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100889:     993133       cycles:uppp: 
+	    55dbe251398f Matrix<double>::Cholesky_fast+0x203 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100947:     216811 instructions:uppp: 
+	    55dbe2514100 Matrix<double>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.100987:     216811 instructions:uppp: 
+	    55dbe25139c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101010:     356833 instructions:uppp: 
+	    55dbe25139e9 Matrix<double>::Cholesky_fast+0x25d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101044:     808979 instructions:uppp: 
+	    55dbe251398f Matrix<double>::Cholesky_fast+0x203 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101119:    1436383 instructions:uppp: 
+	    55dbe25140f9 Matrix<double>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101173:     973955       cycles:uppp: 
+	    55dbe25139db Matrix<double>::Cholesky_fast+0x24f (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101440:    1853975 instructions:uppp: 
+	    55dbe25139bd Matrix<double>::Cholesky_fast+0x231 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101650:     959130       cycles:uppp: 
+	    55dbe2514104 Matrix<double>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101677:    1803170 instructions:uppp: 
+	    55dbe25139c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101839:    1815612 instructions:uppp: 
+	    55dbe25140ec Matrix<double>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.101877:     902135       cycles:uppp: 
+	    55dbe25139f1 Matrix<double>::Cholesky_fast+0x265 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102007:    1937114 instructions:uppp: 
+	    55dbe25139bd Matrix<double>::Cholesky_fast+0x231 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102088:     913689       cycles:uppp: 
+	    55dbe25140f7 Matrix<double>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102185:    2056632 instructions:uppp: 
+	    55dbe25139c9 Matrix<double>::Cholesky_fast+0x23d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102301:     934705       cycles:uppp: 
+	    55dbe251398f Matrix<double>::Cholesky_fast+0x203 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102373:    2160644 instructions:uppp: 
+	    55dbe25140da Matrix<double>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102520:     954541       cycles:uppp: 
+	    55dbe25140e8 Matrix<double>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102571:    2249172 instructions:uppp: 
+	    55dbe251399d Matrix<double>::Cholesky_fast+0x211 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102743:     971762       cycles:uppp: 
+	    55dbe25139c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102776:    2323891 instructions:uppp: 
+	    55dbe25139c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102970:     986426       cycles:uppp: 
+	    55dbe25139f1 Matrix<double>::Cholesky_fast+0x265 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.102988:    2386795 instructions:uppp: 
+	    55dbe25139e5 Matrix<double>::Cholesky_fast+0x259 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103201:     998730       cycles:uppp: 
+	    55dbe25139c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103205:    2440614 instructions:uppp: 
+	    55dbe25140de Matrix<double>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103423:    2487263 instructions:uppp: 
+	    55dbe25139e9 Matrix<double>::Cholesky_fast+0x25d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103436:    1009355       cycles:uppp: 
+	    55dbe25140f9 Matrix<double>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139e4 Matrix<double>::Cholesky_fast+0x258 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103647:    2533030 instructions:uppp: 
+	    55dbe2514100 Matrix<double>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251399c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103672:    1016991       cycles:uppp: 
+	    55dbe25140da Matrix<double>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe25139bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe2513388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  2458 72595.103877:    2568841 instructions:uppp: 
+	    55dbe2513af8 Matrix<double>::operator=+0x52 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55dbe251339e main+0x179 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fbebd4f709a __libc_start_main+0xa (inlined)
+	    55dbe2513169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+

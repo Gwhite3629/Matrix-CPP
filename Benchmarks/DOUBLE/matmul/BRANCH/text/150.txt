@@ -1,0 +1,1038 @@
+matmul 12320 72701.498801:          1      branches:uppp: 
+	    7f736997d093 _start+0x3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.498809:          1      branches:uppp: 
+	    7f736997deb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.498812:          5      branches:uppp: 
+	    7f736997df47 elf_get_dynamic_info+0xb7 (inlined)
+	    7f736997df47 _dl_start+0xb7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.498815:         55      branches:uppp: 
+	    7f736997e15a elf_get_dynamic_info+0x1a (inlined)
+	    7f736997e15a _dl_start+0x1a (inlined)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.498818:        650      branches:uppp: 
+	    7f736997e199 _dl_start+0x11 (inlined)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.498827:       7627      branches:uppp: 
+	    7f7369992614 tunable_is_name+0xf4 (inlined)
+	    7f7369992614 __GI___tunables_init+0xf4 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f73699944f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997e117 _dl_start_final+0x7 (inlined)
+	    7f736997e117 _dl_start+0x7 (inlined)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.498845:      34934      branches:uppp: 
+	    7f7369984c4c cache_rpath+0x37c (inlined)
+	    7f7369984c4c _dl_map_object+0x37c (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f73699892a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736999557a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f7369989615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997fb0a dl_main+0xcfe (inlined)
+	    7f736999465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997e117 _dl_start_final+0x7 (inlined)
+	    7f736997e117 _dl_start+0x7 (inlined)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.499048:      90259      branches:uppp: 
+	    7f73699862ae dl_new_hash+0x5e (inlined)
+	    7f73699862ae _dl_lookup_symbol_x+0x5e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f7369987d6d elf_machine_rela+0x50d (inlined)
+	    7f7369987d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f7369987d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f73699800eb dl_main+0x49b (inlined)
+	    7f736999465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997e117 _dl_start_final+0x7 (inlined)
+	    7f736997e117 _dl_start+0x7 (inlined)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.499146:      92847      branches:uppp: 
+	    7f73699863a3 _dl_lookup_symbol_x+0x153 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f7369987d6d elf_machine_rela+0x50d (inlined)
+	    7f7369987d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f7369987d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f73699800eb dl_main+0x49b (inlined)
+	    7f736999465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736997e117 _dl_start_final+0x7 (inlined)
+	    7f736997e117 _dl_start+0x7 (inlined)
+	    7f736997d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.499222:     110951      branches:uppp: 
+	    7f7369985b65 do_lookup_x+0x405 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 12320 72701.499380:     142731      branches:uppp: 
+	    7f736985eb10 btowc@plt+0x0 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f7369899236 std::ctype<wchar_t>::_M_initialize_ctype+0x56 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f736987810d std::locale::_Impl::_Impl+0x79d (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f73698789c4 std::locale::_Impl::_Impl+0x1054 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f7369878a78 std::locale::locale+0x18 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f73698759e2 std::ios_base::Init::Init+0xc2 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    562e63cf258b __static_initialization_and_destruction_0+0x28 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf25be _GLOBAL__sub_I_main+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2d04 __libc_csu_init+0x44 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a029 __libc_start_main+0x509 (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.499479:     153100      branches:uppp: 
+	    562e63cf2698 Matrix<double>::Matrix+0xd6 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf234a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.499547:     182473      branches:uppp: 
+	    562e63cf2698 Matrix<double>::Matrix+0xd6 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf234a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.499628:     242765      branches:uppp: 
+	    7f73694b0d1b __random_r+0x74b (inlined)
+	    7f73694b0ba1 __random+0x5d1 (inlined)
+	    7f73694b1028 rand+0xa58 (inlined)
+	    562e63cf2656 Matrix<double>::Matrix+0x94 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf236b main+0x146 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.499734:     306077      branches:uppp: 
+	    7f73694b0d5c __random_r+0x78c (inlined)
+	 1ea50b36995429f [unknown] ([unknown])
+
+matmul 12320 72701.499994:     357866      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c016b59bfa9d6b37 [unknown] ([unknown])
+
+matmul 12320 72701.500323:     356243      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c035bfc042fc7b7d [unknown] ([unknown])
+
+matmul 12320 72701.500649:     345569      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.500966:     335456      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.501274:     326588      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40143b5d64f876bb [unknown] ([unknown])
+
+matmul 12320 72701.501574:     318956      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4019ebe6aa83d7cf [unknown] ([unknown])
+
+matmul 12320 72701.501866:     312280      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502140:        116 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502203:     295741      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502274:        116 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502404:        129 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502482:     286185      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01d38dfc9ea71bf [unknown] ([unknown])
+
+matmul 12320 72701.502552:        144 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502713:        157 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502752:     282523      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.502891:        168 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.503051:     279924      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40104eab0a709d55 [unknown] ([unknown])
+
+matmul 12320 72701.503167:        177 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.503379:     274173      branches:uppp: 
+	    562e63cf2780 Matrix<double>::outer+0xaa (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.503632:     265993      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4045a5db8902cddf [unknown] ([unknown])
+
+matmul 12320 72701.503876:     265688      branches:uppp: 
+	    562e63cf2780 Matrix<double>::outer+0xaa (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.504121:     266439      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.504366:     267126      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.504613:     267779      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	bffb2885d3765107 [unknown] ([unknown])
+
+matmul 12320 72701.504859:     268269      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	3feff66d72d05d44 [unknown] ([unknown])
+
+matmul 12320 72701.505106:     268760      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.505354:     269149      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c023a3a68cbf474c [unknown] ([unknown])
+
+matmul 12320 72701.505602:     269479      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c04759ddb880cb1d [unknown] ([unknown])
+
+matmul 12320 72701.505850:     269752      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.506138:     268760      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c020916acb4922d5 [unknown] ([unknown])
+
+matmul 12320 72701.506208:        182 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.506390:     264294      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01e6a61b86cd4c3 [unknown] ([unknown])
+
+matmul 12320 72701.506413:        162 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.506593:        167 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.506640:     264119      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4012322a29b46453 [unknown] ([unknown])
+
+matmul 12320 72701.506781:        175 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.506886:     264119      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.506979:        183 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.507133:     264526      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	401259ee4f8fabdd [unknown] ([unknown])
+
+matmul 12320 72701.507185:        189 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.507380:     265023      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40365215a7d14862 [unknown] ([unknown])
+
+matmul 12320 72701.507397:        194 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.507612:        199 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.507630:     265463      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	401ea131530d425f [unknown] ([unknown])
+
+matmul 12320 72701.507836:        203 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.507877:     265446      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	401b23a6d346474b [unknown] ([unknown])
+
+matmul 12320 72701.508064:        206 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.508126:     265866      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.508363:        209 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.508441:     265930      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	3fb692247bf57cf7 [unknown] ([unknown])
+
+matmul 12320 72701.508598:        206 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.508689:     259106      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01edecd47adbd99 [unknown] ([unknown])
+
+matmul 12320 72701.508828:        208 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.508931:     259275      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c011a1463ee4b69b [unknown] ([unknown])
+
+matmul 12320 72701.509062:        211 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.509172:     260453      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01167423032ce83 [unknown] ([unknown])
+
+matmul 12320 72701.509299:        213 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.509416:     261562      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	bfed3d5d59234307 [unknown] ([unknown])
+
+matmul 12320 72701.509537:        215 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.509659:     262457      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4032acb20d79ed16 [unknown] ([unknown])
+
+matmul 12320 72701.509778:        217 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.509904:     263323      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c048f5e97a37135e [unknown] ([unknown])
+
+matmul 12320 72701.510060:        218 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.510189:     263569      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	404d50189d8f5afa [unknown] ([unknown])
+
+matmul 12320 72701.510305:        216 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.510435:     259497      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4023ec1eb1c9b683 [unknown] ([unknown])
+
+matmul 12320 72701.510546:        217 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.510677:     260026      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.510788:        218 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.510919:     261195      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.511032:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.511162:     262244      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c02463ae8322db43 [unknown] ([unknown])
+
+matmul 12320 72701.511277:        220 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.511410:     263127      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01162dcd35d9be9 [unknown] ([unknown])
+
+matmul 12320 72701.511537:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.511667:     263494      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	403b026471372070 [unknown] ([unknown])
+
+matmul 12320 72701.511785:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.511912:     262555      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c013b8c6a3d7718d [unknown] ([unknown])
+
+matmul 12320 72701.512033:        222 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.512225:     263205      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	bfa22d111ef68aed [unknown] ([unknown])
+
+matmul 12320 72701.512348:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.512470:     256592      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	401561f949766efc [unknown] ([unknown])
+
+matmul 12320 72701.512598:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.512709:     257216      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40520834bab36e27 [unknown] ([unknown])
+
+matmul 12320 72701.512843:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.512949:     258661      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40118bb4d0d31767 [unknown] ([unknown])
+
+matmul 12320 72701.513087:        220 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.513190:     260013      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40189c156cd547a8 [unknown] ([unknown])
+
+matmul 12320 72701.513333:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.513433:     261275      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.513581:        222 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.513677:     262253      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.513829:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.513921:     263100      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.514119:        224 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.514206:     263342      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01db6e4a72b6dc9 [unknown] ([unknown])
+
+matmul 12320 72701.514368:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.514451:     259276      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4046e0190babb05a [unknown] ([unknown])
+
+matmul 12320 72701.514616:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.514693:     259924      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4043512a5c400ecf [unknown] ([unknown])
+
+matmul 12320 72701.514863:        222 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.514935:     261040      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	3fd5fb05032bf5ff [unknown] ([unknown])
+
+matmul 12320 72701.515111:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.515178:     262175      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.515361:        224 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.515423:     263043      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c004de1f6a89bc3f [unknown] ([unknown])
+
+matmul 12320 72701.515611:        224 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.515668:     263830      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	bfff6607157ecc0f [unknown] ([unknown])
+
+matmul 12320 72701.515862:        224 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.515915:     264458      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	400b04d8f15609af [unknown] ([unknown])
+
+matmul 12320 72701.516180:        224 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.516228:     264827      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c04f0328c75a70a0 [unknown] ([unknown])
+
+matmul 12320 72701.516431:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.516475:     258166      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40055070e50aa0e3 [unknown] ([unknown])
+
+matmul 12320 72701.516675:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.516716:     258560      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4028786b94d07a09 [unknown] ([unknown])
+
+matmul 12320 72701.516922:        220 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.516958:     259814      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01097300bc57779 [unknown] ([unknown])
+
+matmul 12320 72701.517167:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.517199:     260870      branches:uppp: 
+	    562e63cf27d7 Matrix<double>::outer+0x101 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.517415:        222 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.517443:     262020      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	400add593815baaf [unknown] ([unknown])
+
+matmul 12320 72701.517664:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.517689:     262882      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c0143c54233878a7 [unknown] ([unknown])
+
+matmul 12320 72701.517914:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.517933:     263426      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40219cff3eeb39fd [unknown] ([unknown])
+
+matmul 12320 72701.518166:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.518183:     263775      branches:uppp: 
+	    562e63cf27d1 Matrix<double>::outer+0xfb (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.518415:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.518428:     263765      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c0082a6e921054db [unknown] ([unknown])
+
+matmul 12320 72701.518664:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.518675:     264413      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4023bac9ee5f7593 [unknown] ([unknown])
+
+matmul 12320 72701.518913:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.518920:     264937      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c0131599a2762b33 [unknown] ([unknown])
+
+matmul 12320 72701.519162:        223 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.519167:     265527      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	3ffc53ee0c78a7df [unknown] ([unknown])
+
+matmul 12320 72701.519411:     266004      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c02293e6f27d27cd [unknown] ([unknown])
+
+matmul 12320 72701.519656:     266727      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4002d82c61c5b057 [unknown] ([unknown])
+
+matmul 12320 72701.519901:     267474      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c01424054318b033 [unknown] ([unknown])
+
+matmul 12320 72701.520147:     268097      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	403be5dae8510c10 [unknown] ([unknown])
+
+matmul 12320 72701.520462:     268713      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c04a871939975d75 [unknown] ([unknown])
+
+matmul 12320 72701.520709:     261805      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c0224f3d2c2c9e79 [unknown] ([unknown])
+
+matmul 12320 72701.520950:     262186      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.521191:     263402      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.521433:     264594      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c00cd6a9b3d9ad51 [unknown] ([unknown])
+
+matmul 12320 72701.521677:     265651      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.521920:     266564      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	bf9399f7102733ff [unknown] ([unknown])
+
+matmul 12320 72701.522169:     267224      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	403e1858234f8384 [unknown] ([unknown])
+
+matmul 12320 72701.522216:        224 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.522418:     267403      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c02c7dddee79091f [unknown] ([unknown])
+
+matmul 12320 72701.522467:        200 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.522668:     267534      branches:uppp: 
+	    562e63cf27bb Matrix<double>::outer+0xe5 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.522693:        200 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.522913:        203 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.522920:     267594      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	3ff484de77e909bf [unknown] ([unknown])
+
+matmul 12320 72701.523140:        207 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.523168:     267348      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	40127a880014f50f [unknown] ([unknown])
+
+matmul 12320 72701.523373:        210 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.523417:     267519      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	401655adca6c6636 [unknown] ([unknown])
+
+matmul 12320 72701.523607:        212 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.523666:     267648      branches:uppp: 
+	    562e63cf2780 Matrix<double>::outer+0xaa (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.523844:        214 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.523915:     267833      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c0041c1e7d48383d [unknown] ([unknown])
+
+matmul 12320 72701.524082:        216 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.524164:     267917      branches:uppp: 
+	    562e63cf2ad0 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	c02c8480d56ed7dd [unknown] ([unknown])
+
+matmul 12320 72701.524324:        218 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.524414:     268095      branches:uppp: 
+	    562e63cf2799 Matrix<double>::outer+0xc3 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.524567:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.524663:     268117      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4021621c006ac437 [unknown] ([unknown])
+
+matmul 12320 72701.524812:        220 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.524913:     268219      branches:uppp: 
+	    562e63cf2780 Matrix<double>::outer+0xaa (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.525095:        221 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.525233:     268295      branches:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.525376:        219 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.525483:     260910      branches:uppp: 
+	    562e63cf2b08 Matrix<double>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	4021e14463fbc289 [unknown] ([unknown])
+
+matmul 12320 72701.525622:        217 branch-misses:uppp: 
+	    562e63cf276f Matrix<double>::outer+0x99 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    562e63cf2399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.525668:        218 branch-misses:uppp: 
+	    7f73694c975d __GI___printf_fp_l+0xdd (inlined)
+	    7f73694c667a _IO_vfprintf_internal+0x4a (inlined)
+	    7f73694ee8df _IO_vsnprintf+0x149f (inlined)
+	    7f73698a98de std::__cxx11::collate<char>::do_transform+0x2ae (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f73698d60b1 std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_float<double>+0xc1 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f73698e18fb std::ostream::_M_insert<double>+0x7b (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    562e63cf24e4 main+0x2bf (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f736949a09a __libc_start_main+0xa (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 12320 72701.525682:        338 branch-misses:uppp: 
+	    7f7369991b16 _dl_sort_maps+0x116 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f736998b671 _dl_fini+0x131 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f73694afebb __run_exit_handlers+0x206b (inlined)
+	    7f73694affe9 __GI_exit+0x2199 (inlined)
+	    7f736949a0a1 __libc_start_main+0x11 (inlined)
+	    562e63cf2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+

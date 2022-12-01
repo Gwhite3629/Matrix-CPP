@@ -1,0 +1,211 @@
+lu 25187 72844.513996:          1       L1-dcache-loads: 
+	    7f81c2962eaf elf_get_dynamic_info+0x1f (inlined)
+	    7f81c2962eaf _dl_start+0x1f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514002:          1       L1-dcache-loads: 
+	    7f81c2962eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514005:          6       L1-dcache-loads: 
+	    7f81c2962f3b elf_get_dynamic_info+0xab (inlined)
+	    7f81c2962f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514008:         67       L1-dcache-loads: 
+	    7f81c2962f3b elf_get_dynamic_info+0xab (inlined)
+	    7f81c2962f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514012:        787       L1-dcache-loads: 
+	    7f81c29631e8 elf_dynamic_do_Rela+0x60 (inlined)
+	    7f81c29631e8 _dl_start+0x60 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514019:       7202       L1-dcache-loads: 
+	    7f81c29775eb __GI___tunables_init+0xcb (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c29794f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2963117 _dl_start_final+0x7 (inlined)
+	    7f81c2963117 _dl_start+0x7 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514122:      37150       L1-dcache-loads: 
+	    7f81c297c3f4 strcmp+0x8b4 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c29712b4 _dl_name_match_p+0x14 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2969958 _dl_map_object+0x88 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c296e2a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c297a57a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c296e615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2964b0a dl_main+0xcfe (inlined)
+	    7f81c297965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2963117 _dl_start_final+0x7 (inlined)
+	    7f81c2963117 _dl_start+0x7 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514235:      43790       L1-dcache-loads: 
+	    7f81c296cccf elf_machine_rela+0x46f (inlined)
+	    7f81c296cccf elf_dynamic_do_Rela+0x46f (inlined)
+	    7f81c296cccf _dl_relocate_object+0x46f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c29650eb dl_main+0x49b (inlined)
+	    7f81c297965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2963117 _dl_start_final+0x7 (inlined)
+	    7f81c2963117 _dl_start+0x7 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514273:      50365       L1-dcache-loads: 
+	    7f81c296b2a9 dl_new_hash+0x59 (inlined)
+	    7f81c296b2a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c296cd6d elf_machine_rela+0x50d (inlined)
+	    7f81c296cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f81c296cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c29650eb dl_main+0x49b (inlined)
+	    7f81c297965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2963117 _dl_start_final+0x7 (inlined)
+	    7f81c2963117 _dl_start+0x7 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514314:      86052       L1-dcache-loads: 
+	    7f81c296aaa5 do_lookup_x+0x345 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c296b39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c296cd6d elf_machine_rela+0x50d (inlined)
+	    7f81c296cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f81c296cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c29650eb dl_main+0x49b (inlined)
+	    7f81c297965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2963117 _dl_start_final+0x7 (inlined)
+	    7f81c2963117 _dl_start+0x7 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514366:     140351       L1-dcache-loads: 
+	    7f81c296cca3 elf_machine_rela+0x443 (inlined)
+	    7f81c296cca3 elf_dynamic_do_Rela+0x443 (inlined)
+	    7f81c296cca3 _dl_relocate_object+0x443 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c29650eb dl_main+0x49b (inlined)
+	    7f81c297965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f81c2963117 _dl_start_final+0x7 (inlined)
+	    7f81c2963117 _dl_start+0x7 (inlined)
+	    7f81c2962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514447:     207959       L1-dcache-loads: 
+	    7f81c296b417 _dl_lookup_symbol_x+0x1c7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 25187 72844.514640:     262178       L1-dcache-loads: 
+	    7f81c2495cea __random_r+0x71a (inlined)
+	    7f81c2495ba1 __random+0x5d1 (inlined)
+	    7f81c2496028 rand+0xa58 (inlined)
+	    55b70ea4eda0 Matrix<float>::Matrix+0x94 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.514753:     271775       L1-dcache-loads: 
+	    55b70ea4fb09 Matrix<float>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f789 Matrix<float>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4ef24 Matrix<float>::LU_fast+0x7c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.514803:     313363       L1-dcache-loads: 
+	    55b70ea4faa9 Matrix<float>::set+0x13 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f81a Matrix<float>::operator=+0x68 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4ef3d Matrix<float>::LU_fast+0x95 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.514863:     467715       L1-dcache-loads: 
+	    55b70ea4f221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.514951:     654290       L1-dcache-loads: 
+	    55b70ea4fa19 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.515077:     803026       L1-dcache-loads: 
+	    55b70ea4f1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.515233:     902490       L1-dcache-loads: 
+	    55b70ea4f9f6 Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.515410:     882701       L1-dcache-loads: 
+	    55b70ea4f9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.515614:     928113       L1-dcache-loads: 
+	    55b70ea4f9f6 Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.515789:     954378       L1-dcache-loads: 
+	    55b70ea4f2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.515969:    1005063       L1-dcache-loads: 
+	    55b70ea4fa0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.516158:    1054063       L1-dcache-loads: 
+	    55b70ea4f1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.516355:    1096690       L1-dcache-loads: 
+	    55b70ea4f9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4f1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.516560:    1132984       L1-dcache-loads: 
+	    55b70ea4f2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.516771:    1164356       L1-dcache-loads: 
+	    55b70ea4f1be Matrix<float>::LU_fast+0x316 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.516988:    1191416       L1-dcache-loads: 
+	    55b70ea4fa19 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.517209:    1214219       L1-dcache-loads: 
+	    55b70ea4f2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 25187 72844.517434:    1233851       L1-dcache-loads: 
+	    55b70ea4f21d Matrix<float>::LU_fast+0x375 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55b70ea4e45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f81c247f09a __libc_start_main+0xa (inlined)
+	    55b70ea4e169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+

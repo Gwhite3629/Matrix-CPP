@@ -1,0 +1,154 @@
+matmul  8067 72664.888845:          1       dTLB-stores: 
+	    7f4d72289eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.888851:          1       dTLB-stores: 
+	    7f4d7228a2b3 elf_get_dynamic_info+0x12b (inlined)
+	    7f4d7228a2b3 _dl_start+0x12b (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.888854:          7       dTLB-stores: 
+	    7f4d72289f33 elf_get_dynamic_info+0xa3 (inlined)
+	    7f4d72289f33 _dl_start+0xa3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.888857:         79       dTLB-stores: 
+	    7f4d72289f33 elf_get_dynamic_info+0xa3 (inlined)
+	    7f4d72289f33 _dl_start+0xa3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.888863:        881       dTLB-stores: 
+	    7f4d722a022f _dl_sysdep_start+0x1f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.888904:       5127       dTLB-stores: 
+	    7f4d722933cd _dl_new_object+0x17d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228de57 _dl_map_object_from_fd+0x177 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72290a9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d722952a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d722a157a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72295615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228bb0a dl_main+0xcfe (inlined)
+	    7f4d722a065f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.889024:       8412       dTLB-stores: 
+	    7f4d7229226d _dl_lookup_symbol_x+0x1d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72293d6d elf_machine_rela+0x50d (inlined)
+	    7f4d72293d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f4d72293d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228c0eb dl_main+0x49b (inlined)
+	    7f4d722a065f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.889077:       9547       dTLB-stores: 
+	    7f4d72294164 elf_machine_rela_relative+0x904 (inlined)
+	    7f4d72294164 elf_dynamic_do_Rela+0x904 (inlined)
+	    7f4d72294164 _dl_relocate_object+0x904 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228c0eb dl_main+0x49b (inlined)
+	    7f4d722a065f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.889118:      14008       dTLB-stores: 
+	    7f4d722922b7 _dl_lookup_symbol_x+0x67 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72293d6d elf_machine_rela+0x50d (inlined)
+	    7f4d72293d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f4d72293d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228c0eb dl_main+0x49b (inlined)
+	    7f4d722a065f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.889144:      22876       dTLB-stores: 
+	    7f4d7229179f do_lookup_x+0x3f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7229239e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72293d6d elf_machine_rela+0x50d (inlined)
+	    7f4d72293d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f4d72293d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228c0eb dl_main+0x49b (inlined)
+	    7f4d722a065f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.889191:      47271       dTLB-stores: 
+	    7f4d722918a5 do_lookup_x+0x145 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7229239e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d72293d6d elf_machine_rela+0x50d (inlined)
+	    7f4d72293d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f4d72293d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228c0eb dl_main+0x49b (inlined)
+	    7f4d722a065f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d7228a117 _dl_start_final+0x7 (inlined)
+	    7f4d7228a117 _dl_start+0x7 (inlined)
+	    7f4d72289097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul  8067 72664.889263:      73282       dTLB-stores: 
+	    7f4d722916f7 check_match+0x137 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f4d720e5607 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+matmul  8067 72664.889472:      95745       dTLB-stores: 
+	    7f4d72170310 __dynamic_cast+0x50 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f4d72261903 [unknown] (//anon)
+
+matmul  8067 72664.889548:      98068       dTLB-stores: 
+	    561c849969ce Matrix<float>::outer+0xd0 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.889590:     126597       dTLB-stores: 
+	    561c849969ad Matrix<float>::outer+0xaf (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.889704:     181848       dTLB-stores: 
+	    561c849969ce Matrix<float>::outer+0xd0 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.889780:     208717       dTLB-stores: 
+	    561c849969ce Matrix<float>::outer+0xd0 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.889866:     269139       dTLB-stores: 
+	    561c849969ce Matrix<float>::outer+0xd0 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.889976:     333461       dTLB-stores: 
+	    561c84996b94 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7ffdf7b4e8bf [unknown] ([stack])
+
+matmul  8067 72664.890111:     386391       dTLB-stores: 
+	    561c849969a8 Matrix<float>::outer+0xaa (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.890267:     427261       dTLB-stores: 
+	    561c849969ce Matrix<float>::outer+0xd0 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul  8067 72664.890440:     459413       dTLB-stores: 
+	    561c849969a8 Matrix<float>::outer+0xaa (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    561c8499644c main+0x227 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7f4d71da609a __libc_start_main+0xa (inlined)
+	    561c84996169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+

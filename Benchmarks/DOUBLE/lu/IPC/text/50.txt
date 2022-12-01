@@ -1,0 +1,259 @@
+lu   811 73419.489136:          1       cycles:uppp: 
+	    7fd2c8d3c090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489141:          1       cycles:uppp: 
+	    7fd2c8d3c090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489144:          7       cycles:uppp: 
+	    7fd2c8d3c090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489146:         83       cycles:uppp: 
+	    7fd2c8d3c090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489150:       1040       cycles:uppp: 
+	    7fd2c8d3c090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489154:      11102       cycles:uppp: 
+	    7fd2c8d3c090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489165:      88136       cycles:uppp: 
+	    7fd2c8d53300 _dl_sysdep_start+0xf0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489210:        223 instructions:uppp: 
+	    7fd2c8d46505 _dl_new_object+0x2b5 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d40e57 _dl_map_object_from_fd+0x177 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d43a9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d482a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5457a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d48615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3eb0a dl_main+0xcfe (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489213:        223 instructions:uppp: 
+	    7fd2c8d40fe7 _dl_map_object_from_fd+0x307 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d43a9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d482a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5457a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d48615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3eb0a dl_main+0xcfe (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489219:       2036 instructions:uppp: 
+	    7fd2c8d55723 __mmap64+0x43 (inlined)
+	    7fd2c8d55723 __mmap64+0x43 (inlined)
+	    7fd2c8d41200 _dl_map_segments+0x520 (inlined)
+	    7fd2c8d41200 _dl_map_object_from_fd+0x520 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d43a9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d482a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5457a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d48615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3eb0a dl_main+0xcfe (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489288:      12710 instructions:uppp: 
+	    7fd2c8d50eab _dl_load_cache_lookup+0x12b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d43d1a _dl_map_object+0x44a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d482a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5457a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d48615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3eb0a dl_main+0xcfe (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489315:     281891       cycles:uppp: 
+	    7fd2c8d50cc3 _dl_cache_libcmp+0x3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d50ebe _dl_load_cache_lookup+0x13e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d43d1a _dl_map_object+0x44a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d482a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5457a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d48615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3eb0a dl_main+0xcfe (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489368:      16910 instructions:uppp: 
+	    7fd2c8d55b70 strcmp+0x30 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d4b2b4 _dl_name_match_p+0x14 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d43958 _dl_map_object+0x88 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d482a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5457a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d48615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3eb0a dl_main+0xcfe (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489378:      21368 instructions:uppp: 
+	    7fd2c8d4bb2a _dl_check_map_versions+0x63a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d4bc8f _dl_check_all_versions+0x3f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3ce67 version_check_doit+0x17 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d5463a _dl_receive_error+0x2a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3ec0c dl_main+0xe00 (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489396:      83965 instructions:uppp: 
+	    7fd2c8d47140 elf_dynamic_do_Rela+0x8e0 (inlined)
+	    7fd2c8d47140 _dl_relocate_object+0x8e0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489452:     223502 instructions:uppp: 
+	    7fd2c8d4714f elf_machine_rela_relative+0x8ef (inlined)
+	    7fd2c8d4714f elf_dynamic_do_Rela+0x8ef (inlined)
+	    7fd2c8d4714f _dl_relocate_object+0x8ef (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489484:     305420       cycles:uppp: 
+	    7fd2c8d4482e do_lookup_x+0xce (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d4539e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d46d6d elf_machine_rela+0x50d (inlined)
+	    7fd2c8d46d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fd2c8d46d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489511:     321132 instructions:uppp: 
+	    7fd2c8d4529b dl_new_hash+0x4b (inlined)
+	    7fd2c8d4529b _dl_lookup_symbol_x+0x4b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d46d6d elf_machine_rela+0x50d (inlined)
+	    7fd2c8d46d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fd2c8d46d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489566:     323664       cycles:uppp: 
+	    7fd2c8d44acd do_lookup_x+0x36d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d17867 [unknown] (//anon)
+
+lu   811 73419.489572:     450924 instructions:uppp: 
+	    7fd2c8d4529b dl_new_hash+0x4b (inlined)
+	    7fd2c8d4529b _dl_lookup_symbol_x+0x4b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d46d6d elf_machine_rela+0x50d (inlined)
+	    7fd2c8d46d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fd2c8d46d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489630:     625724 instructions:uppp: 
+	    7fd2c8d4537d _dl_lookup_symbol_x+0x12d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d46d6d elf_machine_rela+0x50d (inlined)
+	    7fd2c8d46d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fd2c8d46d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489654:     406833       cycles:uppp: 
+	    7fd2c8d452a6 dl_new_hash+0x56 (inlined)
+	    7fd2c8d452a6 _dl_lookup_symbol_x+0x56 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d46d6d elf_machine_rela+0x50d (inlined)
+	    7fd2c8d46d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fd2c8d46d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489715:     883810 instructions:uppp: 
+	    7fd2c8d4481e do_lookup_x+0xbe (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d4539e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d46d6d elf_machine_rela+0x50d (inlined)
+	    7fd2c8d46d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fd2c8d46d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3f0eb dl_main+0x49b (inlined)
+	    7fd2c8d5365f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3d117 _dl_start_final+0x7 (inlined)
+	    7fd2c8d3d117 _dl_start+0x7 (inlined)
+	    7fd2c8d3c097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489784:     500532       cycles:uppp: 
+	    7fd2c8968ad8 determine_info+0x15d8 (inlined)
+	    7fd2c8968ad8 __GI__dl_addr+0x15d8 (inlined)
+	    7fd2c88b55d5 ptmalloc_init+0xd55 (inlined)
+	    7fd2c88b9860 ptmalloc_init+0x410 (inlined)
+	    7fd2c88b9860 malloc_hook_ini+0x410 (inlined)
+	    7fd2c8c21455 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fd2c8d4a389 call_init+0x99 (inlined)
+	    7fd2c8d4a485 call_init+0x75 (inlined)
+	    7fd2c8d4a485 _dl_init+0x75 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fd2c8d3c0c9 _dl_start_user+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu   811 73419.489948:    1096864 instructions:uppp: 
+	    558ee1121704 Matrix<double>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee1120c0a Matrix<double>::LU_fast+0x484 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee112039d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fd2c885909a __libc_start_main+0xa (inlined)
+	    558ee1120169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu   811 73419.489959:     558573       cycles:uppp: 
+	    558ee1121720 Matrix<double>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee1120baf Matrix<double>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee112039d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fd2c885909a __libc_start_main+0xa (inlined)
+	    558ee1120169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu   811 73419.490056:    1107201 instructions:uppp: 
+	    558ee11216f2 Matrix<double>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffc986219ff [unknown] ([stack])
+
+lu   811 73419.490095:     588233       cycles:uppp: 
+	    558ee1120bb0 Matrix<double>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee112039d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fd2c885909a __libc_start_main+0xa (inlined)
+	    558ee1120169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu   811 73419.490165:    1288926 instructions:uppp: 
+	    558ee11216f2 Matrix<double>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffc986219ff [unknown] ([stack])
+
+lu   811 73419.490238:     649891       cycles:uppp: 
+	    558ee1120aa3 Matrix<double>::LU_fast+0x31d (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee112039d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fd2c885909a __libc_start_main+0xa (inlined)
+	    558ee1120169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu   811 73419.490290:    1495014 instructions:uppp: 
+	    558ee1120af1 Matrix<double>::LU_fast+0x36b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    558ee112039d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fd2c885909a __libc_start_main+0xa (inlined)
+	    558ee1120169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+

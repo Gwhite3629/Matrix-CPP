@@ -1,0 +1,147 @@
+lu 20304 72820.102450:          1       dTLB-loads: 
+	    7f31053e8090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102458:          1       dTLB-loads: 
+	    7f31053e8eaf elf_get_dynamic_info+0x1f (inlined)
+	    7f31053e8eaf _dl_start+0x1f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102463:          5       dTLB-loads: 
+	    7f31053e8eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102466:         40       dTLB-loads: 
+	    7f31053e8f3b elf_get_dynamic_info+0xab (inlined)
+	    7f31053e8f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102469:        472       dTLB-loads: 
+	    7f31053e9179 _dl_start+0x19 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102477:       5259       dTLB-loads: 
+	    7f31053fd600 __GI___tunables_init+0xe0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053ff4f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102507:      24607       dTLB-loads: 
+	    7f310540592c memmove+0xbc (inlined)
+	    7f31053fd076 _dl_load_cache_lookup+0x2f6 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053efd1a _dl_map_object+0x44a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f42a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f310540057a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f4615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053eab0a dl_main+0xcfe (inlined)
+	    7f31053ff65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102646:      46690       dTLB-loads: 
+	    7f31053f08b3 do_lookup_x+0x153 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f139e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f2d6d elf_machine_rela+0x50d (inlined)
+	    7f31053f2d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f31053f2d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053eb0eb dl_main+0x49b (inlined)
+	    7f31053ff65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102730:      51355       dTLB-loads: 
+	    7f31053f07c0 do_lookup_x+0x60 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f139e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f2d6d elf_machine_rela+0x50d (inlined)
+	    7f31053f2d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f31053f2d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053eb0eb dl_main+0x49b (inlined)
+	    7f31053ff65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102770:      64227       dTLB-loads: 
+	    7f31053f08b3 do_lookup_x+0x153 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f139e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f2d6d elf_machine_rela+0x50d (inlined)
+	    7f31053f2d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f31053f2d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053eb0eb dl_main+0x49b (inlined)
+	    7f31053ff65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102811:     105775       dTLB-loads: 
+	    7f31053f3314 elf_machine_rela+0xab4 (inlined)
+	    7f31053f3314 elf_dynamic_do_Rela+0xab4 (inlined)
+	    7f31053f3314 _dl_relocate_object+0xab4 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053eb0eb dl_main+0x49b (inlined)
+	    7f31053ff65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.102869:     172744       dTLB-loads: 
+	    7f31053f12a9 dl_new_hash+0x59 (inlined)
+	    7f31053f12a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f2d6d elf_machine_rela+0x50d (inlined)
+	    7f31053f2d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f31053f2d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053eb0eb dl_main+0x49b (inlined)
+	    7f31053ff65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053e9117 _dl_start_final+0x7 (inlined)
+	    7f31053e9117 _dl_start+0x7 (inlined)
+	    7f31053e8097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 20304 72820.103044:     245124       dTLB-loads: 
+	    7f31053f064e check_match+0x8e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f0b03 do_lookup_x+0x3a3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f139e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053f5b0f _dl_fixup+0xcf (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31053fc589 _dl_runtime_resolve_xsavec+0x79 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f31052e310d std::locale::_Impl::_Impl+0x79d (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f31052e39c4 std::locale::_Impl::_Impl+0x1054 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f31052e3a78 std::locale::locale+0x18 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f31052e09e2 std::ios_base::Init::Init+0xc2 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    55d9fec9a5b1 __static_initialization_and_destruction_0+0x28 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9a5e4 _GLOBAL__sub_I_main+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9bc14 __libc_csu_init+0x44 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f3104f05029 __libc_start_main+0x509 (inlined)
+	    55d9fec9a169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 20304 72820.103145:     258108       dTLB-loads: 
+	    55d9fec9b7df Matrix<float>::operator=+0x2d (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9af3d Matrix<float>::LU_fast+0x95 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9a45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f3104f0509a __libc_start_main+0xa (inlined)
+	    55d9fec9a169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 20304 72820.103237:     273888       dTLB-loads: 
+	    55d9fec9b290 Matrix<float>::LU_fast+0x3e8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9a45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f3104f0509a __libc_start_main+0xa (inlined)
+	    55d9fec9a169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 20304 72820.103291:     332829       dTLB-loads: 
+	    55d9fec9b9f6 Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9b2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9a45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f3104f0509a __libc_start_main+0xa (inlined)
+	    55d9fec9a169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 20304 72820.103357:     481454       dTLB-loads: 
+	    55d9fec9b22d Matrix<float>::LU_fast+0x385 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9a45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f3104f0509a __libc_start_main+0xa (inlined)
+	    55d9fec9a169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 20304 72820.103450:     648380       dTLB-loads: 
+	    55d9fec9ba19 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    55d9fec9a45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f3104f0509a __libc_start_main+0xa (inlined)
+	    55d9fec9a169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+

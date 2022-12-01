@@ -1,0 +1,197 @@
+cholesky  4190 72604.001124:          1       L1-dcache-loads: 
+	    7f5751fb4eaf elf_get_dynamic_info+0x1f (inlined)
+	    7f5751fb4eaf _dl_start+0x1f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001131:          1       L1-dcache-loads: 
+	    7f5751fb4eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001134:          5       L1-dcache-loads: 
+	    7f5751fb4f3b elf_get_dynamic_info+0xab (inlined)
+	    7f5751fb4f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001137:         54       L1-dcache-loads: 
+	    7f5751fb4f3b elf_get_dynamic_info+0xab (inlined)
+	    7f5751fb4f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001141:        632       L1-dcache-loads: 
+	    7f5751fb51ee elf_machine_rela_relative+0x66 (inlined)
+	    7f5751fb51ee elf_dynamic_do_Rela+0x66 (inlined)
+	    7f5751fb51ee _dl_start+0x66 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001149:       5523       L1-dcache-loads: 
+	    7f5751fc960e tunable_is_name+0xee (inlined)
+	    7f5751fc960e __GI___tunables_init+0xee (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fcb4f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001210:      26904       L1-dcache-loads: 
+	    7f5751fbe11c _dl_setup_hash+0xc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb9740 _dl_map_object_from_fd+0xa60 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbba9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fc02a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fcc57a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fc0615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb6b0a dl_main+0xcfe (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001325:      37286       L1-dcache-loads: 
+	    7f5751fbeca3 elf_machine_rela+0x443 (inlined)
+	    7f5751fbeca3 elf_dynamic_do_Rela+0x443 (inlined)
+	    7f5751fbeca3 _dl_relocate_object+0x443 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb70eb dl_main+0x49b (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001402:      42829       L1-dcache-loads: 
+	    7f5751fbd2b7 _dl_lookup_symbol_x+0x67 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbed6d elf_machine_rela+0x50d (inlined)
+	    7f5751fbed6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f5751fbed6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb70eb dl_main+0x49b (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001441:      54767       L1-dcache-loads: 
+	    7f5751fbcab7 do_lookup_x+0x357 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbd39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbed6d elf_machine_rela+0x50d (inlined)
+	    7f5751fbed6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f5751fbed6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb70eb dl_main+0x49b (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001478:      92200       L1-dcache-loads: 
+	    7f5751fbd2a9 dl_new_hash+0x59 (inlined)
+	    7f5751fbd2a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbed6d elf_machine_rela+0x50d (inlined)
+	    7f5751fbed6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f5751fbed6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb70eb dl_main+0x49b (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001530:     158306       L1-dcache-loads: 
+	    7f5751fbd2a9 dl_new_hash+0x59 (inlined)
+	    7f5751fbd2a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbed6d elf_machine_rela+0x50d (inlined)
+	    7f5751fbed6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f5751fbed6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb70eb dl_main+0x49b (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001627:     233400       L1-dcache-loads: 
+	    7f5751fbd2a9 dl_new_hash+0x59 (inlined)
+	    7f5751fbd2a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fbed6d elf_machine_rela+0x50d (inlined)
+	    7f5751fbed6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f5751fbed6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb70eb dl_main+0x49b (inlined)
+	    7f5751fcb65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f5751fb5117 _dl_start_final+0x7 (inlined)
+	    7f5751fb5117 _dl_start+0x7 (inlined)
+	    7f5751fb4097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky  4190 72604.001832:     279028       L1-dcache-loads: 
+	    7f5751ae7cea __random_r+0x71a (inlined)
+	    7f5751ae7ba1 __random+0x5d1 (inlined)
+	    7f5751ae8028 rand+0xa58 (inlined)
+	    556e24da2682 Matrix<double>::Matrix+0x94 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da234a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.001999:     286804       L1-dcache-loads: 
+	    556e24da313b Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da30ad Matrix<double>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2801 Matrix<double>::Cholesky_fast+0x75 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002056:     304451       L1-dcache-loads: 
+	    556e24da316a Matrix<double>::set+0x28 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2b10 Matrix<double>::operator=+0x6a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2814 Matrix<double>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002123:     434183       L1-dcache-loads: 
+	    556e24da30ec Matrix<double>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da29bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002212:     582334       L1-dcache-loads: 
+	    556e24da30e4 Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da29bc Matrix<double>::Cholesky_fast+0x230 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002331:     713862       L1-dcache-loads: 
+	    556e24da30f9 Matrix<double>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da299c Matrix<double>::Cholesky_fast+0x210 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002474:     812415       L1-dcache-loads: 
+	    556e24da29c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002636:     887886       L1-dcache-loads: 
+	    556e24da29a9 Matrix<double>::Cholesky_fast+0x21d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002811:     948454       L1-dcache-loads: 
+	    556e24da3107 Matrix<double>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.002998:     999022       L1-dcache-loads: 
+	    556e24da29d1 Matrix<double>::Cholesky_fast+0x245 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.003193:    1041602       L1-dcache-loads: 
+	    556e24da29c1 Matrix<double>::Cholesky_fast+0x235 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky  4190 72604.003396:    1077800       L1-dcache-loads: 
+	    556e24da29bd Matrix<double>::Cholesky_fast+0x231 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    556e24da2388 main+0x163 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f5751ad109a __libc_start_main+0xa (inlined)
+	    556e24da2169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+

@@ -1,0 +1,212 @@
+lu 29157 73390.436482:          1      branches:uppp: 
+	    7f64eb67d093 _start+0x3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436490:          1      branches:uppp: 
+	    7f64eb67deb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436493:          5      branches:uppp: 
+	    7f64eb67df47 elf_get_dynamic_info+0xb7 (inlined)
+	    7f64eb67df47 _dl_start+0xb7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436496:         51      branches:uppp: 
+	    7f64eb67e15a elf_get_dynamic_info+0x1a (inlined)
+	    7f64eb67e15a _dl_start+0x1a (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436499:        578      branches:uppp: 
+	    7f64eb67e048 elf_get_dynamic_info+0x18 (inlined)
+	    7f64eb67e048 _dl_start+0x18 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436508:       6167      branches:uppp: 
+	    7f64eb692592 get_next_env+0x72 (inlined)
+	    7f64eb692592 __GI___tunables_init+0x72 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6944f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436514:      27202      branches:uppp: 
+	    7f64eb692614 tunable_is_name+0xf4 (inlined)
+	    7f64eb692614 __GI___tunables_init+0xf4 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6944f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436709:     184799      branches:uppp: 
+	    7f64eb687d91 elf_machine_rela+0x531 (inlined)
+	    7f64eb687d91 elf_dynamic_do_Rela+0x531 (inlined)
+	    7f64eb687d91 _dl_relocate_object+0x531 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6800eb dl_main+0x49b (inlined)
+	    7f64eb69465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436917:     169008      branches:uppp: 
+	    7f64eb685672 check_match+0xb2 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb685b03 do_lookup_x+0x3a3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb68639e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb687d6d elf_machine_rela+0x50d (inlined)
+	    7f64eb687d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f64eb687d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6800eb dl_main+0x49b (inlined)
+	    7f64eb69465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436920:         48 branch-misses:uppp: 
+	    7f64eb685ab2 do_lookup_x+0x352 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb68639e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb687d6d elf_machine_rela+0x50d (inlined)
+	    7f64eb687d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f64eb687d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6800eb dl_main+0x49b (inlined)
+	    7f64eb69465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436924:         48 branch-misses:uppp: 
+	    7f64eb6862ac dl_new_hash+0x5c (inlined)
+	    7f64eb6862ac _dl_lookup_symbol_x+0x5c (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb687d6d elf_machine_rela+0x50d (inlined)
+	    7f64eb687d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f64eb687d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6800eb dl_main+0x49b (inlined)
+	    7f64eb69465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436928:        421 branch-misses:uppp: 
+	    7f64eb685ab2 do_lookup_x+0x352 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb68639e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb687d6d elf_machine_rela+0x50d (inlined)
+	    7f64eb687d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f64eb687d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6800eb dl_main+0x49b (inlined)
+	    7f64eb69465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.436988:       3543 branch-misses:uppp: 
+	    7f64eb685ab2 do_lookup_x+0x352 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb68639e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb687d6d elf_machine_rela+0x50d (inlined)
+	    7f64eb687d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f64eb687d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb6800eb dl_main+0x49b (inlined)
+	    7f64eb69465f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67e117 _dl_start_final+0x7 (inlined)
+	    7f64eb67e117 _dl_start+0x7 (inlined)
+	    7f64eb67d097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.437103:       4927 branch-misses:uppp: 
+	    7f64eb2a9b1b determine_info+0x161b (inlined)
+	    7f64eb2a9b1b __GI__dl_addr+0x161b (inlined)
+	    7f64eb1f65d5 ptmalloc_init+0xd55 (inlined)
+	    7f64eb1fa860 ptmalloc_init+0x410 (inlined)
+	    7f64eb1fa860 malloc_hook_ini+0x410 (inlined)
+	    7f64eb562455 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7f64eb68b389 call_init+0x99 (inlined)
+	    7f64eb68b485 call_init+0x75 (inlined)
+	    7f64eb68b485 _dl_init+0x75 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f64eb67d0c9 _dl_start_user+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 29157 73390.437195:     173345      branches:uppp: 
+	    562ac9dc76be Matrix<double>::Matrix+0xd6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc7341 main+0x11c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.437380:     171125      branches:uppp: 
+	    562ac9dc84a1 Matrix<double>::copy+0x73 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc7802 Matrix<double>::LU_fast+0x7c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.437540:     178739      branches:uppp: 
+	    562ac9dc7bd6 Matrix<double>::LU_fast+0x450 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.437718:     191233      branches:uppp: 
+	    562ac9dc8724 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	c0301e7e4e81f3af [unknown] ([unknown])
+
+lu 29157 73390.437911:     200841      branches:uppp: 
+	    562ac9dc8724 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	401f1ae564d45a73 [unknown] ([unknown])
+
+lu 29157 73390.438112:     208232      branches:uppp: 
+	    562ac9dc7b88 Matrix<double>::LU_fast+0x402 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.438190:       5656 branch-misses:uppp: 
+	    562ac9dc7b74 Matrix<double>::LU_fast+0x3ee (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.438323:     214580      branches:uppp: 
+	    562ac9dc8724 Matrix<double>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	c078ebffa9b83e83 [unknown] ([unknown])
+
+lu 29157 73390.438535:     219595      branches:uppp: 
+	    562ac9dc7af6 Matrix<double>::LU_fast+0x370 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.438752:     224454      branches:uppp: 
+	    562ac9dc7af6 Matrix<double>::LU_fast+0x370 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.438973:     228760      branches:uppp: 
+	    562ac9dc7b88 Matrix<double>::LU_fast+0x402 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.439198:     232557      branches:uppp: 
+	    562ac9dc7bef Matrix<double>::LU_fast+0x469 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.439426:     235767      branches:uppp: 
+	    562ac9dc7bef Matrix<double>::LU_fast+0x469 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.439657:     238559      branches:uppp: 
+	    562ac9dc7af6 Matrix<double>::LU_fast+0x370 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.439891:     241012      branches:uppp: 
+	    562ac9dc7acb Matrix<double>::LU_fast+0x345 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 29157 73390.440126:     243156      branches:uppp: 
+	    562ac9dc7af6 Matrix<double>::LU_fast+0x370 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    562ac9dc739d main+0x178 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f64eb19a09a __libc_start_main+0xa (inlined)
+	    562ac9dc7169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+

@@ -1,0 +1,312 @@
+cholesky 24171 72522.895336:          1      branches:uppp: 
+	    7f40b9852093 _start+0x3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895344:          1      branches:uppp: 
+	    7f40b9852eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895347:          5      branches:uppp: 
+	    7f40b9852f3e elf_get_dynamic_info+0xae (inlined)
+	    7f40b9852f3e _dl_start+0xae (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895350:         54      branches:uppp: 
+	    7f40b9852f4f elf_get_dynamic_info+0xbf (inlined)
+	    7f40b9852f4f _dl_start+0xbf (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895353:        621      branches:uppp: 
+	    7f40b985307a elf_get_dynamic_info+0x2 (inlined)
+	    7f40b985307a _dl_start+0x2 (inlined)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895361:       7327      branches:uppp: 
+	    7f40b9867614 tunable_is_name+0xf4 (inlined)
+	    7f40b9867614 __GI___tunables_init+0xf4 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b98694f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9853117 _dl_start_final+0x7 (inlined)
+	    7f40b9853117 _dl_start+0x7 (inlined)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895375:      32633      branches:uppp: 
+	    7f40b986f890 memmove+0x20 (inlined)
+	    7f40b985f723 _dl_important_hwcaps+0x4a3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b985955e _dl_init_paths+0x2e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b98548be dl_main+0xab2 (inlined)
+	    7f40b986965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9853117 _dl_start_final+0x7 (inlined)
+	    7f40b9853117 _dl_start+0x7 (inlined)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895583:     102532      branches:uppp: 
+	    7f40b985cc3f elf_dynamic_do_Rela+0x3df (inlined)
+	    7f40b985cc3f _dl_relocate_object+0x3df (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b98550eb dl_main+0x49b (inlined)
+	    7f40b986965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9853117 _dl_start_final+0x7 (inlined)
+	    7f40b9853117 _dl_start+0x7 (inlined)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895694:     105115      branches:uppp: 
+	    7f40b985a864 do_lookup_x+0x104 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b985b39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b985cd6d elf_machine_rela+0x50d (inlined)
+	    7f40b985cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f40b985cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b98550eb dl_main+0x49b (inlined)
+	    7f40b986965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9853117 _dl_start_final+0x7 (inlined)
+	    7f40b9853117 _dl_start+0x7 (inlined)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895782:     121611      branches:uppp: 
+	    7f40b985ccae elf_machine_rela+0x44e (inlined)
+	    7f40b985ccae elf_dynamic_do_Rela+0x44e (inlined)
+	    7f40b985ccae _dl_relocate_object+0x44e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b98550eb dl_main+0x49b (inlined)
+	    7f40b986965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9853117 _dl_start_final+0x7 (inlined)
+	    7f40b9853117 _dl_start+0x7 (inlined)
+	    7f40b9852097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 24171 72522.895973:     149544      branches:uppp: 
+	    558789b20bf5 Matrix<float>::Matrix+0xd5 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896036:     155410      branches:uppp: 
+	    558789b20bf5 Matrix<float>::Matrix+0xd5 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896099:     212899      branches:uppp: 
+	    558789b20bb0 Matrix<float>::Matrix+0x90 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896364:         96 branch-misses:uppp: 
+	    558789b211d2 Matrix<float>::copy+0x4e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20d31 Matrix<float>::Cholesky_fast+0x75 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896388:     260400      branches:uppp: 
+	    558789b2127a Matrix<float>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7ffe7095c92f [unknown] ([stack])
+
+cholesky 24171 72522.896442:         96 branch-misses:uppp: 
+	    558789b21005 Matrix<float>::operator=+0x33 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20d44 Matrix<float>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896521:        123 branch-misses:uppp: 
+	    558789b21005 Matrix<float>::operator=+0x33 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20d44 Matrix<float>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896576:        156 branch-misses:uppp: 
+	    558789b20eb1 Matrix<float>::Cholesky_fast+0x1f5 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896628:        226 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896645:     256020      branches:uppp: 
+	    558789b20f0d Matrix<float>::Cholesky_fast+0x251 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896700:        333 branch-misses:uppp: 
+	    558789b20eb1 Matrix<float>::Cholesky_fast+0x1f5 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896748:        436 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896821:        663 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.896910:     255180      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.896953:        866 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.897160:        963 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.897170:     253351      branches:uppp: 
+	    558789b20f26 Matrix<float>::Cholesky_fast+0x26a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.897420:     252155      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.897451:        988 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.897671:     252206      branches:uppp: 
+	    558789b20f0d Matrix<float>::Cholesky_fast+0x251 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.897811:        972 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.897924:     252107      branches:uppp: 
+	    558789b20ee5 Matrix<float>::Cholesky_fast+0x229 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.898170:     251744      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.898240:        936 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.898419:     252201      branches:uppp: 
+	    558789b20ee5 Matrix<float>::Cholesky_fast+0x229 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.898665:     252327      branches:uppp: 
+	    558789b20ee5 Matrix<float>::Cholesky_fast+0x229 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.898723:        888 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.898914:     252805      branches:uppp: 
+	    558789b20ee5 Matrix<float>::Cholesky_fast+0x229 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.899160:     252957      branches:uppp: 
+	    558789b20ec5 Matrix<float>::Cholesky_fast+0x209 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.899253:        836 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.899409:     253504      branches:uppp: 
+	    558789b20f37 Matrix<float>::Cholesky_fast+0x27b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.899655:     253620      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.899827:        782 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.899904:     254119      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.900150:     254221      branches:uppp: 
+	    558789b20ee5 Matrix<float>::Cholesky_fast+0x229 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.900462:     253619      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.900513:        710 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.900710:     247350      branches:uppp: 
+	    558789b20ee5 Matrix<float>::Cholesky_fast+0x229 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.900949:     247553      branches:uppp: 
+	    558789b21242 Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	      830000007b [unknown] ([unknown])
+
+cholesky 24171 72522.901149:        655 branch-misses:uppp: 
+	    558789b20eb4 Matrix<float>::Cholesky_fast+0x1f8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558789b20440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b936f09a __libc_start_main+0xa (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 24171 72522.901197:     249001      branches:uppp: 
+	    558789b2127a Matrix<float>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7ffe7095c9cf [unknown] ([stack])
+
+cholesky 24171 72522.901353:        607 branch-misses:uppp: 
+	    7f40b9451658 __unregister_atfork+0x118 (inlined)
+	    7f40b93854b8 __cxa_finalize+0x2668 (inlined)
+	    558789b20202 __do_global_dtors_aux+0x22 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f40b9860705 _dl_fini+0x1c5 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f40b9384ebb __run_exit_handlers+0x206b (inlined)
+	    7f40b9384fe9 __GI_exit+0x2199 (inlined)
+	    7f40b936f0a1 __libc_start_main+0x11 (inlined)
+	    558789b20169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+

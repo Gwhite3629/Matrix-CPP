@@ -1,0 +1,87 @@
+cholesky 27811 72548.309199:          1       cycles:uppp: 
+	    7f9fb528e090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309204:          1       cycles:uppp: 
+	    7f9fb528e090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309207:          7       cycles:uppp: 
+	    7f9fb528e090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309209:         83       cycles:uppp: 
+	    7f9fb528e090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309212:        987       cycles:uppp: 
+	    7f9fb528e090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309217:      11298       cycles:uppp: 
+	    7f9fb528e090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309228:      86539       cycles:uppp: 
+	    7f9fb52a360e tunable_is_name+0xee (inlined)
+	    7f9fb52a360e __GI___tunables_init+0xee (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb52a54f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb528f117 _dl_start_final+0x7 (inlined)
+	    7f9fb528f117 _dl_start+0x7 (inlined)
+	    7f9fb528e097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309337:     318613       cycles:uppp: 
+	    7f9fb52a2ec5 _dl_load_cache_lookup+0x145 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb5295d1a _dl_map_object+0x44a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb529a2a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb52a657a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb529a615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb5290b0a dl_main+0xcfe (inlined)
+	    7f9fb52a565f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb528f117 _dl_start_final+0x7 (inlined)
+	    7f9fb528f117 _dl_start+0x7 (inlined)
+	    7f9fb528e097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309480:     370264       cycles:uppp: 
+	    7f9fb529729b dl_new_hash+0x4b (inlined)
+	    7f9fb529729b _dl_lookup_symbol_x+0x4b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb5298d6d elf_machine_rela+0x50d (inlined)
+	    7f9fb5298d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f9fb5298d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb52910eb dl_main+0x49b (inlined)
+	    7f9fb52a565f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb528f117 _dl_start_final+0x7 (inlined)
+	    7f9fb528f117 _dl_start+0x7 (inlined)
+	    7f9fb528e097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309577:     405110       cycles:uppp: 
+	    7f9fb52965dc check_match+0x1c (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb5296b03 do_lookup_x+0x3a3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb529739e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb5298d6d elf_machine_rela+0x50d (inlined)
+	    7f9fb5298d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f9fb5298d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb52910eb dl_main+0x49b (inlined)
+	    7f9fb52a565f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb528f117 _dl_start_final+0x7 (inlined)
+	    7f9fb528f117 _dl_start+0x7 (inlined)
+	    7f9fb528e097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309676:     485123       cycles:uppp: 
+	    7f9fb5296a45 do_lookup_x+0x2e5 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb529739e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb5298d6d elf_machine_rela+0x50d (inlined)
+	    7f9fb5298d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f9fb5298d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb52910eb dl_main+0x49b (inlined)
+	    7f9fb52a565f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f9fb528f117 _dl_start_final+0x7 (inlined)
+	    7f9fb528f117 _dl_start+0x7 (inlined)
+	    7f9fb528e097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 27811 72548.309855:     577657       cycles:uppp: 
+	    558310ad0bd2 Matrix<float>::Matrix+0xb2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558310ad0402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f9fb4dab09a __libc_start_main+0xa (inlined)
+	    558310ad0169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 27811 72548.310003:     606275       cycles:uppp: 
+	    558310ad0eae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    558310ad0440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7f9fb4dab09a __libc_start_main+0xa (inlined)
+	    558310ad0169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+

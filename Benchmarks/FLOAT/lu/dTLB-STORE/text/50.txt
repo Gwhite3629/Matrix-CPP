@@ -1,0 +1,139 @@
+lu 21812 72828.106709:          1       dTLB-stores: 
+	    7f71c7d86eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106714:          1       dTLB-stores: 
+	    7f71c7d86f33 elf_get_dynamic_info+0xa3 (inlined)
+	    7f71c7d86f33 _dl_start+0xa3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106717:          7       dTLB-stores: 
+	    7f71c7d86f33 elf_get_dynamic_info+0xa3 (inlined)
+	    7f71c7d86f33 _dl_start+0xa3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106720:         77       dTLB-stores: 
+	    7f71c7d86f33 elf_get_dynamic_info+0xa3 (inlined)
+	    7f71c7d86f33 _dl_start+0xa3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106727:        888       dTLB-stores: 
+	    7f71c7d9d210 _dl_sysdep_start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d854ef [unknown] (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106766:       4833       dTLB-stores: 
+	    7f71c7d90412 _dl_new_object+0x1c2 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d8ae57 _dl_map_object_from_fd+0x177 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d8da9c _dl_map_object+0x1cc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d922a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d9e57a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d92615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d88b0a dl_main+0xcfe (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106882:       8113       dTLB-stores: 
+	    7f71c7d91084 elf_machine_rela+0x824 (inlined)
+	    7f71c7d91084 elf_dynamic_do_Rela+0x824 (inlined)
+	    7f71c7d91084 _dl_relocate_object+0x824 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d890eb dl_main+0x49b (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106923:       9280       dTLB-stores: 
+	    7f71c7d8f409 _dl_lookup_symbol_x+0x1b9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d90d6d elf_machine_rela+0x50d (inlined)
+	    7f71c7d90d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f71c7d90d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d890eb dl_main+0x49b (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.106976:      15281       dTLB-stores: 
+	    7f71c7d8f2b7 _dl_lookup_symbol_x+0x67 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d90d6d elf_machine_rela+0x50d (inlined)
+	    7f71c7d90d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f71c7d90d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d890eb dl_main+0x49b (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.107003:      22374       dTLB-stores: 
+	    7f71c7d90d22 elf_machine_rela+0x4c2 (inlined)
+	    7f71c7d90d22 elf_dynamic_do_Rela+0x4c2 (inlined)
+	    7f71c7d90d22 _dl_relocate_object+0x4c2 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d890eb dl_main+0x49b (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.107047:      45039       dTLB-stores: 
+	    7f71c7d8e7d2 do_lookup_x+0x72 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d8f39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d90d6d elf_machine_rela+0x50d (inlined)
+	    7f71c7d90d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f71c7d90d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d890eb dl_main+0x49b (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.107115:      71149       dTLB-stores: 
+	    7f71c7d8f2b7 _dl_lookup_symbol_x+0x67 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d90d6d elf_machine_rela+0x50d (inlined)
+	    7f71c7d90d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7f71c7d90d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d890eb dl_main+0x49b (inlined)
+	    7f71c7d9d65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7d87117 _dl_start_final+0x7 (inlined)
+	    7f71c7d87117 _dl_start+0x7 (inlined)
+	    7f71c7d86097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 21812 72828.107364:      84488       dTLB-stores: 
+	    7f71c7d8e6f7 check_match+0x137 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7f71c7be08e3 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+lu 21812 72828.107447:      84523       dTLB-stores: 
+	    5647976587ff Matrix<float>::operator=+0x4d (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    564797657f3d Matrix<float>::LU_fast+0x95 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    56479765745d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f71c78a309a __libc_start_main+0xa (inlined)
+	    564797657169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 21812 72828.107484:     105808       dTLB-stores: 
+	    5647976582f8 Matrix<float>::LU_fast+0x450 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    56479765745d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f71c78a309a __libc_start_main+0xa (inlined)
+	    564797657169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 21812 72828.107529:     181745       dTLB-stores: 
+	    5647976589ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    5647976581ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    56479765745d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f71c78a309a __libc_start_main+0xa (inlined)
+	    564797657169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 21812 72828.107607:     285788       dTLB-stores: 
+	    5647976581d3 Matrix<float>::LU_fast+0x32b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    56479765745d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f71c78a309a __libc_start_main+0xa (inlined)
+	    564797657169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 21812 72828.107725:     365136       dTLB-stores: 
+	    5647976589f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    56479765821c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    56479765745d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7f71c78a309a __libc_start_main+0xa (inlined)
+	    564797657169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+

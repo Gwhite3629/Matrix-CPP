@@ -1,0 +1,2407 @@
+lu 23571 72837.214857:          1       cycles:uppp: 
+	    7fe590962090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214862:          1       cycles:uppp: 
+	    7fe590962090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214865:          7       cycles:uppp: 
+	    7fe590962090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214868:         76       cycles:uppp: 
+	    7fe590962090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214871:        874       cycles:uppp: 
+	    7fe590962090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214876:      10077       cycles:uppp: 
+	    7fe590962090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214887:      78150       cycles:uppp: 
+	    7fe59097932a _dl_sysdep_start+0x11a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.214973:     292148       cycles:uppp: 
+	    7fe590976cc3 _dl_cache_libcmp+0x3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590976ebe _dl_load_cache_lookup+0x13e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590969d1a _dl_map_object+0x44a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096e2a1 openaux+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59097a57a _dl_catch_exception+0x5a (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096e615 _dl_map_object_deps+0x365 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590964b0a dl_main+0xcfe (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215128:     361419       cycles:uppp: 
+	    7fe59096a7ab do_lookup_x+0x4b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096b39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096cd6d elf_machine_rela+0x50d (inlined)
+	    7fe59096cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fe59096cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe5909650eb dl_main+0x49b (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215220:     389211       cycles:uppp: 
+	    7fe59096ab5c do_lookup_x+0x3fc (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215315:     472150       cycles:uppp: 
+	    7fe59096b29b dl_new_hash+0x4b (inlined)
+	    7fe59096b29b _dl_lookup_symbol_x+0x4b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096cd6d elf_machine_rela+0x50d (inlined)
+	    7fe59096cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fe59096cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe5909650eb dl_main+0x49b (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215337:      13231 instructions:uppp: 
+	    7fe59096b3a3 _dl_lookup_symbol_x+0x153 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096cd6d elf_machine_rela+0x50d (inlined)
+	    7fe59096cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fe59096cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe5909650eb dl_main+0x49b (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215342:      13231 instructions:uppp: 
+	    7fe59096b2a6 dl_new_hash+0x56 (inlined)
+	    7fe59096b2a6 _dl_lookup_symbol_x+0x56 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096cd6d elf_machine_rela+0x50d (inlined)
+	    7fe59096cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fe59096cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe5909650eb dl_main+0x49b (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215366:      93843 instructions:uppp: 
+	    7fe59096b3c6 _dl_lookup_symbol_x+0x176 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096cd6d elf_machine_rela+0x50d (inlined)
+	    7fe59096cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fe59096cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe5909650eb dl_main+0x49b (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215420:     203545 instructions:uppp: 
+	    7fe59096b2a6 dl_new_hash+0x56 (inlined)
+	    7fe59096b2a6 _dl_lookup_symbol_x+0x56 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096cd6d elf_machine_rela+0x50d (inlined)
+	    7fe59096cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fe59096cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe5909650eb dl_main+0x49b (inlined)
+	    7fe59097965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590963117 _dl_start_final+0x7 (inlined)
+	    7fe590963117 _dl_start+0x7 (inlined)
+	    7fe590962097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+lu 23571 72837.215535:     296619 instructions:uppp: 
+	    7fe59096a80e do_lookup_x+0xae (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096b39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59096fb0f _dl_fixup+0xcf (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe590976589 _dl_runtime_resolve_xsavec+0x79 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fe59086b45d std::locale::facet::_S_create_c_locale+0xd (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59085be73 std::locale::facet::_S_get_c_locale+0x43 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59087d9fa std::ctype<char>::ctype+0x2a (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59085ca35 std::locale::_Impl::_Impl+0xc5 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59085d9c4 std::locale::_Impl::_Impl+0x1054 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59085da78 std::locale::locale+0x18 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59085a9e2 std::ios_base::Init::Init+0xc2 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    556f3333b5b1 __static_initialization_and_destruction_0+0x28 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b5e4 _GLOBAL__sub_I_main+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333cc14 __libc_csu_init+0x44 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f029 __libc_start_main+0x509 (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215567:     507051       cycles:uppp: 
+	    7fe59084c132 __cxxabiv1::__vmi_class_type_info::__do_dyncast+0x2b2 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe590849325 __dynamic_cast+0x65 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe5908b864f std::has_facet<std::ctype<char> >+0x3f (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe5908ac173 std::basic_ios<char, std::char_traits<char> >::_M_cache_locale+0x13 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe5908ac59f std::basic_ios<char, std::char_traits<char> >::init+0x1f (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fe59085ab6a std::ios_base::Init::Init+0x24a (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    556f3333b5b1 __static_initialization_and_destruction_0+0x28 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b5e4 _GLOBAL__sub_I_main+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333cc14 __libc_csu_init+0x44 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f029 __libc_start_main+0x509 (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215607:     340335 instructions:uppp: 
+	    556f3333bdbe Matrix<float>::Matrix+0xb2 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215645:     443963 instructions:uppp: 
+	    556f3333bdcd Matrix<float>::Matrix+0xc1 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215695:     754378 instructions:uppp: 
+	    556f3333bdbe Matrix<float>::Matrix+0xb2 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215715:     506492       cycles:uppp: 
+	    556f3333bdbe Matrix<float>::Matrix+0xb2 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215780:    1137072 instructions:uppp: 
+	    556f3333bdd4 Matrix<float>::Matrix+0xc8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215849:     550497       cycles:uppp: 
+	    556f3333bdd4 Matrix<float>::Matrix+0xc8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215902:    1413990 instructions:uppp: 
+	    556f3333bd90 Matrix<float>::Matrix+0x84 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.215995:     609715       cycles:uppp: 
+	    556f3333bdd9 Matrix<float>::Matrix+0xcd (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216052:    1596613 instructions:uppp: 
+	    7fe590495beb __random+0x61b (inlined)
+	    7fe590496028 rand+0xa58 (inlined)
+	    556f3333bda0 Matrix<float>::Matrix+0x94 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b3fe main+0x1d9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216264:     664051       cycles:uppp: 
+	    7fe5905b78bd [unknown] (/usr/lib/x86_64-linux-gnu/libc-2.28.so)
+	    556f3333bea4 Matrix<float>::Matrix+0x86 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf0b Matrix<float>::LU_fast+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216488:    1729984 instructions:uppp: 
+	    556f3333c76e Matrix<float>::copy+0x48 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf24 Matrix<float>::LU_fast+0x7c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216509:     658210       cycles:uppp: 
+	    556f3333cb09 Matrix<float>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c789 Matrix<float>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf24 Matrix<float>::LU_fast+0x7c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216637:    1637813 instructions:uppp: 
+	    556f3333cb09 Matrix<float>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c789 Matrix<float>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf24 Matrix<float>::LU_fast+0x7c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216665:     659873       cycles:uppp: 
+	    556f3333caf2 Matrix<float>::get+0x1a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c789 Matrix<float>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf24 Matrix<float>::LU_fast+0x7c (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216802:    1777376 instructions:uppp: 
+	    556f3333caa1 Matrix<float>::set+0xb (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c81a Matrix<float>::operator=+0x68 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf3d Matrix<float>::LU_fast+0x95 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216844:     709411       cycles:uppp: 
+	    556f3333caa1 Matrix<float>::set+0xb (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c81a Matrix<float>::operator=+0x68 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf3d Matrix<float>::LU_fast+0x95 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.216976:    1891307 instructions:uppp: 
+	    556f3333cb0e Matrix<float>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a3df [unknown] ([stack])
+
+lu 23571 72837.217028:     744473       cycles:uppp: 
+	    556f3333c81b Matrix<float>::operator=+0x69 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333bf3d Matrix<float>::LU_fast+0x95 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217153:    1994241 instructions:uppp: 
+	    556f3333c354 Matrix<float>::LU_fast+0x4ac (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217213:     777744       cycles:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217334:    2097179 instructions:uppp: 
+	    556f3333c2de Matrix<float>::LU_fast+0x436 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217396:     812344       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217526:    2196678 instructions:uppp: 
+	    556f3333c2fd Matrix<float>::LU_fast+0x455 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217587:     849435       cycles:uppp: 
+	    556f3333c32d Matrix<float>::LU_fast+0x485 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217734:    2281041 instructions:uppp: 
+	    556f3333c2fd Matrix<float>::LU_fast+0x455 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217786:     882298       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217951:    2337383 instructions:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.217993:     910468       cycles:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218171:    2382563 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218206:     934280       cycles:uppp: 
+	    556f3333c2cd Matrix<float>::LU_fast+0x425 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218394:    2422440 instructions:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218424:     954471       cycles:uppp: 
+	    556f3333c1ca Matrix<float>::LU_fast+0x322 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218620:    2459045 instructions:uppp: 
+	    556f3333c213 Matrix<float>::LU_fast+0x36b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218647:     971700       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218849:    2491915 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.218875:     986313       cycles:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219080:    2520910 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219105:     998695       cycles:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c267 Matrix<float>::LU_fast+0x3bf (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219313:    2546647 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219342:    1000958       cycles:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219590:    2534687 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219611:    1007687       cycles:uppp: 
+	    556f3333c29e Matrix<float>::LU_fast+0x3f6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219824:    2504661 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.219846:     998877       cycles:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220055:    2525919 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220081:    1006742       cycles:uppp: 
+	    556f3333c229 Matrix<float>::LU_fast+0x381 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220322:    2551845 instructions:uppp: 
+	    556f3333c2b3 Matrix<float>::LU_fast+0x40b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220348:    1014930       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220558:    2530868 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220585:    1006885       cycles:uppp: 
+	    556f3333c309 Matrix<float>::LU_fast+0x461 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220791:    2550291 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.220820:    1013863       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221026:    2573774 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221056:    1021917       cycles:uppp: 
+	    556f3333c2fd Matrix<float>::LU_fast+0x455 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221263:    2594250 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221295:    1029142       cycles:uppp: 
+	    556f3333c229 Matrix<float>::LU_fast+0x381 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221501:    2612334 instructions:uppp: 
+	    556f3333c2de Matrix<float>::LU_fast+0x436 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221535:    1035336       cycles:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221741:    2628324 instructions:uppp: 
+	    556f3333c9e9 Matrix<float>::operator()+0x1 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221777:    1040680       cycles:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.221982:    2641882 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222019:    1045160       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222224:    2654137 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222263:    1049053       cycles:uppp: 
+	    556f3333c1a2 Matrix<float>::LU_fast+0x2fa (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222468:    2664692 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222508:    1052388       cycles:uppp: 
+	    556f3333c290 Matrix<float>::LU_fast+0x3e8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222712:    2673439 instructions:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222753:    1055274       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222956:    2681938 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.222999:    1057751       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.223202:    2689272 instructions:uppp: 
+	    556f3333c2c8 Matrix<float>::LU_fast+0x420 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.223246:    1059834       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.223487:    2691586 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.223531:    1060402       cycles:uppp: 
+	    556f3333c1d3 Matrix<float>::LU_fast+0x32b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.223734:    2650318 instructions:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.223778:    1044140       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224086:    2654236 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224127:    1045604       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224329:    2558379 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224371:    1008514       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224563:    2567903 instructions:uppp: 
+	    556f3333c1ca Matrix<float>::LU_fast+0x322 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224606:    1011674       cycles:uppp: 
+	    556f3333c2b3 Matrix<float>::LU_fast+0x40b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224798:    2589675 instructions:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.224842:    1019606       cycles:uppp: 
+	    556f3333c309 Matrix<float>::LU_fast+0x461 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225035:    2610096 instructions:uppp: 
+	    556f3333c2fd Matrix<float>::LU_fast+0x455 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225080:    1027180       cycles:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225273:    2628452 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225320:    1033777       cycles:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225514:    2644269 instructions:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225561:    1039389       cycles:uppp: 
+	    556f3333c9e9 Matrix<float>::operator()+0x1 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1a1 Matrix<float>::LU_fast+0x2f9 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225755:    2657396 instructions:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225803:    1044258       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.225998:    2668965 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226046:    1048357       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226242:    2678662 instructions:uppp: 
+	    556f3333c29e Matrix<float>::LU_fast+0x3f6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226291:    1051904       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226486:    2687441 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226536:    1054914       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226731:    2695267 instructions:uppp: 
+	    556f3333ca10 Matrix<float>::operator()+0x28 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226782:    1057551       cycles:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.226977:    2701682 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227028:    1059786       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227224:    2707477 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227275:    1061666       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227548:    2701866 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227598:    1059616       cycles:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227795:    2624397 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.227846:    1029749       cycles:uppp: 
+	    556f3333c1a2 Matrix<float>::LU_fast+0x2fa (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228104:    2628945 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228151:    1030712       cycles:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228343:    2566628 instructions:uppp: 
+	    556f3333c1e1 Matrix<float>::LU_fast+0x339 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228391:    1007502       cycles:uppp: 
+	    556f3333c1ca Matrix<float>::LU_fast+0x322 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228577:    2580052 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228627:    1012521       cycles:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228813:    2602366 instructions:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.228863:    1020530       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229050:    2622471 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229101:    1028022       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229289:    2639969 instructions:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229341:    1034461       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229530:    2655041 instructions:uppp: 
+	    556f3333c209 Matrix<float>::LU_fast+0x361 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229582:    1039972       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229771:    2668287 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.229824:    1044708       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230015:    2679644 instructions:uppp: 
+	    556f3333c2f3 Matrix<float>::LU_fast+0x44b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230068:    1048769       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230259:    2688782 instructions:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230312:    1052198       cycles:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.230503:    2697253 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230558:    1055155       cycles:uppp: 
+	    556f3333c2de Matrix<float>::LU_fast+0x436 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230748:    2704649 instructions:uppp: 
+	    556f3333c2c8 Matrix<float>::LU_fast+0x420 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230804:    1057749       cycles:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.230995:    2711207 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231050:    1059933       cycles:uppp: 
+	    556f3333c1be Matrix<float>::LU_fast+0x316 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231242:    2716116 instructions:uppp: 
+	    556f3333c2f3 Matrix<float>::LU_fast+0x44b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231297:    1061786       cycles:uppp: 
+	    556f3333c1be Matrix<float>::LU_fast+0x316 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231531:    2710644 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231585:    1059707       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231848:    2664301 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.231899:    1042135       cycles:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232091:    2594146 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232142:    1015568       cycles:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232328:    2603019 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232379:    1019206       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232565:    2622180 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232617:    1026289       cycles:uppp: 
+	    556f3333c1d3 Matrix<float>::LU_fast+0x32b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232803:    2640082 instructions:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.232856:    1032904       cycles:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233044:    2655825 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233097:    1038627       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233286:    2668645 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233339:    1043569       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233528:    2680221 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233583:    1047825       cycles:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233771:    2691317 instructions:uppp: 
+	    556f3333c229 Matrix<float>::LU_fast+0x381 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.233827:    1051471       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234016:    2700228 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234072:    1054566       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234261:    2707146 instructions:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234320:    1057225       cycles:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234510:    2713484 instructions:uppp: 
+	    556f3333c9f3 Matrix<float>::operator()+0xb (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234566:    1058341       cycles:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234757:    2715050 instructions:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.234813:    1060189       cycles:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235005:    2719571 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235060:    1062051       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235252:    2722844 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235308:    1063525       cycles:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235542:    2719179 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235598:    1062138       cycles:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.235861:    2672164 instructions:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.235913:    1043795       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236104:    2600186 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236156:    1016861       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236341:    2608797 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236393:    1020339       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236578:    2627473 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236631:    1027255       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236817:    2645165 instructions:uppp: 
+	    556f3333c1e1 Matrix<float>::LU_fast+0x339 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.236871:    1033772       cycles:uppp: 
+	    556f3333c2de Matrix<float>::LU_fast+0x436 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237058:    2660553 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237112:    1039425       cycles:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237300:    2673252 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237354:    1044236       cycles:uppp: 
+	    556f3333c2f8 Matrix<float>::LU_fast+0x450 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237542:    2684584 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237597:    1048378       cycles:uppp: 
+	    556f3333c2af Matrix<float>::LU_fast+0x407 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237786:    2694506 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.237842:    1051984       cycles:uppp: 
+	    556f3333c2f8 Matrix<float>::LU_fast+0x450 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238031:    2703066 instructions:uppp: 
+	    556f3333c9e9 Matrix<float>::operator()+0x1 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238087:    1055005       cycles:uppp: 
+	    556f3333c2af Matrix<float>::LU_fast+0x407 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238276:    2710086 instructions:uppp: 
+	    556f3333ca1a Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	4515efcc00003d07 [unknown] ([unknown])
+
+lu 23571 72837.238333:    1057601       cycles:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238522:    2716383 instructions:uppp: 
+	    556f3333c9e9 Matrix<float>::operator()+0x1 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238579:    1059843       cycles:uppp: 
+	    556f3333c309 Matrix<float>::LU_fast+0x461 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238769:    2722246 instructions:uppp: 
+	    556f3333c229 Matrix<float>::LU_fast+0x381 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.238826:    1061744       cycles:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239016:    2727148 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239074:    1063375       cycles:uppp: 
+	    556f3333c2c1 Matrix<float>::LU_fast+0x419 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239264:    2730460 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239321:    1064788       cycles:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239619:    2725727 instructions:uppp: 
+	    556f3333c213 Matrix<float>::LU_fast+0x36b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239673:    1063030       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239867:    2625040 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.239921:    1024636       cycles:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240106:    2627779 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240160:    1025824       cycles:uppp: 
+	    556f3333c2b3 Matrix<float>::LU_fast+0x40b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240345:    2642992 instructions:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240399:    1031743       cycles:uppp: 
+	    556f3333c2b3 Matrix<float>::LU_fast+0x40b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240585:    2658554 instructions:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240640:    1037524       cycles:uppp: 
+	    556f3333c2af Matrix<float>::LU_fast+0x407 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240826:    2672101 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.240881:    1042632       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241069:    2683915 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241125:    1046984       cycles:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.241313:    2693492 instructions:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241369:    1050712       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241558:    2701994 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241613:    1053934       cycles:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241803:    2709603 instructions:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.241859:    1056712       cycles:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242049:    2716128 instructions:uppp: 
+	    556f3333c1ca Matrix<float>::LU_fast+0x322 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242105:    1059074       cycles:uppp: 
+	    556f3333c29e Matrix<float>::LU_fast+0x3f6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242295:    2721572 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242352:    1061090       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242543:    2726340 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242599:    1062814       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242790:    2730348 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.242847:    1064306       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.243038:    2733804 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.243095:    1065587       cycles:uppp: 
+	    556f3333ca1a Matrix<float>::operator()+0x32 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	c4a89bcb00003d07 [unknown] ([unknown])
+
+lu 23571 72837.243286:    2736168 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.243363:    1064037       cycles:uppp: 
+	    556f3333c2aa Matrix<float>::LU_fast+0x402 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.243638:    2731452 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.243690:    1054959       cycles:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.243886:    2632849 instructions:uppp: 
+	    556f3333c2af Matrix<float>::LU_fast+0x407 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.243936:    1023924       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244126:    2635355 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244175:    1026075       cycles:uppp: 
+	    556f3333c2b3 Matrix<float>::LU_fast+0x40b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244365:    2649866 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244414:    1032096       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244606:    2664110 instructions:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244655:    1037928       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.244848:    2677518 instructions:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.244897:    1042961       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245091:    2688585 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245140:    1047264       cycles:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245335:    2697711 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245384:    1050973       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245580:    2705961 instructions:uppp: 
+	    556f3333c21d Matrix<float>::LU_fast+0x375 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245629:    1054105       cycles:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245825:    2713191 instructions:uppp: 
+	    556f3333c1cf Matrix<float>::LU_fast+0x327 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.245875:    1056840       cycles:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246071:    2719838 instructions:uppp: 
+	    556f3333c21d Matrix<float>::LU_fast+0x375 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246121:    1059118       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246318:    2724933 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246368:    1061119       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246565:    2729705 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246615:    1062853       cycles:uppp: 
+	    556f3333c2af Matrix<float>::LU_fast+0x407 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246812:    2734170 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.246863:    1064330       cycles:uppp: 
+	    556f3333c2f3 Matrix<float>::LU_fast+0x44b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247060:    2737705 instructions:uppp: 
+	    556f3333c2aa Matrix<float>::LU_fast+0x402 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247110:    1065590       cycles:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247329:    2739917 instructions:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.247406:    1063560       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247607:    2710877 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247654:    1042951       cycles:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247853:    2676523 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.247897:    1044065       cycles:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248096:    2681611 instructions:uppp: 
+	    556f3333c1b0 Matrix<float>::LU_fast+0x308 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248141:    1047719       cycles:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248339:    2691812 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248385:    1051272       cycles:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248583:    2701605 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248630:    1054380       cycles:uppp: 
+	    556f3333c29e Matrix<float>::LU_fast+0x3f6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248827:    2710134 instructions:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.248876:    1057077       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249073:    2717233 instructions:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249122:    1059394       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249319:    2723449 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249369:    1061372       cycles:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249566:    2728945 instructions:uppp: 
+	    556f3333c1d3 Matrix<float>::LU_fast+0x32b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249616:    1063067       cycles:uppp: 
+	    556f3333c1d3 Matrix<float>::LU_fast+0x32b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249813:    2732540 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.249864:    1064515       cycles:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250060:    2736900 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250112:    1065737       cycles:uppp: 
+	    556f3333c29e Matrix<float>::LU_fast+0x3f6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250308:    2740809 instructions:uppp: 
+	    556f3333c309 Matrix<float>::LU_fast+0x461 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250360:    1066811       cycles:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250557:    2744018 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250609:    1067734       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.250805:    2746119 instructions:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.250857:    1068528       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251053:    2748171 instructions:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251107:    1069209       cycles:uppp: 
+	    556f3333c2cd Matrix<float>::LU_fast+0x425 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251323:    2750674 instructions:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251404:    1067978       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251602:    2724886 instructions:uppp: 
+	    556f3333c309 Matrix<float>::LU_fast+0x461 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251653:    1046887       cycles:uppp: 
+	    556f3333c1e1 Matrix<float>::LU_fast+0x339 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251849:    2689849 instructions:uppp: 
+	    556f3333c221 Matrix<float>::LU_fast+0x379 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.251897:    1047420       cycles:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252092:    2694379 instructions:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252142:    1050576       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252336:    2703459 instructions:uppp: 
+	    556f3333c29e Matrix<float>::LU_fast+0x3f6 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252386:    1053723       cycles:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252581:    2711850 instructions:uppp: 
+	    556f3333c229 Matrix<float>::LU_fast+0x381 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252632:    1056501       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252826:    2719028 instructions:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.252878:    1058874       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253072:    2725890 instructions:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253125:    1060912       cycles:uppp: 
+	    556f3333ca0b Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253318:    2731403 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253372:    1062668       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253565:    2736653 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253620:    1064191       cycles:uppp: 
+	    556f3333c21d Matrix<float>::LU_fast+0x375 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253812:    2741190 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.253868:    1065501       cycles:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254060:    2744978 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254116:    1066590       cycles:uppp: 
+	    556f3333c1d3 Matrix<float>::LU_fast+0x32b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254308:    2748413 instructions:uppp: 
+	    556f3333c1fe Matrix<float>::LU_fast+0x356 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254364:    1067537       cycles:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254556:    2750740 instructions:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254613:    1068313       cycles:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1ce Matrix<float>::LU_fast+0x326 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254805:    2753315 instructions:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.254862:    1069031       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255121:    2755475 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255176:    1069642       cycles:uppp: 
+	    556f3333c290 Matrix<float>::LU_fast+0x3e8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255408:    2685607 instructions:uppp: 
+	    556f3333c2d2 Matrix<float>::LU_fast+0x42a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255463:    1043156       cycles:uppp: 
+	    556f3333c1e8 Matrix<float>::LU_fast+0x340 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255651:    2641780 instructions:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255706:    1026441       cycles:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255890:    2650974 instructions:uppp: 
+	    556f3333ca16 Matrix<float>::operator()+0x2e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.255945:    1030127       cycles:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2d1 Matrix<float>::LU_fast+0x429 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256129:    2666961 instructions:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.256185:    1035860       cycles:uppp: 
+	    556f3333c9fe Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2fc Matrix<float>::LU_fast+0x454 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256370:    2681988 instructions:uppp: 
+	    556f3333ca12 Matrix<float>::operator()+0x2a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c1f1 Matrix<float>::LU_fast+0x349 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256427:    1041188       cycles:uppp: 
+	    556f3333c290 Matrix<float>::LU_fast+0x3e8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256612:    2694876 instructions:uppp: 
+	    556f3333c21d Matrix<float>::LU_fast+0x375 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256669:    1045783       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256854:    2706293 instructions:uppp: 
+	    556f3333c1f2 Matrix<float>::LU_fast+0x34a (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.256913:    1049761       cycles:uppp: 
+	    556f3333c301 Matrix<float>::LU_fast+0x459 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257099:    2716227 instructions:uppp: 
+	    556f3333ca05 Matrix<float>::operator()+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257158:    1053155       cycles:uppp: 
+	    556f3333c2de Matrix<float>::LU_fast+0x436 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257344:    2723956 instructions:uppp: 
+	    556f3333c9fa Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257403:    1056006       cycles:uppp: 
+	    556f3333c21d Matrix<float>::LU_fast+0x375 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257589:    2731100 instructions:uppp: 
+	    556f3333c1fe Matrix<float>::LU_fast+0x356 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257649:    1058531       cycles:uppp: 
+	    556f3333c2c8 Matrix<float>::LU_fast+0x420 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257836:    2737054 instructions:uppp: 
+	    556f3333ca09 Matrix<float>::operator()+0x21 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.257896:    1060715       cycles:uppp: 
+	    556f3333c2af Matrix<float>::LU_fast+0x407 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258082:    2742435 instructions:uppp: 
+	    556f3333c9f0 Matrix<float>::operator()+0x8 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c21c Matrix<float>::LU_fast+0x374 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258143:    1062511       cycles:uppp: 
+	    556f3333c309 Matrix<float>::LU_fast+0x461 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258329:    2747097 instructions:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258390:    1064091       cycles:uppp: 
+	    556f3333c2d6 Matrix<float>::LU_fast+0x42e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258577:    2751028 instructions:uppp: 
+	    556f3333c9e8 Matrix<float>::operator()+0x0 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7ffcffc7a48f [unknown] ([stack])
+
+lu 23571 72837.258638:    1065403       cycles:uppp: 
+	    556f3333c1f6 Matrix<float>::LU_fast+0x34e (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258825:    2754589 instructions:uppp: 
+	    556f3333c9ec Matrix<float>::operator()+0x4 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333c2ae Matrix<float>::LU_fast+0x406 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+
+lu 23571 72837.258887:    1066586       cycles:uppp: 
+	    556f3333c2b3 Matrix<float>::LU_fast+0x40b (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    556f3333b45d main+0x238 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+	    7fe59047f09a __libc_start_main+0xa (inlined)
+	    556f3333b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/lu)
+

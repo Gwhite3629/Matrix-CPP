@@ -1,0 +1,824 @@
+matmul 13630 72719.078932:          1       dTLB-loads: 
+	    7efef9577090 _start+0x0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.078940:          1       dTLB-loads: 
+	    7efef9577eaf elf_get_dynamic_info+0x1f (inlined)
+	    7efef9577eaf _dl_start+0x1f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.078945:          5       dTLB-loads: 
+	    7efef9577eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.078948:         37       dTLB-loads: 
+	    7efef9577f3b elf_get_dynamic_info+0xab (inlined)
+	    7efef9577f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.078951:        429       dTLB-loads: 
+	    7efef9578058 elf_get_dynamic_info+0x8 (inlined)
+	    7efef9578058 _dl_start+0x8 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.078959:       4793       dTLB-loads: 
+	    7efef958c5eb __GI___tunables_init+0xcb (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef958e4f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.078974:      22957       dTLB-loads: 
+	    7efef9584710 _dl_important_hwcaps+0x490 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef957e55e _dl_init_paths+0x2e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef95798be dl_main+0xab2 (inlined)
+	    7efef958e65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.079125:      68191       dTLB-loads: 
+	    7efef957f7f0 do_lookup_x+0x90 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef958039e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9581d6d elf_machine_rela+0x50d (inlined)
+	    7efef9581d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7efef9581d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef957a0eb dl_main+0x49b (inlined)
+	    7efef958e65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.079223:      73796       dTLB-loads: 
+	    7efef95802a9 dl_new_hash+0x59 (inlined)
+	    7efef95802a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9581d6d elf_machine_rela+0x50d (inlined)
+	    7efef9581d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7efef9581d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef957a0eb dl_main+0x49b (inlined)
+	    7efef958e65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.079278:      88035       dTLB-loads: 
+	    7efef957f80e do_lookup_x+0xae (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef958039e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9581d6d elf_machine_rela+0x50d (inlined)
+	    7efef9581d6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7efef9581d6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef957a0eb dl_main+0x49b (inlined)
+	    7efef958e65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.079323:     127208       dTLB-loads: 
+	    7efef9581d60 elf_machine_rela+0x500 (inlined)
+	    7efef9581d60 elf_dynamic_do_Rela+0x500 (inlined)
+	    7efef9581d60 _dl_relocate_object+0x500 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef957a0eb dl_main+0x49b (inlined)
+	    7efef958e65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.079398:     198716       dTLB-loads: 
+	    7efef9581ca3 elf_machine_rela+0x443 (inlined)
+	    7efef9581ca3 elf_dynamic_do_Rela+0x443 (inlined)
+	    7efef9581ca3 _dl_relocate_object+0x443 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef957a0eb dl_main+0x49b (inlined)
+	    7efef958e65f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7efef9578117 _dl_start_final+0x7 (inlined)
+	    7efef9578117 _dl_start+0x7 (inlined)
+	    7efef9577097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+matmul 13630 72719.079591:     257284       dTLB-loads: 
+	    5582d7f35694 Matrix<double>::Matrix+0xd2 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3534a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.079664:     266658       dTLB-loads: 
+	    5582d7f35694 Matrix<double>::Matrix+0xd2 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3534a main+0x125 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.079737:     348023       dTLB-loads: 
+	    7efef90aad5c __random_r+0x78c (inlined)
+	 6e795a4f954e29f [unknown] ([unknown])
+
+matmul 13630 72719.079835:     452088       dTLB-loads: 
+	    5582d7f35694 Matrix<double>::Matrix+0xd2 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3536b main+0x146 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080005:     540783       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080103:     572264       dTLB-loads: 
+	    5582d7f35acf Matrix<double>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080205:     684424       dTLB-loads: 
+	    5582d7f35b07 Matrix<double>::get+0x35 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080327:     807735       dTLB-loads: 
+	    5582d7f35ae8 Matrix<double>::get+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080470:     914157       dTLB-loads: 
+	    5582d7f35aef Matrix<double>::get+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080632:     998803       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.080809:    1066800       dTLB-loads: 
+	    5582d7f35aef Matrix<double>::get+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.081011:    1122629       dTLB-loads: 
+	    5582d7f357ac Matrix<double>::outer+0xd6 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.081210:    1155385       dTLB-loads: 
+	    5582d7f3578d Matrix<double>::outer+0xb7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.081413:    1192728       dTLB-loads: 
+	    5582d7f35b07 Matrix<double>::get+0x35 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.081624:    1226766       dTLB-loads: 
+	    5582d7f3578d Matrix<double>::outer+0xb7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.081840:    1255618       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.082060:    1280434       dTLB-loads: 
+	    5582d7f35b07 Matrix<double>::get+0x35 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.082327:    1247723       dTLB-loads: 
+	    5582d7f35aef Matrix<double>::get+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.082547:    1237883       dTLB-loads: 
+	    5582d7f3578d Matrix<double>::outer+0xb7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.082866:    1259128       dTLB-loads: 
+	    5582d7f357cd Matrix<double>::outer+0xf7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.083087:    1225217       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.083303:    1244904       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.083522:    1269742       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.083746:    1291529       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.083973:    1310759       dTLB-loads: 
+	    5582d7f35acf Matrix<double>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.084204:    1326858       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.084437:    1341130       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.084673:    1353145       dTLB-loads: 
+	    5582d7f35765 Matrix<double>::outer+0x8f (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.084911:    1362968       dTLB-loads: 
+	    5582d7f35774 Matrix<double>::outer+0x9e (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.085151:    1371948       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.085392:    1379023       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.085635:    1385191       dTLB-loads: 
+	    5582d7f35aef Matrix<double>::get+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.085878:    1390535       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.086122:    1395460       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.086407:    1395942       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.086652:    1374511       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.086894:    1378016       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.087135:    1383942       dTLB-loads: 
+	    5582d7f35774 Matrix<double>::outer+0x9e (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.087379:    1389913       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.087623:    1394616       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.087868:    1398930       dTLB-loads: 
+	    5582d7f35ae8 Matrix<double>::get+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.088114:    1402544       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.088361:    1404977       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.088608:    1407629       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.088855:    1409558       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.089103:    1411402       dTLB-loads: 
+	    5582d7f357cd Matrix<double>::outer+0xf7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.089352:    1412967       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.089600:    1413826       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.089849:    1414965       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.090097:    1415743       dTLB-loads: 
+	    5582d7f35ab4 Matrix<double>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.090418:    1416179       dTLB-loads: 
+	    5582d7f35ac1 Matrix<double>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.090666:    1377085       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.090909:    1378169       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.091150:    1383549       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.091394:    1389536       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.091638:    1394324       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.091882:    1398491       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.092128:    1402512       dTLB-loads: 
+	    5582d7f35acf Matrix<double>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.092374:    1405515       dTLB-loads: 
+	    5582d7f35774 Matrix<double>::outer+0x9e (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.092621:    1408514       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.092868:    1410584       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.093115:    1412878       dTLB-loads: 
+	    5582d7f357c4 Matrix<double>::outer+0xee (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.093363:    1414608       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.093611:    1415982       dTLB-loads: 
+	    5582d7f35aec Matrix<double>::get+0x1a (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.093861:    1417428       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.094109:    1417796       dTLB-loads: 
+	    5582d7f35765 Matrix<double>::outer+0x8f (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.094397:    1416133       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.094646:    1392899       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.094891:    1393996       dTLB-loads: 
+	    5582d7f35aef Matrix<double>::get+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.095135:    1397493       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.095381:    1401259       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.095627:    1404428       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.095874:    1407103       dTLB-loads: 
+	    5582d7f3578a Matrix<double>::outer+0xb4 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.096122:    1409612       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.096369:    1411127       dTLB-loads: 
+	    5582d7f357c4 Matrix<double>::outer+0xee (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.096617:    1413277       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.096865:    1414435       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.097113:    1416138       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.097361:    1417639       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.097610:    1418506       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.097859:    1419413       dTLB-loads: 
+	    5582d7f35ab4 Matrix<double>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.098154:    1416911       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.098404:    1389826       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.098648:    1390058       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.098892:    1394435       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.099137:    1398564       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.099382:    1402166       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.099629:    1405509       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.099875:    1408294       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.100122:    1411005       dTLB-loads: 
+	    5582d7f357c4 Matrix<double>::outer+0xee (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.100370:    1412653       dTLB-loads: 
+	    5582d7f357c0 Matrix<double>::outer+0xea (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.100618:    1414555       dTLB-loads: 
+	    5582d7f35ae8 Matrix<double>::get+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.100866:    1415728       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.101115:    1417041       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.101364:    1417834       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.101612:    1418817       dTLB-loads: 
+	    5582d7f357cd Matrix<double>::outer+0xf7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.101862:    1419876       dTLB-loads: 
+	    5582d7f357c4 Matrix<double>::outer+0xee (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.102111:    1420206       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.102364:    1420984       dTLB-loads: 
+	    5582d7f35774 Matrix<double>::outer+0x9e (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.102613:    1418842       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.102862:    1419470       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.103112:    1420132       dTLB-loads: 
+	    5582d7f35aac Matrix<double>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.103361:    1420523       dTLB-loads: 
+	    5582d7f357a2 Matrix<double>::outer+0xcc (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.103610:    1421264       dTLB-loads: 
+	    5582d7f35b03 Matrix<double>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35784 Matrix<double>::outer+0xae (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.103859:    1421442       dTLB-loads: 
+	    5582d7f35b07 Matrix<double>::get+0x35 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.104109:    1422199       dTLB-loads: 
+	    5582d7f357c0 Matrix<double>::outer+0xea (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.104358:    1422519       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.104608:    1423232       dTLB-loads: 
+	    5582d7f35aef Matrix<double>::get+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.104857:    1423028       dTLB-loads: 
+	    5582d7f35ae0 Matrix<double>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f3579d Matrix<double>::outer+0xc7 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+
+matmul 13630 72719.105108:    1423503       dTLB-loads: 
+	    5582d7f35ac1 Matrix<double>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f357bf Matrix<double>::outer+0xe9 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    5582d7f35399 main+0x174 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+	    7efef909409a __libc_start_main+0xa (inlined)
+	    5582d7f35169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/matmul)
+

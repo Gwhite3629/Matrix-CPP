@@ -1,0 +1,1100 @@
+cholesky 25903 72537.471386:          1       dTLB-loads: 
+	    7fb2cd262eaf elf_get_dynamic_info+0x1f (inlined)
+	    7fb2cd262eaf _dl_start+0x1f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471391:          1       dTLB-loads: 
+	    7fb2cd262eb6 _dl_start+0x26 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471394:          7       dTLB-loads: 
+	    7fb2cd262f3b elf_get_dynamic_info+0xab (inlined)
+	    7fb2cd262f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471396:         99       dTLB-loads: 
+	    7fb2cd262f3b elf_get_dynamic_info+0xab (inlined)
+	    7fb2cd262f3b _dl_start+0xab (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471399:       1453       dTLB-loads: 
+	    7fb2cd2631e8 elf_dynamic_do_Rela+0x60 (inlined)
+	    7fb2cd2631e8 _dl_start+0x60 (inlined)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471406:      15966       dTLB-loads: 
+	    7fb2cd27760e tunable_is_name+0xee (inlined)
+	    7fb2cd27760e __GI___tunables_init+0xee (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd2794f9 _dl_sysdep_start+0x2e9 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd263117 _dl_start_final+0x7 (inlined)
+	    7fb2cd263117 _dl_start+0x7 (inlined)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471550:      84382       dTLB-loads: 
+	    7fb2cd26d140 elf_dynamic_do_Rela+0x8e0 (inlined)
+	    7fb2cd26d140 _dl_relocate_object+0x8e0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd2650eb dl_main+0x49b (inlined)
+	    7fb2cd27965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd263117 _dl_start_final+0x7 (inlined)
+	    7fb2cd263117 _dl_start+0x7 (inlined)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471658:      92092       dTLB-loads: 
+	    7fb2cd27cf54 strcmp+0x1414 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd26a6fb check_match+0x13b (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd26ab03 do_lookup_x+0x3a3 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd26b39e _dl_lookup_symbol_x+0x14e (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd26cd6d elf_machine_rela+0x50d (inlined)
+	    7fb2cd26cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fb2cd26cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd2650eb dl_main+0x49b (inlined)
+	    7fb2cd27965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd263117 _dl_start_final+0x7 (inlined)
+	    7fb2cd263117 _dl_start+0x7 (inlined)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471722:     107260       dTLB-loads: 
+	    7fb2cd26b2a9 dl_new_hash+0x59 (inlined)
+	    7fb2cd26b2a9 _dl_lookup_symbol_x+0x59 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd26cd6d elf_machine_rela+0x50d (inlined)
+	    7fb2cd26cd6d elf_dynamic_do_Rela+0x50d (inlined)
+	    7fb2cd26cd6d _dl_relocate_object+0x50d (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd2650eb dl_main+0x49b (inlined)
+	    7fb2cd27965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd263117 _dl_start_final+0x7 (inlined)
+	    7fb2cd263117 _dl_start+0x7 (inlined)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471779:     146806       dTLB-loads: 
+	    7fb2cd26d430 elf_machine_rela+0xbd0 (inlined)
+	    7fb2cd26d430 elf_dynamic_do_Rela+0xbd0 (inlined)
+	    7fb2cd26d430 _dl_relocate_object+0xbd0 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd2650eb dl_main+0x49b (inlined)
+	    7fb2cd27965f _dl_sysdep_start+0x44f (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd263117 _dl_start_final+0x7 (inlined)
+	    7fb2cd263117 _dl_start+0x7 (inlined)
+	    7fb2cd262097 _start+0x7 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.471885:     207759       dTLB-loads: 
+	    7fb2cd26b3e4 _dl_lookup_symbol_x+0x194 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cce8fa03 _dl_vdso_vsym+0x953 (inlined)
+	    7fb2ccd7ef27 __vdso_platform_setup+0x407 (inlined)
+	    7fb2ccd7ef27 _init+0x407 (inlined)
+	    7fb2cd270349 call_init+0x59 (inlined)
+	    7fb2cd270485 call_init+0x75 (inlined)
+	    7fb2cd270485 _dl_init+0x75 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+	    7fb2cd2620c9 _dl_start_user+0x31 (/usr/lib/x86_64-linux-gnu/ld-2.28.so)
+
+cholesky 25903 72537.472032:     243290       dTLB-loads: 
+	    55ac9fc7bbe8 Matrix<float>::Matrix+0xc8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.472092:     264517       dTLB-loads: 
+	    55ac9fc7bbc8 Matrix<float>::Matrix+0xa8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.472159:     368801       dTLB-loads: 
+	    7fb2ccd95b49 __random+0x579 (inlined)
+	    7fb2ccd96028 rand+0xa58 (inlined)
+	    55ac9fc7bbb4 Matrix<float>::Matrix+0x94 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.472252:     495314       dTLB-loads: 
+	    7fb2ccd95d5c __random_r+0x78c (inlined)
+	13f5691acd23929f [unknown] ([unknown])
+
+cholesky 25903 72537.472418:     539840       dTLB-loads: 
+	    55ac9fc7bbe8 Matrix<float>::Matrix+0xc8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.472553:     573617       dTLB-loads: 
+	    7fb2ccd95d2c __random_r+0x75c (inlined)
+	47955910cd23929f [unknown] ([unknown])
+
+cholesky 25903 72537.472694:     635322       dTLB-loads: 
+	    55ac9fc7bbe8 Matrix<float>::Matrix+0xc8 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b402 main+0x1dd (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.473212:     696821       dTLB-loads: 
+	    55ac9fc7c27a Matrix<float>::get+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7ffe3825cdff [unknown] ([stack])
+
+cholesky 25903 72537.473335:     651756       dTLB-loads: 
+	    55ac9fc7c275 Matrix<float>::get+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7c1e7 Matrix<float>::copy+0x63 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bd31 Matrix<float>::Cholesky_fast+0x75 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.473450:     735310       dTLB-loads: 
+	    55ac9fc7c2b2 Matrix<float>::set+0x36 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7c1fb Matrix<float>::copy+0x77 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bd31 Matrix<float>::Cholesky_fast+0x75 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.473581:     842644       dTLB-loads: 
+	    55ac9fc7c267 Matrix<float>::get+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7c01a Matrix<float>::operator=+0x48 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bd44 Matrix<float>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.473734:     938270       dTLB-loads: 
+	    55ac9fc7c252 Matrix<float>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7c01a Matrix<float>::operator=+0x48 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bd44 Matrix<float>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.473904:    1012849       dTLB-loads: 
+	    55ac9fc7c022 Matrix<float>::operator=+0x50 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bd44 Matrix<float>::Cholesky_fast+0x88 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.474104:    1072630       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7be88 Matrix<float>::Cholesky_fast+0x1cc (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.474302:    1106616       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.474517:    1142178       dTLB-loads: 
+	    55ac9fc7bf28 Matrix<float>::Cholesky_fast+0x26c (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.474736:    1166086       dTLB-loads: 
+	    55ac9fc7bf22 Matrix<float>::Cholesky_fast+0x266 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.474959:    1186040       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.475185:    1204345       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.475413:    1220253       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.475716:    1234940       dTLB-loads: 
+	    55ac9fc7beae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.475949:    1207973       dTLB-loads: 
+	    55ac9fc7c226 Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.476176:    1219230       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.476469:    1222027       dTLB-loads: 
+	    55ac9fc7bf5c Matrix<float>::Cholesky_fast+0x2a0 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.476699:    1199708       dTLB-loads: 
+	    55ac9fc7c222 Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.476923:    1212922       dTLB-loads: 
+	    55ac9fc7c222 Matrix<float>::operator()+0x12 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.477150:    1229868       dTLB-loads: 
+	    55ac9fc7bedc Matrix<float>::Cholesky_fast+0x220 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.477380:    1245419       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.477613:    1258905       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.477848:    1270620       dTLB-loads: 
+	    55ac9fc7bf22 Matrix<float>::Cholesky_fast+0x266 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.478085:    1280742       dTLB-loads: 
+	    55ac9fc7bebc Matrix<float>::Cholesky_fast+0x200 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.478324:    1289346       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.478565:    1296735       dTLB-loads: 
+	    55ac9fc7c22d Matrix<float>::operator()+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.478807:    1303134       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.479050:    1308749       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.479294:    1313492       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.479539:    1317136       dTLB-loads: 
+	    55ac9fc7bedc Matrix<float>::Cholesky_fast+0x220 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.479785:    1320475       dTLB-loads: 
+	    55ac9fc7bebc Matrix<float>::Cholesky_fast+0x200 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.480030:    1323641       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.480277:    1326334       dTLB-loads: 
+	    55ac9fc7beae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.480567:    1327290       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.480824:    1304411       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.481067:    1299749       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.481309:    1304394       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.481551:    1309998       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.481797:    1315217       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.482041:    1318055       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.482286:    1321931       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.482531:    1325618       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.482777:    1328814       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.483024:    1331618       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.483343:    1333861       dTLB-loads: 
+	    55ac9fc7bf12 Matrix<float>::Cholesky_fast+0x256 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.483590:    1297825       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.483830:    1299624       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.484071:    1306037       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.484313:    1312380       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.484640:    1315680       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.484884:    1277199       dTLB-loads: 
+	    55ac9fc7befe Matrix<float>::Cholesky_fast+0x242 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.485120:    1281333       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.485357:    1290402       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.485597:    1299150       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.485837:    1306141       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.486079:    1312750       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.486322:    1318555       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.486565:    1323392       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.486810:    1327649       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.487055:    1331417       dTLB-loads: 
+	    55ac9fc7c22d Matrix<float>::operator()+0x1d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.487302:    1334453       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.487549:    1336553       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.487796:    1338808       dTLB-loads: 
+	    55ac9fc7beae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.488043:    1340822       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.488291:    1342537       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.488542:    1341250       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.488790:    1340662       dTLB-loads: 
+	    55ac9fc7beae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.489038:    1342098       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.489286:    1343769       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.489534:    1345099       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.489782:    1346487       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.490031:    1347681       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.490280:    1348473       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.490528:    1349295       dTLB-loads: 
+	    55ac9fc7bf12 Matrix<float>::Cholesky_fast+0x256 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.490777:    1350203       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.491096:    1350904       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.491346:    1314534       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.491589:    1314499       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.491831:    1319408       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.492074:    1324501       dTLB-loads: 
+	    55ac9fc7bf22 Matrix<float>::Cholesky_fast+0x266 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.492319:    1329034       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.492606:    1332616       dTLB-loads: 
+	    55ac9fc7bebc Matrix<float>::Cholesky_fast+0x200 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.492851:    1311140       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.493094:    1313977       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.493336:    1319155       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.493579:    1324399       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.493823:    1329168       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.494068:    1333041       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.494314:    1336527       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.494561:    1339000       dTLB-loads: 
+	    55ac9fc7c226 Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.494807:    1341611       dTLB-loads: 
+	    55ac9fc7beae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.495054:    1343917       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.495301:    1345985       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.495550:    1347898       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.495798:    1348950       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.496047:    1350303       dTLB-loads: 
+	    55ac9fc7bf12 Matrix<float>::Cholesky_fast+0x256 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.496295:    1351111       dTLB-loads: 
+	    55ac9fc7bed6 Matrix<float>::Cholesky_fast+0x21a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.496548:    1350859       dTLB-loads: 
+	    55ac9fc7bf12 Matrix<float>::Cholesky_fast+0x256 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.496796:    1349196       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.497045:    1350102       dTLB-loads: 
+	    55ac9fc7bf22 Matrix<float>::Cholesky_fast+0x266 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.497294:    1351234       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.497542:    1352010       dTLB-loads: 
+	    55ac9fc7bedc Matrix<float>::Cholesky_fast+0x220 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.497791:    1352959       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.498039:    1353999       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.498289:    1354833       dTLB-loads: 
+	    55ac9fc7bebc Matrix<float>::Cholesky_fast+0x200 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.498538:    1355095       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.498857:    1355710       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.499107:    1318942       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.499349:    1319509       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.499594:    1324665       dTLB-loads: 
+	    55ac9fc7bf12 Matrix<float>::Cholesky_fast+0x256 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.499838:    1328041       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.500082:    1332340       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.500327:    1336257       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.500618:    1339109       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.500864:    1315339       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.501106:    1317900       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.501349:    1323289       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.501592:    1328554       dTLB-loads: 
+	    55ac9fc7bebc Matrix<float>::Cholesky_fast+0x200 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.501836:    1332999       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.502081:    1337114       dTLB-loads: 
+	    55ac9fc7c241 Matrix<float>::operator()+0x31 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.502326:    1340602       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.502573:    1343629       dTLB-loads: 
+	    55ac9fc7beae Matrix<float>::Cholesky_fast+0x1f2 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.502820:    1345931       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.503067:    1348118       dTLB-loads: 
+	    55ac9fc7beea Matrix<float>::Cholesky_fast+0x22e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.503314:    1350150       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.503562:    1351899       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.503811:    1353151       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.504059:    1354284       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.504308:    1355354       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.504559:    1354697       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.504808:    1353814       dTLB-loads: 
+	    55ac9fc7bf16 Matrix<float>::Cholesky_fast+0x25a (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.505057:    1354479       dTLB-loads: 
+	    55ac9fc7bf22 Matrix<float>::Cholesky_fast+0x266 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.505306:    1355395       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.505555:    1356330       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.505804:    1357007       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.506052:    1357776       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.506301:    1358651       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bec9 Matrix<float>::Cholesky_fast+0x20d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.506621:    1359230       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.506870:    1322300       dTLB-loads: 
+	    55ac9fc7befe Matrix<float>::Cholesky_fast+0x242 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.507113:    1322906       dTLB-loads: 
+	    55ac9fc7bf5c Matrix<float>::Cholesky_fast+0x2a0 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.507355:    1327887       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.507599:    1332829       dTLB-loads: 
+	    55ac9fc7c21e Matrix<float>::operator()+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.507843:    1337110       dTLB-loads: 
+	    55ac9fc7beee Matrix<float>::Cholesky_fast+0x232 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.508089:    1341002       dTLB-loads: 
+	    55ac9fc7beca Matrix<float>::Cholesky_fast+0x20e (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.508337:    1343567       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.508621:    1344649       dTLB-loads: 
+	    55ac9fc7c226 Matrix<float>::operator()+0x16 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bf11 Matrix<float>::Cholesky_fast+0x255 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.508867:    1324758       dTLB-loads: 
+	    55ac9fc7c233 Matrix<float>::operator()+0x23 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7bee9 Matrix<float>::Cholesky_fast+0x22d (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.509109:    1327426       dTLB-loads: 
+	    55ac9fc7bebc Matrix<float>::Cholesky_fast+0x200 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b440 main+0x21b (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.509362:    1332763       dTLB-loads: 
+	    55ac9fc7c252 Matrix<float>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7c01a Matrix<float>::operator=+0x48 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b456 main+0x231 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
+cholesky 25903 72537.509603:    1330580       dTLB-loads: 
+	    55ac9fc7c252 Matrix<float>::get+0xe (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7c01a Matrix<float>::operator=+0x48 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    55ac9fc7b456 main+0x231 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+	    7fb2ccd7f09a __libc_start_main+0xa (inlined)
+	    55ac9fc7b169 _start+0x29 (/home/grady/matrix/Matrix-CPP/Benchmarks/cholesky)
+
