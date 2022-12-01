@@ -11,25 +11,37 @@ int main(int argc, char *argv[])
     int test_size = TEST_SIZE;
     double r_start = R_START;
     double r_end = R_END;
+    int flag = 0; // 0 is float
 
     srand(time(NULL));
 
-    if (argc == 4) {
+    if (argc == 5) {
         test_size = atoi(argv[1]);
         r_start = strtod(argv[2], NULL);
         r_end = strtod(argv[3], NULL);
+        flag = atoi(argv[4]);
     }
 
-    Matrix<double> M(test_size, test_size, r_start, r_end);
+    if (flag) {
+        Matrix<double> M(test_size, test_size, r_start, r_end);
 
-    begin(start);
+        begin(start);
 
-    double det = M.laplace_determinant();
+        double det = M.laplace_determinant();
 
-    end(stop);
+        end(stop);
+        std::cout << "Determinant: " << det << std::endl;
+    } else {
+        Matrix<float> M(test_size, test_size, r_start, r_end);
+
+        begin(start);
+
+        float det = M.laplace_determinant();
+
+        end(stop);
+        std::cout << "Determinant: " << det << std::endl;
+    }
 
     std::cout << "Total time: " << get_time(start, stop) << std::endl;
-    std::cout << "Determinant: " << det << std::endl;
-
     return 0;
 }
