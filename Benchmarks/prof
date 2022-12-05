@@ -1,20 +1,23 @@
 #!/bin/bash
 
 PATH1="FLOAT/"
-PATH2=("BRANCH" "CACHE" "dTLB-LOAD" "dTLB-STORE" "IPC" "L1-LOADS")
+PATH2=("BRANCH" "CACHE" "dTLB-LOAD" "dTLB-STORE" "IPC" "L1-LOADS" "FLOPS")
 
-SIZES=("50" "100" "150" "200" "250" "300" "350" "400" "450" "500")
+SIZES=("50" "60" "70" "80" "90" \
+	"100" "110" "120" "130" "140" "150" "160" "170" "180" "190" \
+	"200" "210" "220" "230" "240" "250" "260" "270" "280" "290" \
+	"300" "310" "320" "330" "340" "350" "360" "370" "380" "390" \
+	"400" "410" "420" "430" "440" "450" "460" "470" "480" "490" "500")
 
-TESTS=("branches:uppp,branch-misses:uppp"
-"cache-misses:uppp,cache-references:uppp"
-"dTLB-loads:uppp,dTLB-load-misses:uppp"
-"dTLB-stores:uppp,dTLB-store-misses:uppp"
-"instructions:uppp,cycles:uppp"
-"L1-dcache-load-misses:uppp,L1-dcache-loads:uppp")
+TESTS=("branches:uP,branch-misses:uP"
+"cache-misses:uP,cache-references:uP"
+"dTLB-loads:uP,dTLB-load-misses:uP"
+"dTLB-stores:uP,dTLB-store-misses:uP"
+"instructions:uP,cycles:uP"
+"L1-dcache-load-misses:uP,L1-dcache-loads:uP"
+"fp_arith_inst_retired.scalar_single:uP,fp_arith_inst_retired.scalar_double:uP")
 
-PERF1="perf record -o "
-PERF2="--stat --call-graph dwarf -e "
-PERF3="perf script -i "
+PERF1="perf stat -e "
 
 if [[ $2 == "1" ]]; then
 	PATH1="DOUBLE/"
@@ -29,15 +32,12 @@ mkdir $PATH1$1
 # Build directory tree
 for p in ${PATH2[@]}; do
 	mkdir $PATH1$1/$p
-	mkdir $PATH1$1/$p/text
 done
 
 for i in ${!PATH2[@]}; do
 	for s in ${SIZES[@]}; do
-		$PERF1$PATH1$1/${PATH2[$i]}/$s-${PATH2[$i]}.data \
-		$PERF2${TESTS[$i]} ./$1 $s -10 10 $2
-		$PERF3$PATH1$1/${PATH2[$i]}/$s-${PATH2[$i]}.data \
-		> $PATH1$1/${PATH2[$i]}/text/$s.txt
+		$PERF1${TESTS[$i]} ./$1 $s -10 10 $2 \
+		> $PATH1$1/${PATH2[$i]}/$s.txt
 	done
 done
 

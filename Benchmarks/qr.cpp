@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
         begin(start);
 
-        M.QR(&Q, &R);
+        M.QR_fast(&Q, &R);
 
         end(stop);
     } else {
@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
         begin(start);
 
-        M.QR(&Q, &R);
+        M.QR_fast(&Q, &R);
 
         end(stop);
     }
