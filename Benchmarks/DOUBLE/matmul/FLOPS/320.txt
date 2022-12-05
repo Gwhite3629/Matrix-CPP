@@ -1,1 +1,13 @@
-Total time: 0.241958
+Total time: 0.240386
+
+ Performance counter stats for './matmul 320 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+        66,355,202      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.242943205 seconds time elapsed
+
+       0.239009000 seconds user
+       0.003983000 seconds sys
+
+

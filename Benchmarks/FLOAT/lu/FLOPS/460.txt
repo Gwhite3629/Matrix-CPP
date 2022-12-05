@@ -1,1 +1,13 @@
-Total time: 0.256296
+Total time: 0.25696
+
+ Performance counter stats for './lu 460 -10 10 0':
+
+        65,842,790      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.260079288 seconds time elapsed
+
+       0.260104000 seconds user
+       0.000000000 seconds sys
+
+

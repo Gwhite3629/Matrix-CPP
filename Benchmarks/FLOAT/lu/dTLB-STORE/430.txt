@@ -1,1 +1,13 @@
-Total time: 0.209937
+Total time: 0.209648
+
+ Performance counter stats for './lu 430 -10 10 0':
+
+       514,467,436      dTLB-stores                                                 
+             5,394      dTLB-store-misses                                           
+
+       0.212416106 seconds time elapsed
+
+       0.208464000 seconds user
+       0.004008000 seconds sys
+
+

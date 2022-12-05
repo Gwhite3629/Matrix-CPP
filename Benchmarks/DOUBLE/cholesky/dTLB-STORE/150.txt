@@ -1,1 +1,13 @@
-Total time: 0.00511369
+Total time: 0.00500517
+
+ Performance counter stats for './cholesky 150 -10 10 1':
+
+        12,354,485      dTLB-stores                                                 
+             1,398      dTLB-store-misses                                           
+
+       0.006094086 seconds time elapsed
+
+       0.003072000 seconds user
+       0.003072000 seconds sys
+
+

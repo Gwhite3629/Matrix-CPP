@@ -1,1 +1,13 @@
-Total time: 0.340071
+Total time: 0.346232
+
+ Performance counter stats for './lu 500 -10 10 1':
+
+     1,740,746,453      dTLB-loads                                                  
+             3,563      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.351147570 seconds time elapsed
+
+       0.351219000 seconds user
+       0.000000000 seconds sys
+
+

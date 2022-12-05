@@ -1,1 +1,13 @@
-Total time: 0.298074
+Total time: 0.299808
+
+ Performance counter stats for './lu 480 -10 10 0':
+
+       304,493,881      branches:uP                                                 
+           239,783      branch-misses:uP          #    0.08% of all branches        
+
+       0.303103964 seconds time elapsed
+
+       0.303159000 seconds user
+       0.000000000 seconds sys
+
+

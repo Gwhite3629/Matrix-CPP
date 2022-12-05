@@ -1,1 +1,13 @@
-Total time: 0.0159071
+Total time: 0.0157234
+
+ Performance counter stats for './lu 180 -10 10 1':
+
+            15,686      cache-misses:uP           #    3.990 % of all cache refs    
+           393,088      cache-references:uP                                         
+
+       0.016999891 seconds time elapsed
+
+       0.017052000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0028918
+Total time: 0.00276967
+
+ Performance counter stats for './lu 100 -10 10 1':
+
+        33,374,381      instructions:uP           #    2.40  insn per cycle         
+        13,909,342      cycles:uP                                                   
+
+       0.003795991 seconds time elapsed
+
+       0.003850000 seconds user
+       0.000000000 seconds sys
+
+

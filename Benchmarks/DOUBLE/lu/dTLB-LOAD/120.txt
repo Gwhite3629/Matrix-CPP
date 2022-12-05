@@ -1,1 +1,13 @@
-Total time: 0.00483154
+Total time: 0.00480023
+
+ Performance counter stats for './lu 120 -10 10 1':
+
+        25,968,005      dTLB-loads                                                  
+               625      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.005844932 seconds time elapsed
+
+       0.002950000 seconds user
+       0.002950000 seconds sys
+
+

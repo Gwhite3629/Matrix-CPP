@@ -1,1 +1,13 @@
-Total time: 0.298365
+Total time: 0.297872
+
+ Performance counter stats for './lu 480 -10 10 0':
+
+     1,541,335,737      dTLB-loads                                                  
+             1,886      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.301105228 seconds time elapsed
+
+       0.301161000 seconds user
+       0.000000000 seconds sys
+
+

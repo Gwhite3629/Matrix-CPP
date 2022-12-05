@@ -1,1 +1,13 @@
-Total time: 0.215698
+Total time: 0.216236
+
+ Performance counter stats for './lu 430 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+        53,836,647      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.219744959 seconds time elapsed
+
+       0.219765000 seconds user
+       0.000000000 seconds sys
+
+

@@ -17,7 +17,7 @@ TESTS=("branches:uP,branch-misses:uP"
 "L1-dcache-load-misses:uP,L1-dcache-loads:uP"
 "fp_arith_inst_retired.scalar_single:uP,fp_arith_inst_retired.scalar_double:uP")
 
-PERF1="perf stat -e "
+PERF1="perf stat -e"
 
 if [[ $2 == "1" ]]; then
 	PATH1="DOUBLE/"
@@ -36,7 +36,7 @@ done
 
 for i in ${!PATH2[@]}; do
 	for s in ${SIZES[@]}; do
-		$PERF1${TESTS[$i]} ./$1 $s -10 10 $2 \
+		$PERF1${TESTS[$i]} --log-fd 1 ./$1 $s -10 10 $2 \
 		> $PATH1$1/${PATH2[$i]}/$s.txt
 	done
 done

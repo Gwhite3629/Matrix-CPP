@@ -1,1 +1,13 @@
-Total time: 0.0218021
+Total time: 0.0215626
+
+ Performance counter stats for './cholesky 250 -10 10 1':
+
+       116,198,575      dTLB-loads                                                  
+             1,418      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.023137043 seconds time elapsed
+
+       0.019324000 seconds user
+       0.003864000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.00762766
+Total time: 0.0074752
+
+ Performance counter stats for './lu 140 -10 10 1':
+
+        18,708,705      dTLB-stores                                                 
+             1,263      dTLB-store-misses                                           
+
+       0.008584421 seconds time elapsed
+
+       0.008626000 seconds user
+       0.000000000 seconds sys
+
+

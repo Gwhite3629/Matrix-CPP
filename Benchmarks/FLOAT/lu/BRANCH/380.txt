@@ -1,1 +1,13 @@
-Total time: 0.14358
+Total time: 0.144439
+
+ Performance counter stats for './lu 380 -10 10 0':
+
+       152,467,788      branches:uP                                                 
+           152,851      branch-misses:uP          #    0.10% of all branches        
+
+       0.146822170 seconds time elapsed
+
+       0.146871000 seconds user
+       0.000000000 seconds sys
+
+

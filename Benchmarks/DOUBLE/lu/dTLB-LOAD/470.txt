@@ -1,1 +1,13 @@
-Total time: 0.283364
+Total time: 0.282371
+
+ Performance counter stats for './lu 470 -10 10 1':
+
+     1,447,615,311      dTLB-loads                                                  
+             3,157      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.286361138 seconds time elapsed
+
+       0.286405000 seconds user
+       0.000000000 seconds sys
+
+

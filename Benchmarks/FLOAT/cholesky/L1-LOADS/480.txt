@@ -1,1 +1,13 @@
-Total time: 0.144683
+Total time: 0.147855
+
+ Performance counter stats for './cholesky 480 -10 10 0':
+
+         1,554,874      L1-dcache-load-misses     #    0.20% of all L1-dcache hits  
+       789,076,283      L1-dcache-loads                                             
+
+       0.150758231 seconds time elapsed
+
+       0.150811000 seconds user
+       0.000000000 seconds sys
+
+

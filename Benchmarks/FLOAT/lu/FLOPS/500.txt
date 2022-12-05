@@ -1,1 +1,13 @@
-Total time: 0.330059
+Total time: 0.331115
+
+ Performance counter stats for './lu 500 -10 10 0':
+
+        84,458,250      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.334576146 seconds time elapsed
+
+       0.334620000 seconds user
+       0.000000000 seconds sys
+
+

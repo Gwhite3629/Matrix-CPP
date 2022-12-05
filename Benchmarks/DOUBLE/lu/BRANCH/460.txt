@@ -1,1 +1,13 @@
-Total time: 0.264869
+Total time: 0.26482
+
+ Performance counter stats for './lu 460 -10 10 1':
+
+       268,393,740      branches:uP                                                 
+           222,592      branch-misses:uP          #    0.08% of all branches        
+
+       0.268760686 seconds time elapsed
+
+       0.264703000 seconds user
+       0.004010000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.00064092
+Total time: 0.000626085
+
+ Performance counter stats for './lu 60 -10 10 0':
+
+            16,175      cache-misses:uP           #   30.220 % of all cache refs    
+            53,524      cache-references:uP                                         
+
+       0.001492429 seconds time elapsed
+
+       0.001548000 seconds user
+       0.000000000 seconds sys
+
+

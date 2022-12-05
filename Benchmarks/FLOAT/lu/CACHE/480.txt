@@ -1,1 +1,13 @@
-Total time: 0.298038
+Total time: 0.299453
+
+ Performance counter stats for './lu 480 -10 10 0':
+
+            39,158      cache-misses:uP           #    0.289 % of all cache refs    
+        13,533,396      cache-references:uP                                         
+
+       0.302709349 seconds time elapsed
+
+       0.298773000 seconds user
+       0.003983000 seconds sys
+
+

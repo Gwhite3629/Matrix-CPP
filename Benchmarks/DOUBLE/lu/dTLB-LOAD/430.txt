@@ -1,1 +1,13 @@
-Total time: 0.21624
+Total time: 0.217326
+
+ Performance counter stats for './lu 430 -10 10 1':
+
+     1,110,704,169      dTLB-loads                                                  
+             2,731      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.220829339 seconds time elapsed
+
+       0.220885000 seconds user
+       0.000000000 seconds sys
+
+

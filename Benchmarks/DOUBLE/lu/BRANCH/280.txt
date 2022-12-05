@@ -1,1 +1,13 @@
-Total time: 0.0591435
+Total time: 0.0593829
+
+ Performance counter stats for './lu 280 -10 10 1':
+
+        62,041,597      branches:uP                                                 
+            88,183      branch-misses:uP          #    0.14% of all branches        
+
+       0.061311042 seconds time elapsed
+
+       0.061360000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.00995667
+Total time: 0.00971543
+
+ Performance counter stats for './cholesky 190 -10 10 1':
+
+            16,620      cache-misses:uP           #    8.954 % of all cache refs    
+           185,608      cache-references:uP                                         
+
+       0.010977230 seconds time elapsed
+
+       0.007353000 seconds user
+       0.003676000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.136452
+Total time: 0.137529
+
+ Performance counter stats for './lu 370 -10 10 1':
+
+         3,016,233      L1-dcache-load-misses     #    0.42% of all L1-dcache hits  
+       710,242,514      L1-dcache-loads                                             
+
+       0.140300301 seconds time elapsed
+
+       0.132559000 seconds user
+       0.007797000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0469398
+Total time: 0.0804277
+
+ Performance counter stats for './lu 260 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+        12,021,492      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.088014703 seconds time elapsed
+
+       0.080037000 seconds user
+       0.008003000 seconds sys
+
+

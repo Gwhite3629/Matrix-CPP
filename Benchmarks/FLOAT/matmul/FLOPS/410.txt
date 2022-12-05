@@ -1,1 +1,13 @@
-Total time: 0.50309
+Total time: 0.502833
+
+ Performance counter stats for './matmul 410 -10 10 0':
+
+       139,186,800      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.506312619 seconds time elapsed
+
+       0.502338000 seconds user
+       0.004018000 seconds sys
+
+

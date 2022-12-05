@@ -1,1 +1,13 @@
-Total time: 0.00920865
+Total time: 0.00913201
+
+ Performance counter stats for './lu 150 -10 10 0':
+
+        22,873,559      dTLB-stores                                                 
+               687      dTLB-store-misses                                           
+
+       0.010186638 seconds time elapsed
+
+       0.010211000 seconds user
+       0.000000000 seconds sys
+
+

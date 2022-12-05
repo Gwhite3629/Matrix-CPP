@@ -1,1 +1,13 @@
-Total time: 0.000985552
+Total time: 0.0010395
+
+ Performance counter stats for './lu 70 -10 10 1':
+
+        13,310,130      instructions:uP           #    2.22  insn per cycle         
+         6,003,283      cycles:uP                                                   
+
+       0.001944941 seconds time elapsed
+
+       0.001999000 seconds user
+       0.000000000 seconds sys
+
+

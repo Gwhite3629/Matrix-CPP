@@ -1,1 +1,13 @@
-Total time: 0.126385
+Total time: 0.126657
+
+ Performance counter stats for './lu 360 -10 10 1':
+
+       129,967,156      branches:uP                                                 
+           140,139      branch-misses:uP          #    0.11% of all branches        
+
+       0.129439500 seconds time elapsed
+
+       0.129464000 seconds user
+       0.000000000 seconds sys
+
+

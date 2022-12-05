@@ -1,1 +1,13 @@
-Total time: 0.401828
+Total time: 0.401706
+
+ Performance counter stats for './matmul 380 -10 10 1':
+
+       445,255,301      branches:uP                                                 
+           166,006      branch-misses:uP          #    0.04% of all branches        
+
+       0.404969353 seconds time elapsed
+
+       0.401048000 seconds user
+       0.003970000 seconds sys
+
+

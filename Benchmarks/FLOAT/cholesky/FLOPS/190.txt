@@ -1,1 +1,13 @@
-Total time: 0.00970838
+Total time: 0.00963113
+
+ Performance counter stats for './cholesky 190 -10 10 0':
+
+         2,448,625      fp_arith_inst_retired.scalar_single:uP                                   
+               192      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.010775335 seconds time elapsed
+
+       0.010830000 seconds user
+       0.000000000 seconds sys
+
+

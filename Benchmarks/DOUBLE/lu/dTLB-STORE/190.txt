@@ -1,1 +1,13 @@
-Total time: 0.018363
+Total time: 0.01851
+
+ Performance counter stats for './lu 190 -10 10 1':
+
+        45,728,334      dTLB-stores                                                 
+             2,155      dTLB-store-misses                                           
+
+       0.019842323 seconds time elapsed
+
+       0.019890000 seconds user
+       0.000000000 seconds sys
+
+

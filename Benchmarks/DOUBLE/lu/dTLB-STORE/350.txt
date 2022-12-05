@@ -1,1 +1,13 @@
-Total time: 0.115662
+Total time: 0.11581
+
+ Performance counter stats for './lu 350 -10 10 1':
+
+       278,844,011      dTLB-stores                                                 
+             7,313      dTLB-store-misses                                           
+
+       0.118420118 seconds time elapsed
+
+       0.118440000 seconds user
+       0.000000000 seconds sys
+
+

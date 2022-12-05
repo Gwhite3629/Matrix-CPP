@@ -1,1 +1,13 @@
-Total time: 0.0992796
+Total time: 0.0996417
+
+ Performance counter stats for './cholesky 420 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+        25,489,872      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.102537212 seconds time elapsed
+
+       0.098653000 seconds user
+       0.003946000 seconds sys
+
+

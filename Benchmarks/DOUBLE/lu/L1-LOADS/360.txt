@@ -1,1 +1,13 @@
-Total time: 0.12559
+Total time: 0.125609
+
+ Performance counter stats for './lu 360 -10 10 1':
+
+         2,623,195      L1-dcache-load-misses     #    0.40% of all L1-dcache hits  
+       654,685,495      L1-dcache-loads                                             
+
+       0.128348772 seconds time elapsed
+
+       0.128396000 seconds user
+       0.000000000 seconds sys
+
+

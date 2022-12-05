@@ -1,1 +1,13 @@
-Total time: 0.143384
+Total time: 0.1438
+
+ Performance counter stats for './lu 380 -10 10 0':
+
+        37,231,070      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.146108304 seconds time elapsed
+
+       0.142097000 seconds user
+       0.004059000 seconds sys
+
+

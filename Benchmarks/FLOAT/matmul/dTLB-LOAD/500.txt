@@ -1,1 +1,13 @@
-Total time: 0.91199
+Total time: 0.926242
+
+ Performance counter stats for './matmul 500 -10 10 0':
+
+     5,267,265,908      dTLB-loads                                                  
+               953      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.931079149 seconds time elapsed
+
+       0.931128000 seconds user
+       0.000000000 seconds sys
+
+

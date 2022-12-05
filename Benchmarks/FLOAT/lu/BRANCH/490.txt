@@ -1,1 +1,13 @@
-Total time: 0.310969
+Total time: 0.312517
+
+ Performance counter stats for './lu 490 -10 10 0':
+
+       323,700,459      branches:uP                                                 
+           249,229      branch-misses:uP          #    0.08% of all branches        
+
+       0.315856683 seconds time elapsed
+
+       0.315909000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0785812
+Total time: 0.0788075
+
+ Performance counter stats for './matmul 220 -10 10 1':
+
+        87,532,391      branches:uP                                                 
+            63,587      branch-misses:uP          #    0.07% of all branches        
+
+       0.080596310 seconds time elapsed
+
+       0.072858000 seconds user
+       0.007669000 seconds sys
+
+

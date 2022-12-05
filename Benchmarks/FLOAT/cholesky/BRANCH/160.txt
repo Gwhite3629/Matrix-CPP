@@ -1,1 +1,13 @@
-Total time: 0.00590779
+Total time: 0.0058401
+
+ Performance counter stats for './cholesky 160 -10 10 0':
+
+         6,916,118      branches:uP                                                 
+            24,593      branch-misses:uP          #    0.36% of all branches        
+
+       0.006887937 seconds time elapsed
+
+       0.006940000 seconds user
+       0.000000000 seconds sys
+
+

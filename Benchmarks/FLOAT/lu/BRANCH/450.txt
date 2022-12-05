@@ -1,1 +1,13 @@
-Total time: 0.241344
+Total time: 0.245423
+
+ Performance counter stats for './lu 450 -10 10 0':
+
+       251,466,109      branches:uP                                                 
+           211,960      branch-misses:uP          #    0.08% of all branches        
+
+       0.248482375 seconds time elapsed
+
+       0.248509000 seconds user
+       0.000000000 seconds sys
+
+

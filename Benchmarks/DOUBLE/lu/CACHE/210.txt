@@ -1,1 +1,13 @@
-Total time: 0.025184
+Total time: 0.0247599
+
+ Performance counter stats for './lu 210 -10 10 1':
+
+            16,361      cache-misses:uP           #    2.455 % of all cache refs    
+           666,495      cache-references:uP                                         
+
+       0.026240699 seconds time elapsed
+
+       0.022538000 seconds user
+       0.003756000 seconds sys
+
+

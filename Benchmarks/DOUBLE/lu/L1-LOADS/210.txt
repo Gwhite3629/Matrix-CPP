@@ -1,1 +1,13 @@
-Total time: 0.0252442
+Total time: 0.0246445
+
+ Performance counter stats for './lu 210 -10 10 1':
+
+           548,592      L1-dcache-load-misses     #    0.41% of all L1-dcache hits  
+       132,710,484      L1-dcache-loads                                             
+
+       0.026129394 seconds time elapsed
+
+       0.026182000 seconds user
+       0.000000000 seconds sys
+
+

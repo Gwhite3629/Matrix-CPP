@@ -1,1 +1,13 @@
-Total time: 0.194852
+Total time: 0.197282
+
+ Performance counter stats for './lu 420 -10 10 0':
+
+            37,286      cache-misses:uP           #    0.595 % of all cache refs    
+         6,268,914      cache-references:uP                                         
+
+       0.200000712 seconds time elapsed
+
+       0.200053000 seconds user
+       0.000000000 seconds sys
+
+

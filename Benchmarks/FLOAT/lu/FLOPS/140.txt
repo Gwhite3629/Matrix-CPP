@@ -1,1 +1,13 @@
-Total time: 0.00756145
+Total time: 0.00746871
+
+ Performance counter stats for './lu 140 -10 10 0':
+
+         1,917,510      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.008554251 seconds time elapsed
+
+       0.005741000 seconds user
+       0.002870000 seconds sys
+
+

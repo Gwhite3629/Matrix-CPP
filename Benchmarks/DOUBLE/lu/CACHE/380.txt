@@ -1,1 +1,13 @@
-Total time: 0.147981
+Total time: 0.148573
+
+ Performance counter stats for './lu 380 -10 10 1':
+
+            54,447      cache-misses:uP           #    0.886 % of all cache refs    
+         6,145,603      cache-references:uP                                         
+
+       0.151460134 seconds time elapsed
+
+       0.151483000 seconds user
+       0.000000000 seconds sys
+
+

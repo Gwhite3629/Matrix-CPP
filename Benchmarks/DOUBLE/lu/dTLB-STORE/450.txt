@@ -1,1 +1,13 @@
-Total time: 0.248271
+Total time: 0.250807
+
+ Performance counter stats for './lu 450 -10 10 1':
+
+       589,069,297      dTLB-stores                                                 
+            12,147      dTLB-store-misses                                           
+
+       0.254611552 seconds time elapsed
+
+       0.250678000 seconds user
+       0.003979000 seconds sys
+
+

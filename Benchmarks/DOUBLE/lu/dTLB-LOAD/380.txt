@@ -1,1 +1,13 @@
-Total time: 0.149341
+Total time: 0.148893
+
+ Performance counter stats for './lu 380 -10 10 1':
+
+       768,859,030      dTLB-loads                                                  
+             2,175      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.151835157 seconds time elapsed
+
+       0.147886000 seconds user
+       0.003996000 seconds sys
+
+

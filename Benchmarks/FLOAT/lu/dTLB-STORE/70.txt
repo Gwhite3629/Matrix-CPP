@@ -1,1 +1,13 @@
-Total time: 0.00099616
+Total time: 0.00101694
+
+ Performance counter stats for './lu 70 -10 10 0':
+
+         2,648,471      dTLB-stores                                                 
+               223      dTLB-store-misses                                           
+
+       0.002236500 seconds time elapsed
+
+       0.001956000 seconds user
+       0.000000000 seconds sys
+
+

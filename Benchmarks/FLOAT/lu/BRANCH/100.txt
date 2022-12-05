@@ -1,1 +1,13 @@
-Total time: 0.00283478
+Total time: 0.00277477
+
+ Performance counter stats for './lu 100 -10 10 0':
+
+         3,432,061      branches:uP                                                 
+            20,160      branch-misses:uP          #    0.59% of all branches        
+
+       0.003715736 seconds time elapsed
+
+       0.003739000 seconds user
+       0.000000000 seconds sys
+
+

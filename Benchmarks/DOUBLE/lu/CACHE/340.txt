@@ -1,1 +1,13 @@
-Total time: 0.105517
+Total time: 0.106015
+
+ Performance counter stats for './lu 340 -10 10 1':
+
+            38,069      cache-misses:uP           #    0.875 % of all cache refs    
+         4,350,270      cache-references:uP                                         
+
+       0.108528559 seconds time elapsed
+
+       0.104699000 seconds user
+       0.003877000 seconds sys
+
+

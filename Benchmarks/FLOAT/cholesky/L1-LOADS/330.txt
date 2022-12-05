@@ -1,1 +1,13 @@
-Total time: 0.048248
+Total time: 0.0485262
+
+ Performance counter stats for './cholesky 330 -10 10 0':
+
+           563,997      L1-dcache-load-misses     #    0.22% of all L1-dcache hits  
+       261,612,745      L1-dcache-loads                                             
+
+       0.050307029 seconds time elapsed
+
+       0.046487000 seconds user
+       0.003873000 seconds sys
+
+

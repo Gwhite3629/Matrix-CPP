@@ -1,1 +1,13 @@
-Total time: 0.19718
+Total time: 0.199479
+
+ Performance counter stats for './matmul 300 -10 10 0':
+
+     2,365,686,978      instructions:uP           #    2.72  insn per cycle         
+       869,567,399      cycles:uP                                                   
+
+       0.201745421 seconds time elapsed
+
+       0.201802000 seconds user
+       0.000000000 seconds sys
+
+

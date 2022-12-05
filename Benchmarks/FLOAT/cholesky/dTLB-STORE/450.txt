@@ -1,1 +1,13 @@
-Total time: 0.119834
+Total time: 0.119842
+
+ Performance counter stats for './cholesky 450 -10 10 0':
+
+       302,024,662      dTLB-stores                                                 
+             6,014      dTLB-store-misses                                           
+
+       0.122458155 seconds time elapsed
+
+       0.122511000 seconds user
+       0.000000000 seconds sys
+
+

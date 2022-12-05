@@ -1,1 +1,13 @@
-Total time: 0.132354
+Total time: 0.132551
+
+ Performance counter stats for './lu 370 -10 10 0':
+
+            22,911      cache-misses:uP           #    0.695 % of all cache refs    
+         3,296,169      cache-references:uP                                         
+
+       0.134842805 seconds time elapsed
+
+       0.134896000 seconds user
+       0.000000000 seconds sys
+
+

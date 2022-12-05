@@ -1,1 +1,13 @@
-Total time: 0.0515881
+Total time: 0.0516198
+
+ Performance counter stats for './lu 270 -10 10 0':
+
+        55,770,529      branches:uP                                                 
+            81,699      branch-misses:uP          #    0.15% of all branches        
+
+       0.053290413 seconds time elapsed
+
+       0.049237000 seconds user
+       0.004103000 seconds sys
+
+

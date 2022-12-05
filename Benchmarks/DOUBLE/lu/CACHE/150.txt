@@ -1,1 +1,13 @@
-Total time: 0.0094463
+Total time: 0.00920375
+
+ Performance counter stats for './lu 150 -10 10 1':
+
+            14,470      cache-misses:uP           #   11.355 % of all cache refs    
+           127,430      cache-references:uP                                         
+
+       0.010342437 seconds time elapsed
+
+       0.010394000 seconds user
+       0.000000000 seconds sys
+
+

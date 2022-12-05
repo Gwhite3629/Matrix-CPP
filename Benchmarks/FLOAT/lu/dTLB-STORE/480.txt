@@ -1,1 +1,13 @@
-Total time: 0.297351
+Total time: 0.298969
+
+ Performance counter stats for './lu 480 -10 10 0':
+
+       713,979,087      dTLB-stores                                                 
+             6,813      dTLB-store-misses                                           
+
+       0.302260779 seconds time elapsed
+
+       0.302316000 seconds user
+       0.000000000 seconds sys
+
+

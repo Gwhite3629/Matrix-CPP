@@ -1,1 +1,13 @@
-Total time: 0.0101089
+Total time: 0.00989255
+
+ Performance counter stats for './matmul 110 -10 10 1':
+
+           188,737      L1-dcache-load-misses     #    0.33% of all L1-dcache hits  
+        57,225,225      L1-dcache-loads                                             
+
+       0.010945244 seconds time elapsed
+
+       0.010997000 seconds user
+       0.000000000 seconds sys
+
+

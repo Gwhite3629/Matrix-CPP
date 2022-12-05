@@ -1,1 +1,13 @@
-Total time: 0.148431
+Total time: 0.14877
+
+ Performance counter stats for './lu 380 -10 10 1':
+
+       356,095,785      dTLB-stores                                                 
+             8,651      dTLB-store-misses                                           
+
+       0.151739739 seconds time elapsed
+
+       0.147796000 seconds user
+       0.003994000 seconds sys
+
+

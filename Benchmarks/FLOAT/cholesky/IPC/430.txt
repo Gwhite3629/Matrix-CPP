@@ -1,1 +1,13 @@
-Total time: 0.10455
+Total time: 0.104981
+
+ Performance counter stats for './cholesky 430 -10 10 0':
+
+     1,186,818,343      instructions:uP           #    2.57  insn per cycle         
+       461,793,067      cycles:uP                                                   
+
+       0.107458274 seconds time elapsed
+
+       0.103527000 seconds user
+       0.003981000 seconds sys
+
+

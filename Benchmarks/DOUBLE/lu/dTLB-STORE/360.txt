@@ -1,1 +1,13 @@
-Total time: 0.126038
+Total time: 0.126304
+
+ Performance counter stats for './lu 360 -10 10 1':
+
+       303,202,327      dTLB-stores                                                 
+             7,719      dTLB-store-misses                                           
+
+       0.128995773 seconds time elapsed
+
+       0.129038000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.125224
+Total time: 0.125742
+
+ Performance counter stats for './lu 360 -10 10 1':
+
+       654,685,495      dTLB-loads                                                  
+             2,051      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.128459487 seconds time elapsed
+
+       0.124465000 seconds user
+       0.004015000 seconds sys
+
+

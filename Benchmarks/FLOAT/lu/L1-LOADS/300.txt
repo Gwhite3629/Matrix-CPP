@@ -1,1 +1,13 @@
-Total time: 0.0702958
+Total time: 0.0699626
+
+ Performance counter stats for './lu 300 -10 10 0':
+
+           820,054      L1-dcache-load-misses     #    0.22% of all L1-dcache hits  
+       381,000,511      L1-dcache-loads                                             
+
+       0.071852962 seconds time elapsed
+
+       0.071899000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0862726
+Total time: 0.0878076
+
+ Performance counter stats for './lu 320 -10 10 0':
+
+         7,818,423      L1-dcache-load-misses     #    1.69% of all L1-dcache hits  
+       461,411,967      L1-dcache-loads                                             
+
+       0.089719573 seconds time elapsed
+
+       0.089776000 seconds user
+       0.000000000 seconds sys
+
+

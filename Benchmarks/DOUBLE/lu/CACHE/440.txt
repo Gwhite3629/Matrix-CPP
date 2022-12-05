@@ -1,1 +1,13 @@
-Total time: 0.231297
+Total time: 0.23166
+
+ Performance counter stats for './lu 440 -10 10 1':
+
+           117,003      cache-misses:uP           #    1.290 % of all cache refs    
+         9,067,709      cache-references:uP                                         
+
+       0.235369449 seconds time elapsed
+
+       0.227478000 seconds user
+       0.007981000 seconds sys
+
+

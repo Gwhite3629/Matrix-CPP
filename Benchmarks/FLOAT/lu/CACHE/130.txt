@@ -1,1 +1,13 @@
-Total time: 0.00601972
+Total time: 0.00595945
+
+ Performance counter stats for './lu 130 -10 10 0':
+
+            14,494      cache-misses:uP           #   21.236 % of all cache refs    
+            68,251      cache-references:uP                                         
+
+       0.006974947 seconds time elapsed
+
+       0.007057000 seconds user
+       0.000000000 seconds sys
+
+

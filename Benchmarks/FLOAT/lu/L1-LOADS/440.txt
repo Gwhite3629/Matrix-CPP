@@ -1,1 +1,13 @@
-Total time: 0.224641
+Total time: 0.225167
+
+ Performance counter stats for './lu 440 -10 10 0':
+
+        10,628,345      L1-dcache-load-misses     #    0.89% of all L1-dcache hits  
+     1,189,398,761      L1-dcache-loads                                             
+
+       0.227990331 seconds time elapsed
+
+       0.228049000 seconds user
+       0.000000000 seconds sys
+
+

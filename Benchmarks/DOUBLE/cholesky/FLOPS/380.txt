@@ -1,1 +1,13 @@
-Total time: 0.0739152
+Total time: 0.074371
+
+ Performance counter stats for './cholesky 380 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+        18,940,532      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.076937767 seconds time elapsed
+
+       0.072934000 seconds user
+       0.004051000 seconds sys
+
+

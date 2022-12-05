@@ -1,1 +1,13 @@
-Total time: 0.26029
+Total time: 0.256972
+
+ Performance counter stats for './lu 460 -10 10 0':
+
+        13,776,259      L1-dcache-load-misses     #    1.01% of all L1-dcache hits  
+     1,357,772,240      L1-dcache-loads                                             
+
+       0.260025820 seconds time elapsed
+
+       0.260075000 seconds user
+       0.000000000 seconds sys
+
+

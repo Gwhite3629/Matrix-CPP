@@ -1,1 +1,13 @@
-Total time: 0.340786
+Total time: 0.341083
+
+ Performance counter stats for './lu 500 -10 10 1':
+
+           158,775      cache-misses:uP           #    1.220 % of all cache refs    
+        13,019,587      cache-references:uP                                         
+
+       0.345486421 seconds time elapsed
+
+       0.341568000 seconds user
+       0.003971000 seconds sys
+
+

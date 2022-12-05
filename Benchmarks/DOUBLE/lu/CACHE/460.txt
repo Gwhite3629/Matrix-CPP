@@ -1,1 +1,13 @@
-Total time: 0.265297
+Total time: 0.264968
+
+ Performance counter stats for './lu 460 -10 10 1':
+
+           118,132      cache-misses:uP           #    1.136 % of all cache refs    
+        10,397,038      cache-references:uP                                         
+
+       0.268799116 seconds time elapsed
+
+       0.268819000 seconds user
+       0.000000000 seconds sys
+
+

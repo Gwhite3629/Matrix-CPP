@@ -1,1 +1,13 @@
-Total time: 0.0319264
+Total time: 0.0319947
+
+ Performance counter stats for './lu 230 -10 10 0':
+
+         8,349,345      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.033407470 seconds time elapsed
+
+       0.029734000 seconds user
+       0.003716000 seconds sys
+
+

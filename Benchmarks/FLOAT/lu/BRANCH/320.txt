@@ -1,1 +1,13 @@
-Total time: 0.0862154
+Total time: 0.0868502
+
+ Performance counter stats for './lu 320 -10 10 0':
+
+        91,843,927      branches:uP                                                 
+           111,099      branch-misses:uP          #    0.12% of all branches        
+
+       0.088799397 seconds time elapsed
+
+       0.088852000 seconds user
+       0.000000000 seconds sys
+
+

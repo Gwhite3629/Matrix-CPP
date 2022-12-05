@@ -1,1 +1,13 @@
-Total time: 0.273838
+Total time: 0.275167
+
+ Performance counter stats for './lu 470 -10 10 0':
+
+       286,063,301      branches:uP                                                 
+           230,089      branch-misses:uP          #    0.08% of all branches        
+
+       0.278335421 seconds time elapsed
+
+       0.278379000 seconds user
+       0.000000000 seconds sys
+
+

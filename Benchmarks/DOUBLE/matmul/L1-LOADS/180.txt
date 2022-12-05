@@ -1,1 +1,13 @@
-Total time: 0.0436639
+Total time: 0.0438276
+
+ Performance counter stats for './matmul 180 -10 10 1':
+
+           765,333      L1-dcache-load-misses     #    0.31% of all L1-dcache hits  
+       247,627,730      L1-dcache-loads                                             
+
+       0.045233738 seconds time elapsed
+
+       0.041511000 seconds user
+       0.003773000 seconds sys
+
+

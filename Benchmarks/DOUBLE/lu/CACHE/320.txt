@@ -1,1 +1,13 @@
-Total time: 0.0925401
+Total time: 0.0931232
+
+ Performance counter stats for './lu 320 -10 10 1':
+
+            31,161      cache-misses:uP           #    0.563 % of all cache refs    
+         5,530,123      cache-references:uP                                         
+
+       0.095454637 seconds time elapsed
+
+       0.095505000 seconds user
+       0.000000000 seconds sys
+
+

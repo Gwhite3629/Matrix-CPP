@@ -1,1 +1,13 @@
-Total time: 0.174777
+Total time: 0.174239
+
+ Performance counter stats for './lu 400 -10 10 1':
+
+            72,941      cache-misses:uP           #    1.017 % of all cache refs    
+         7,173,300      cache-references:uP                                         
+
+       0.177363471 seconds time elapsed
+
+       0.173373000 seconds user
+       0.004031000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.330852
+Total time: 0.329666
+
+ Performance counter stats for './lu 500 -10 10 0':
+
+     3,614,772,598      instructions:uP           #    2.49  insn per cycle         
+     1,451,110,564      cycles:uP                                                   
+
+       0.333147584 seconds time elapsed
+
+       0.329225000 seconds user
+       0.003966000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0698402
+Total time: 0.070514
+
+ Performance counter stats for './lu 300 -10 10 0':
+
+        75,966,579      branches:uP                                                 
+            98,383      branch-misses:uP          #    0.13% of all branches        
+
+       0.072279683 seconds time elapsed
+
+       0.072300000 seconds user
+       0.000000000 seconds sys
+
+

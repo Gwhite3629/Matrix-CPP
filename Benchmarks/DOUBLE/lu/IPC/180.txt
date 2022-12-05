@@ -1,1 +1,13 @@
-Total time: 0.0159367
+Total time: 0.0157057
+
+ Performance counter stats for './lu 180 -10 10 1':
+
+       176,637,161      instructions:uP           #    2.51  insn per cycle         
+        70,398,884      cycles:uP                                                   
+
+       0.016985778 seconds time elapsed
+
+       0.012775000 seconds user
+       0.004258000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0371934
+Total time: 0.0373817
+
+ Performance counter stats for './lu 240 -10 10 1':
+
+        91,087,987      dTLB-stores                                                 
+             3,631      dTLB-store-misses                                           
+
+       0.039017273 seconds time elapsed
+
+       0.039041000 seconds user
+       0.000000000 seconds sys
+
+

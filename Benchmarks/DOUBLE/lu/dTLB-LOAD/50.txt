@@ -1,1 +1,13 @@
-Total time: 0.000382032
+Total time: 0.000381853
+
+ Performance counter stats for './lu 50 -10 10 1':
+
+         2,539,164      dTLB-loads                                                  
+               390      dTLB-load-misses          #    0.02% of all dTLB cache hits 
+
+       0.001235505 seconds time elapsed
+
+       0.001290000 seconds user
+       0.000000000 seconds sys
+
+

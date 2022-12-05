@@ -1,1 +1,13 @@
-Total time: 0.0531266
+Total time: 0.0528184
+
+ Performance counter stats for './lu 270 -10 10 1':
+
+       580,570,809      instructions:uP           #    2.49  insn per cycle         
+       233,381,759      cycles:uP                                                   
+
+       0.054742288 seconds time elapsed
+
+       0.050855000 seconds user
+       0.003911000 seconds sys
+
+

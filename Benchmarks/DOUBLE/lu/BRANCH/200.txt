@@ -1,1 +1,13 @@
-Total time: 0.0217881
+Total time: 0.0214954
+
+ Performance counter stats for './lu 200 -10 10 1':
+
+        23,299,730      branches:uP                                                 
+            50,124      branch-misses:uP          #    0.22% of all branches        
+
+       0.022940423 seconds time elapsed
+
+       0.019163000 seconds user
+       0.003832000 seconds sys
+
+

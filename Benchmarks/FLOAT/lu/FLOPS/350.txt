@@ -1,1 +1,13 @@
-Total time: 0.11241
+Total time: 0.111746
+
+ Performance counter stats for './lu 350 -10 10 0':
+
+        29,134,525      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.113910562 seconds time elapsed
+
+       0.106098000 seconds user
+       0.007859000 seconds sys
+
+

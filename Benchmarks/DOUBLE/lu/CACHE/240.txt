@@ -1,1 +1,13 @@
-Total time: 0.0370166
+Total time: 0.0372421
+
+ Performance counter stats for './lu 240 -10 10 1':
+
+            19,143      cache-misses:uP           #    1.221 % of all cache refs    
+         1,568,351      cache-references:uP                                         
+
+       0.038939014 seconds time elapsed
+
+       0.038993000 seconds user
+       0.000000000 seconds sys
+
+

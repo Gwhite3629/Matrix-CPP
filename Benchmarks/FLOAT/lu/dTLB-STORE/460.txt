@@ -1,1 +1,13 @@
-Total time: 0.25617
+Total time: 0.25686
+
+ Performance counter stats for './lu 460 -10 10 0':
+
+       628,933,623      dTLB-stores                                                 
+             6,206      dTLB-store-misses                                           
+
+       0.259870543 seconds time elapsed
+
+       0.255928000 seconds user
+       0.003998000 seconds sys
+
+

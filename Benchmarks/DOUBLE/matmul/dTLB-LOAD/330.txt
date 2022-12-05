@@ -1,1 +1,13 @@
-Total time: 0.264252
+Total time: 0.264642
+
+ Performance counter stats for './matmul 330 -10 10 1':
+
+     1,517,164,748      dTLB-loads                                                  
+               912      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.267264462 seconds time elapsed
+
+       0.267312000 seconds user
+       0.000000000 seconds sys
+
+

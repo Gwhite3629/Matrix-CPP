@@ -1,1 +1,13 @@
-Total time: 0.283027
+Total time: 0.282894
+
+ Performance counter stats for './lu 470 -10 10 1':
+
+           132,070      cache-misses:uP           #    1.222 % of all cache refs    
+        10,803,416      cache-references:uP                                         
+
+       0.286900252 seconds time elapsed
+
+       0.282958000 seconds user
+       0.003985000 seconds sys
+
+

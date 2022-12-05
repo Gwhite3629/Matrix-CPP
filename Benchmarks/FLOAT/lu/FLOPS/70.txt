@@ -1,1 +1,13 @@
-Total time: 0.000995244
+Total time: 0.000972501
+
+ Performance counter stats for './lu 70 -10 10 0':
+
+           250,705      fp_arith_inst_retired.scalar_single:uP                                   
+                 2      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.001849249 seconds time elapsed
+
+       0.001904000 seconds user
+       0.000000000 seconds sys
+
+

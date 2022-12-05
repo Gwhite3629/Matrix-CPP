@@ -1,1 +1,13 @@
-Total time: 0.120994
+Total time: 0.121381
+
+ Performance counter stats for './lu 360 -10 10 0':
+
+            21,241      cache-misses:uP           #    0.747 % of all cache refs    
+         2,843,661      cache-references:uP                                         
+
+       0.123597738 seconds time elapsed
+
+       0.123648000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.0134683
+Total time: 0.0136249
+
+ Performance counter stats for './lu 170 -10 10 1':
+
+        14,623,448      branches:uP                                                 
+            38,784      branch-misses:uP          #    0.27% of all branches        
+
+       0.014892420 seconds time elapsed
+
+       0.014945000 seconds user
+       0.000000000 seconds sys
+
+

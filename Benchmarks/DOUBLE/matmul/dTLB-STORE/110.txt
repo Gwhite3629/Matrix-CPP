@@ -1,1 +1,13 @@
-Total time: 0.0099889
+Total time: 0.0100347
+
+ Performance counter stats for './matmul 110 -10 10 1':
+
+        25,795,792      dTLB-stores                                                 
+               411      dTLB-store-misses                                           
+
+       0.011041409 seconds time elapsed
+
+       0.011092000 seconds user
+       0.000000000 seconds sys
+
+

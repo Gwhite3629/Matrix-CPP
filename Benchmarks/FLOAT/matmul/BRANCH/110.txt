@@ -1,1 +1,13 @@
-Total time: 0.0100552
+Total time: 0.00986773
+
+ Performance counter stats for './matmul 110 -10 10 0':
+
+        11,509,964      branches:uP                                                 
+            24,814      branch-misses:uP          #    0.22% of all branches        
+
+       0.010912230 seconds time elapsed
+
+       0.010965000 seconds user
+       0.000000000 seconds sys
+
+

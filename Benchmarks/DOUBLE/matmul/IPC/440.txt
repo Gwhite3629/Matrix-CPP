@@ -1,1 +1,13 @@
-Total time: 0.623696
+Total time: 0.623793
+
+ Performance counter stats for './matmul 440 -10 10 1':
+
+     7,444,363,764      instructions:uP           #    2.72  insn per cycle         
+     2,741,469,671      cycles:uP                                                   
+
+       0.627915642 seconds time elapsed
+
+       0.627966000 seconds user
+       0.000000000 seconds sys
+
+

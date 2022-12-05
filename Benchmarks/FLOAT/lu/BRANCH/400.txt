@@ -1,1 +1,13 @@
-Total time: 0.167777
+Total time: 0.168557
+
+ Performance counter stats for './lu 400 -10 10 0':
+
+       177,433,060      branches:uP                                                 
+           169,191      branch-misses:uP          #    0.10% of all branches        
+
+       0.171111757 seconds time elapsed
+
+       0.171158000 seconds user
+       0.000000000 seconds sys
+
+

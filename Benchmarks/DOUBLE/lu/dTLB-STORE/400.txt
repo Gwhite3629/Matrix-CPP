@@ -1,1 +1,13 @@
-Total time: 0.174846
+Total time: 0.175099
+
+ Performance counter stats for './lu 400 -10 10 1':
+
+       414,811,646      dTLB-stores                                                 
+             9,523      dTLB-store-misses                                           
+
+       0.178253540 seconds time elapsed
+
+       0.178276000 seconds user
+       0.000000000 seconds sys
+
+

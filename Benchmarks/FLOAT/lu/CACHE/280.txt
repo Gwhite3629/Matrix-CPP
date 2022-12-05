@@ -1,1 +1,13 @@
-Total time: 0.0580409
+Total time: 0.057119
+
+ Performance counter stats for './lu 280 -10 10 0':
+
+            18,706      cache-misses:uP           #    2.248 % of all cache refs    
+           832,119      cache-references:uP                                         
+
+       0.058786801 seconds time elapsed
+
+       0.058844000 seconds user
+       0.000000000 seconds sys
+
+

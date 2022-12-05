@@ -1,1 +1,13 @@
-Total time: 0.00476134
+Total time: 0.00472715
+
+ Performance counter stats for './lu 120 -10 10 0':
+
+            57,079      L1-dcache-load-misses     #    0.22% of all L1-dcache hits  
+        25,967,898      L1-dcache-loads                                             
+
+       0.005724520 seconds time elapsed
+
+       0.005783000 seconds user
+       0.000000000 seconds sys
+
+

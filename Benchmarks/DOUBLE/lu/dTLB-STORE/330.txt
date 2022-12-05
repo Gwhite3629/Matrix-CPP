@@ -1,1 +1,13 @@
-Total time: 0.0970563
+Total time: 0.0972048
+
+ Performance counter stats for './lu 330 -10 10 1':
+
+       234,114,160      dTLB-stores                                                 
+             6,493      dTLB-store-misses                                           
+
+       0.099646009 seconds time elapsed
+
+       0.095706000 seconds user
+       0.003987000 seconds sys
+
+

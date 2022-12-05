@@ -1,1 +1,13 @@
-Total time: 0.0325645
+Total time: 0.0595312
+
+ Performance counter stats for './lu 230 -10 10 1':
+
+        34,927,970      branches:uP                                                 
+            62,266      branch-misses:uP          #    0.18% of all branches        
+
+       0.063416761 seconds time elapsed
+
+       0.059218000 seconds user
+       0.004229000 seconds sys
+
+

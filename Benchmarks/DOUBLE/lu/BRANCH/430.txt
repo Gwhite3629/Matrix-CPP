@@ -1,1 +1,13 @@
-Total time: 0.216203
+Total time: 0.216399
+
+ Performance counter stats for './lu 430 -10 10 1':
+
+       219,781,819      branches:uP                                                 
+           194,799      branch-misses:uP          #    0.09% of all branches        
+
+       0.219924705 seconds time elapsed
+
+       0.219947000 seconds user
+       0.000000000 seconds sys
+
+

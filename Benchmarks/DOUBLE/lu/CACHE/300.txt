@@ -1,1 +1,13 @@
-Total time: 0.072835
+Total time: 0.0726874
+
+ Performance counter stats for './lu 300 -10 10 1':
+
+            25,891      cache-misses:uP           #    0.868 % of all cache refs    
+         2,984,037      cache-references:uP                                         
+
+       0.074837466 seconds time elapsed
+
+       0.070946000 seconds user
+       0.003941000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.137654
+Total time: 0.137133
+
+ Performance counter stats for './lu 370 -10 10 1':
+
+       140,917,844      branches:uP                                                 
+           146,111      branch-misses:uP          #    0.10% of all branches        
+
+       0.139942728 seconds time elapsed
+
+       0.139990000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,1 +1,13 @@
-Total time: 0.080363
+Total time: 0.0820904
+
+ Performance counter stats for './lu 310 -10 10 1':
+
+       419,922,966      dTLB-loads                                                  
+             1,695      dTLB-load-misses          #    0.00% of all dTLB cache hits 
+
+       0.084359065 seconds time elapsed
+
+       0.084413000 seconds user
+       0.000000000 seconds sys
+
+

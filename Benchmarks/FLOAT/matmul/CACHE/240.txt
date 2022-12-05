@@ -1,1 +1,13 @@
-Total time: 0.101231
+Total time: 0.101077
+
+ Performance counter stats for './matmul 240 -10 10 0':
+
+            15,301      cache-misses:uP           #    2.013 % of all cache refs    
+           760,009      cache-references:uP                                         
+
+       0.102818315 seconds time elapsed
+
+       0.098917000 seconds user
+       0.003956000 seconds sys
+
+

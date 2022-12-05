@@ -1,1 +1,13 @@
-Total time: 0.201105
+Total time: 0.201102
+
+ Performance counter stats for './lu 420 -10 10 1':
+
+       479,653,906      dTLB-stores                                                 
+            10,539      dTLB-store-misses                                           
+
+       0.204432141 seconds time elapsed
+
+       0.200445000 seconds user
+       0.004008000 seconds sys
+
+

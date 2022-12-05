@@ -1,1 +1,13 @@
-Total time: 0.00382954
+Total time: 0.00384044
+
+ Performance counter stats for './matmul 80 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+         1,075,202      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.004758873 seconds time elapsed
+
+       0.004812000 seconds user
+       0.000000000 seconds sys
+
+

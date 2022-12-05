@@ -1,1 +1,13 @@
-Total time: 0.102264
+Total time: 0.102042
+
+ Performance counter stats for './lu 340 -10 10 0':
+
+         1,334,563      L1-dcache-load-misses     #    0.24% of all L1-dcache hits  
+       552,421,420      L1-dcache-loads                                             
+
+       0.104114849 seconds time elapsed
+
+       0.100154000 seconds user
+       0.004006000 seconds sys
+
+

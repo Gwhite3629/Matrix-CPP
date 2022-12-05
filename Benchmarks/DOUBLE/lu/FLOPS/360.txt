@@ -1,1 +1,13 @@
-Total time: 0.12601
+Total time: 0.126314
+
+ Performance counter stats for './lu 360 -10 10 1':
+
+                 0      fp_arith_inst_retired.scalar_single:uP                                   
+        31,687,142      fp_arith_inst_retired.scalar_double:uP                                   
+
+       0.129050300 seconds time elapsed
+
+       0.125192000 seconds user
+       0.003912000 seconds sys
+
+

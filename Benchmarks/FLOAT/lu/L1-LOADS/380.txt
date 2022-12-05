@@ -1,1 +1,13 @@
-Total time: 0.143526
+Total time: 0.143807
+
+ Performance counter stats for './lu 380 -10 10 0':
+
+         4,056,409      L1-dcache-load-misses     #    0.53% of all L1-dcache hits  
+       768,858,336      L1-dcache-loads                                             
+
+       0.146159950 seconds time elapsed
+
+       0.146211000 seconds user
+       0.000000000 seconds sys
+
+

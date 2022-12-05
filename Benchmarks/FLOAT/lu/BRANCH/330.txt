@@ -1,1 +1,13 @@
-Total time: 0.0947477
+Total time: 0.0936032
+
+ Performance counter stats for './lu 330 -10 10 0':
+
+       100,554,582      branches:uP                                                 
+           117,281      branch-misses:uP          #    0.12% of all branches        
+
+       0.095562905 seconds time elapsed
+
+       0.095616000 seconds user
+       0.000000000 seconds sys
+
+
