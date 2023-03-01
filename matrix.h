@@ -80,7 +80,7 @@ public:
     T cofactor(unsigned int, unsigned int) const;
     T echelon_determinant(void) const;
     T laplace_determinant(void) const;
-    Vector<std::complex<T>> eigenvalues(unsigned int) const;
+    Vector<std::complex<T> > eigenvalues(unsigned int) const;
 
     T condition(unsigned int) const;
     T onenorm(void) const;

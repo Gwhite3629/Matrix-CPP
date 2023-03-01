@@ -19,8 +19,8 @@ CHOLESKY-OBJ=cholesky.o ${OBJS}
 LU-OBJ=lu.o ${OBJS}
 
 LIBS=-lm
-CFLAGS=-O3 -Wall -Wextra
-LFLAGS=-O3
+CCFLAGS= -std=c++17 -O3 -Wall -Wextra
+LFLAGS= -O3
 
 all: ${DET-ECHELON} ${DET-LAPLACE} ${MATMUL} ${QR} ${INVERT} ${CHOLESKY} ${LU}
 

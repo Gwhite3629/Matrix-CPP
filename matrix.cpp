@@ -118,7 +118,7 @@ void Matrix<T>::operator+=(const T v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) + v));
+            this->set(i, j, (this->get(i, j) + v));
         }
     }
 }
@@ -141,7 +141,7 @@ void Matrix<T>::operator-=(const Matrix& v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) - v.get(i, j)));
+            this->set(i, j, (this->get(i, j) - v.get(i, j)));
         }
     }
 }
@@ -164,7 +164,7 @@ void Matrix<T>::operator-=(const T v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) - v));
+            this->set(i, j, (this->get(i, j) - v));
         }
     }
 }
@@ -187,7 +187,7 @@ void Matrix<T>::operator*=(const Matrix& v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) * v.get(i, j)));
+            this->set(i, j, (this->get(i, j) * v.get(i, j)));
         }
     }
 }
@@ -210,7 +210,7 @@ void Matrix<T>::operator*=(const T v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) * v));
+            this->set(i, j, (this->get(i, j) * v));
         }
     }
 }
@@ -233,7 +233,7 @@ void Matrix<T>::operator/=(const Matrix& v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) / v.get(i, j)));
+            this->set(i, j, (this->get(i, j) / v.get(i, j)));
         }
     }
 }
@@ -256,7 +256,7 @@ void Matrix<T>::operator/=(const T v)
 {
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            this.set(i, j, (this->get(i, j) / v));
+            this->set(i, j, (this->get(i, j) / v));
         }
     }
 }
@@ -527,7 +527,7 @@ void Matrix<T>::conjugate_transpose(void)
 template <class T>
 Matrix<T> Matrix<T>::copy_conjugate_transpose(void) const
 {
-    Matrix<std::complex<T>> out(this->cols, this->rows);
+    Matrix<std::complex<T> > out(this->cols, this->rows);
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
             out.set(j, i, std::conj(this->get(i, j)));
@@ -630,7 +630,7 @@ T Matrix<T>::laplace_determinant(void) const
 }
 
 template <class T>
-Vector<std::complex<T>> Matrix<T>::eigenvalues(unsigned int iterations) const
+Vector<std::complex<T> > Matrix<T>::eigenvalues(unsigned int iterations) const
 {
     Matrix<T> A(this->rows, this->cols);
     A = this->copy();
@@ -646,7 +646,7 @@ Vector<std::complex<T>> Matrix<T>::eigenvalues(unsigned int iterations) const
         A.QR(&Q, &R);
         A = R.outer(Q);
     }
-    Vector<std::complex<T>> E(this->rows, 1);
+    Vector<std::complex<T> > E(this->rows, 1);
     bool flag = 0;
     for (unsigned int j = 0; j < this->rows; j++) {
         if ((j <= this->rows-2) | flag) {
@@ -719,7 +719,7 @@ T Matrix<T>::twonorm(void) const
     A = this->copy();
     AC = this->copy_transpose();
     P = AC.outer(A);
-    Vector<std::complex<T>> E(this->cols, 1);
+    Vector<std::complex<T> > E(this->cols, 1);
     E = P.eigenvalues(10000);
     std::complex<T> m = E.max();
     return sqrt(abs(m));
