@@ -30,10 +30,12 @@ int main(int argc, char *argv[])
     m.print(3);
     std::cout << "\n";
 
-    double D = m.laplace_determinant();
+    double D = m.echelon_determinant();
+    std::cout << "Det: " << D << std::endl;
+    D = m.laplace_determinant();
     std::cout << "Det: " << D << std::endl;
 
-    Vector<std::complex<double>> E(m.rows, 1);
+    Vector<std::complex<double>> E(m.nrow(), 1);
 
     E = m.eigenvalues(10000);
 
@@ -55,17 +57,42 @@ int main(int argc, char *argv[])
 
     std::cout << "Sum: " << R.sum() << std::endl;
 
+    D = R.echelon_determinant();
+    std::cout << "Det: " << D << std::endl;
     D = R.laplace_determinant();
     std::cout << "Det: " << D << std::endl;
 
-    Cinf = R.condition(0);
-    Cone = R.condition(1);
-    Ctwo = R.condition(2);
+    //Cinf = R.condition(0);
+    //Cone = R.condition(1);
+    //Ctwo = R.condition(2);
     
-    std::cout << "Condition Number: \n";
-    std::cout << "One Norm: " << Cone << "\n";
-    std::cout << "Two Norm: " << Ctwo << "\n";
-    std::cout << "Inf Norm: " << Cinf << std::endl;
+    //std::cout << "Condition Number: \n";
+    //std::cout << "One Norm: " << Cone << "\n";
+    //std::cout << "Two Norm: " << Ctwo << "\n";
+    //std::cout << "Inf Norm: " << Cinf << std::endl;
+
+    Matrix<int> Re(3,4);
+
+    Re(0,0) =  1;Re(0,1) = 2;Re(0,2) = -1;Re(0,3) =  -4;
+    Re(1,0) =  2;Re(1,1) = 3;Re(1,2) = -1;Re(1,3) = -11;
+    Re(2,0) = -2;Re(2,1) = 0;Re(2,2) = -3;Re(2,3) =  22;
+
+    Matrix<int> RR = Re.copy();
+    Matrix<int> RE = Re.copy();
+    Matrix<int> RRE = Re.copy();
+
+    RR.reduce();
+    RE.echelon();
+    RRE.echelon();
+    RRE.reduce();
+
+    Re.print(4);
+    std::cout << std::endl;
+    RR.print(4);
+    std::cout << std::endl;
+    RE.print(4);
+    std::cout << std::endl;
+    RRE.print(4);
 
     return 0;
 }

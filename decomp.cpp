@@ -15,7 +15,9 @@ int main(void)
         M.QR(&Q, &R);
 
         Q.print(2, 2);
+        std::cout << std::endl;
         R.print(2, 2);
+        std::cout << std::endl;
         Q.outer(R).print(2, 2);
         std::cout << std::endl;
     }
@@ -26,7 +28,9 @@ int main(void)
         M.QR_fast(&Q, &R);
 
         Q.print(2, 2);
+        std::cout << std::endl;
         R.print(2, 2);
+        std::cout << std::endl;
         Q.outer(R).print(2, 2);
         std::cout << std::endl;
     }

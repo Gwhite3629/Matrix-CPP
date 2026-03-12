@@ -346,7 +346,7 @@ void Vector<T>::random(void)
 {
     srand(time(NULL));
     for (unsigned int i = 0; i < this->length; i++) {
-        this->data.set(i, (T)rand());
+        this->set(i, (T)rand());
     }
 }
 

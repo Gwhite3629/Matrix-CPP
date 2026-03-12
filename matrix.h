@@ -9,17 +9,17 @@ template <class T>
 class Matrix
 {
 public:
-    unsigned int rows;
-    unsigned int cols;
     bool is_square;
     bool is_symmetric;
     bool is_definite;
     bool is_positive; // Only valid if definite is true
     bool is_hermitian;
 
+    Matrix() {rows=cols=ndim=0;data=(T*)NULL;}
     Matrix(unsigned int, unsigned int);
     Matrix(unsigned int, unsigned int, T, T);
     Matrix(unsigned int, unsigned int, T);
+    Matrix(const Matrix&);
     ~Matrix(void);
 
     void I(void);
@@ -96,6 +96,9 @@ public:
     T& operator()(unsigned int, unsigned int);
     T operator()(unsigned int, unsigned int) const;
 
+    unsigned int nrow(void) const;
+    unsigned int ncol(void) const;
+
     Vector<T> get_row(unsigned int) const;
     Vector<T> get_col(unsigned int) const;
     void set_row(unsigned int, const Vector<T>&);
@@ -124,7 +127,12 @@ public:
     void set(unsigned int, unsigned int, T);
 
 private:
+    unsigned int ndim;
+    unsigned int rows;
+    unsigned int cols;
     T *data;
+
+    bool allocate(unsigned int);
 };
 
 #endif // _MATRIX_H_

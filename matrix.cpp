@@ -10,32 +10,47 @@
 #include <complex>
 
 template <class T>
-Matrix<T>::Matrix(unsigned int R, unsigned int C)
+bool Matrix<T>::allocate(unsigned int _ndim)
+{
+    if (data) {
+        if (this->ndim < _ndim) delete data;
+        else return true;
+    }
+
+    data = new T[_ndim];
+    if (!data) return false;
+    memset(data, 0, _ndim * sizeof(T));
+    return true;
+}
+
+template <class T>
+Matrix<T>::Matrix(unsigned int R, unsigned int C):data(NULL)
 {
     this->rows = R;
     this->cols = C;
+    this->ndim = R*C;
     if (R == C) {
         this->is_square = 1;
     } else {
         this->is_square = 0;
     }
-    this->data = (T*)malloc(sizeof(T) * R * C);
-    memset(this->data, 0, sizeof(T) * R * C);
+    allocate(R*C);
 }
 
 template <class T>
-Matrix<T>::Matrix(unsigned int R, unsigned int C, T start, T end)
+Matrix<T>::Matrix(unsigned int R, unsigned int C, T start, T end):data(NULL)
 {
     time_t t;
     srand((unsigned int) time(&t));
     this->rows = R;
     this->cols = C;
+    this->ndim = R*C;
     if (R == C) {
         this->is_square = 1;
     } else {
         this->is_square = 0;
     }
-    this->data = (T*)malloc(sizeof(T) * R * C);
+    allocate(R*C);
     
     for (unsigned int i = 0; i < R*C; i++) {
         this->data[i] = ((T)rand()/(T)(RAND_MAX)) * (end - start) + start;
@@ -43,20 +58,29 @@ Matrix<T>::Matrix(unsigned int R, unsigned int C, T start, T end)
 }
 
 template <class T>
-Matrix<T>::Matrix(unsigned int R, unsigned int C, T v)
+Matrix<T>::Matrix(unsigned int R, unsigned int C, T v):data(NULL)
 {
     this->rows = R;
     this->cols = C;
+    this->ndim = R*C;
     if (R == C) {
         this->is_square = 1;
     } else {
         this->is_square = 0;
     }
-    this->data = (T*)malloc(sizeof(T) * R * C);
+    allocate(R*C);
     
     for (unsigned int i = 0; i < R*C; i++) {
         this->data[i] = v;
     }
+}
+
+template <class T>
+Matrix<T>::Matrix(const Matrix& m):data(NULL)
+{
+    allocate(m.nrow()*m.ncol());
+
+    *this = m;
 }
 
 template <class T>
@@ -554,7 +578,7 @@ template <class T>
 Matrix<T> Matrix<T>::outer(const Matrix& M) const
 {
     assert(this->cols == M.rows);
-    Matrix<T> out(this->rows, M.cols);
+    Matrix<T> out(this->rows, M.ncol());
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int k = 0; k < this->cols; k++) {
             for (unsigned int j = 0; j < M.cols; j++) {
@@ -960,6 +984,18 @@ T Matrix<T>::operator()(unsigned int row, unsigned int col) const
 }
 
 template <class T>
+unsigned int Matrix<T>::nrow(void) const
+{
+    return this->rows;
+}
+
+template <class T>
+unsigned int Matrix<T>::ncol(void) const
+{
+    return this->cols;
+}
+
+template <class T>
 T Matrix<T>::get(unsigned int row, unsigned int col) const
 {
     return this->data[row*this->cols + col];
@@ -1140,7 +1176,7 @@ void Matrix<T>::print(unsigned int w, unsigned int p) const
 template <class T>
 void Matrix<T>::verify_square(void)
 {
-    this->square = ((this->rows == this->cols) ? 1 : 0);
+    this->is_square = ((this->rows == this->cols) ? 1 : 0);
 }
 
 template <class T>
