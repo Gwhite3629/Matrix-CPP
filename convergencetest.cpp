@@ -52,7 +52,7 @@ int main(void)
                 if (E.get(j).imag() > 0)
                     file << "+";
                 file << E.get(j).imag();
-                if (abs(E.get(j).imag()) > 0)
+                if (std::abs(E.get(j).imag()) > 0)
                 file << "j";
                 if (j < E.length-1)
                     file << ",";

@@ -93,6 +93,8 @@ public:
     void LU_fast(Matrix *, Matrix *) const;
     void SVD(Matrix *, Matrix *, Matrix *) const;
 
+    Matrix Givens(unsigned int, unsigned int);
+
     T& operator()(unsigned int, unsigned int);
     T operator()(unsigned int, unsigned int) const;
 

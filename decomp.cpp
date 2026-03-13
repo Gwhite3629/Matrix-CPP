@@ -9,6 +9,8 @@ int main(void)
     M(1,0) = 15;M(1,1) = 13;M(1,2) = 11;
     M(2,0) =  5;M(2,1) = 11;M(2,2) = 21;
 
+    M.print(2);
+
     {
         Matrix<double> Q(3, 3);
         Matrix<double> R(3, 3);

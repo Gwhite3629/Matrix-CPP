@@ -13,6 +13,7 @@ public:
     Vector(unsigned int, bool);
     Vector(unsigned int, bool, T, T);
     Vector(unsigned int, bool, T);
+    Vector(const Vector&);
     ~Vector(void);
     void clean(void);
 
@@ -73,6 +74,8 @@ public:
 
 private:
     T *data;
+
+    bool allocate(unsigned int);
 };
 
 #endif // _VECTOR_H_

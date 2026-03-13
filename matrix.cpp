@@ -12,11 +12,6 @@
 template <class T>
 bool Matrix<T>::allocate(unsigned int _ndim)
 {
-    if (data) {
-        if (this->ndim < _ndim) delete data;
-        else return true;
-    }
-
     data = new T[_ndim];
     if (!data) return false;
     memset(data, 0, _ndim * sizeof(T));
@@ -80,15 +75,13 @@ Matrix<T>::Matrix(const Matrix& m):data(NULL)
 {
     allocate(m.nrow()*m.ncol());
 
-    *this = m;
+    data = m.data;
 }
 
 template <class T>
 Matrix<T>::~Matrix(void)
 {
-    if (this->data)
-        free(this->data);
-    this->data = NULL;
+    delete[] data;
 }
 
 template <class T>
@@ -411,8 +404,8 @@ T Matrix<T>::reduce(void)
 template <class T>
 T Matrix<T>::echelon(void)
 {
-    int h = 0;
-    int k = 0;
+    unsigned int h = 0;
+    unsigned int k = 0;
     T d = 1;
 
     while ((h < this->rows) & (k < this->cols)) {
@@ -613,7 +606,7 @@ template <class T>
 T Matrix<T>::cofactor(unsigned int row, unsigned int col) const
 {
     T m = this->minor(row, col);
-    T c = m*pow(-1, row+col);
+    T c = m*std::pow(-1, row+col);
     return c;
 }
 
@@ -670,14 +663,14 @@ Vector<std::complex<T> > Matrix<T>::eigenvalues(unsigned int iterations) const
         A.QR(&Q, &R);
         A = R.outer(Q);
     }
-    Vector<std::complex<T> > E(this->rows, 1);
+    Vector<std::complex<T>> E(this->rows, 1);
     bool flag = 0;
     for (unsigned int j = 0; j < this->rows; j++) {
         if ((j <= this->rows-2) | flag) {
             if (flag) {
                 flag = 0;
-            } else if (abs(A.get(j+1, j)) > pow(10,-5)) {
-                std::complex<T> z(((A.get(j, j)+A.get(j+1, j+1))/2),sqrt(abs(A.get(j, j+1))*abs(A.get(j+1, j))));
+            } else if (std::abs(A.get(j+1, j)) > std::pow(10,-5)) {
+                std::complex<T> z(((A.get(j, j)+A.get(j+1, j+1))/2),std::sqrt(std::abs(A.get(j, j+1))*std::abs(A.get(j+1, j))));
                 E.set(j, z);
                 E.set(j+1, std::conj(E.get(j)));
                 flag = 1;
@@ -725,7 +718,7 @@ T Matrix<T>::onenorm(void) const
     T sum = 0;
     for (unsigned int j = 0; j < this->cols; j++) {
         for (unsigned int i = 0; i < this->rows; i++) {
-            sum += abs(this->get(i, j));
+            sum += std::abs(this->get(i, j));
         }
         if (sum > max)
             max = sum;
@@ -746,7 +739,7 @@ T Matrix<T>::twonorm(void) const
     Vector<std::complex<T> > E(this->cols, 1);
     E = P.eigenvalues(10000);
     std::complex<T> m = E.max();
-    return sqrt(abs(m));
+    return std::sqrt(std::abs(m));
 }
 
 template <class T>
@@ -756,7 +749,7 @@ T Matrix<T>::infnorm(void) const
     T sum = 0;
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            sum += abs(this->get(i, j));
+            sum += std::abs(this->get(i, j));
         }
         if (sum > max)
             max = sum;
@@ -768,23 +761,23 @@ T Matrix<T>::infnorm(void) const
 template <class T>
 void Matrix<T>::QR(Matrix *Q, Matrix *R) const
 {
-    int m = this->rows;
-    int n = this->cols;
+    unsigned int m = this->rows;
+    unsigned int n = this->cols;
     Matrix<T> A(m, n);
     A = this->copy();
     Vector<T> d(n, 0);
     for (unsigned int j = 0; j < n; j++) {
         T s = 0;
         for (unsigned int i = j; i < m; i++) {
-            s += A.get(i, j) * A.get(i, j);
+            s += std::pow(A.get(i, j),2.0);
         }
-        s = sqrt(s);
+        s = std::sqrt(s);
         if (A.get(j, j) > 0) {
             d.set(j, -s);
         } else {
             d.set(j, s);
         }
-        T fak = sqrt(s*(s+abs(A.get(j, j))));
+        T fak = std::sqrt(s*(s+std::abs(A.get(j, j))));
         A.set(j, j, A.get(j, j) - d.get(j));
         for (unsigned int k = j; k < m; k++) {
             A.set(k, j, A.get(k, j)/fak);
@@ -802,7 +795,7 @@ void Matrix<T>::QR(Matrix *Q, Matrix *R) const
 
     for (unsigned int i = 0; i < A.rows; i++) {
         for (unsigned int j = 0; j < A.cols; j++) {
-            if (abs(A.get(i, j)) < pow(10,-7.5))
+            if (std::abs(A.get(i, j)) < std::pow(10,-7.5))
                 A.set(i, j, 0.0f);
         }
     }
@@ -823,24 +816,21 @@ void Matrix<T>::QR(Matrix *Q, Matrix *R) const
     Q->I();
     Matrix<T> I(this->rows, this->cols);
     I.I();
-    Vector<T> * w = new Vector<T>(this->cols, 0);
-    Vector<T> * W = new Vector<T>(this->cols, 1);
-    Matrix<T> * P = new Matrix<T>(this->cols, this->cols);
+    Vector<T> w = Vector<T>(this->cols, 0);
+    Vector<T> W = Vector<T>(this->cols, 1);
+    Matrix<T> P = Matrix<T>(this->cols, this->cols);
     for (unsigned int i = 0; i < this->cols; i++) {
-        w->clean();
+        w.clean();
         for (unsigned int j = 0; j < this->cols; j++) {
             if (j >= i) {
-                w->set(j, A.get(j, i));
+                w.set(j, A.get(j, i));
             }
         }
-        *W = w->copy();
-        *P = I - W->outer(*w);
-        *Q = Q->outer(*P);
+        W = w.copy();
+        P = I - W.outer(w);
+        *Q = Q->outer(P);
     }
 
-    delete w;
-    delete W;
-    delete P;
 }
 
 template <class T>
@@ -868,7 +858,7 @@ void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
             S = BQ.outer(C);
             for (unsigned int i = 0; i < n; i++) {
                 for (unsigned int j = c; j < n; j++) {
-                    M(i, j) -= S(i, j - c + 1);
+                    M.set(i, j, M.get(i,j) - (S.get(i, j) - c + 1));
                 }
             }
             z = c;
@@ -880,7 +870,7 @@ void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
         }
         v.unit();
         for (unsigned int i = 0; i < n; i++) {
-            (*Q)(i, c) = v(i);
+            Q->set(i, c, v.get(i));
         }
     }
     (*R) = (Q->copy_transpose()).outer((*this));
@@ -913,7 +903,7 @@ Matrix<T> Matrix<T>::Cholesky_fast(void) const
         for(unsigned int k = z; k < c; k++) {
             L(c, c) -= (L(c, k) * L(c, k));
         }
-        L(c, c) = sqrt(L(c, c));
+        L(c, c) = std::sqrt(L(c, c));
         for (unsigned int i = (c + 1); i < n; i++) {
             L(i, c) = A(i, c);
             for (unsigned int k = z; k < c; k++) {
@@ -970,6 +960,39 @@ void Matrix<T>::SVD(Matrix *E, Matrix *U, Matrix *V) const
 {
 
 }
+
+template <class T>
+Matrix<T> Matrix<T>::Givens(unsigned int i, unsigned int j)
+{
+    Matrix<T> givens_rotation(rows, cols);
+
+    givens_rotation.I();
+
+    T a = this->get(j,j);
+    T b = this->get(i,j);
+
+    T r = std::hypot(a, b);
+
+    T c = a / r;
+    T s = -1 * b / r;
+
+    givens_rotation.set(i,i,c);
+    givens_rotation.set(j,j,c);
+    givens_rotation.set(i,j,s);
+    givens_rotation.set(j,i,-s);
+
+    return givens_rotation;
+}
+
+
+
+
+
+
+
+
+
+
 
 template <class T>
 T& Matrix<T>::operator()(unsigned int row, unsigned int col)
@@ -1100,14 +1123,14 @@ unsigned int Matrix<T>::argmax(unsigned int row, unsigned int col, unsigned int 
 
     if ((row == 0) & (col != 0)) {
         for (unsigned int i = i0; i < this->rows; i++) {
-            if (abs(this->get(i, i1)) > abs(max)) {
+            if (std::abs(this->get(i, i1)) > std::abs(max)) {
                 max = this->get(i, i1);
                 ind = i;
             }
         }
     } else if ((row != 0) & (col == 0)) {
         for (unsigned int j = i1; j < this->cols; j++) {
-            if (abs(this->get(i0, j)) > abs(max)) {
+            if (std::abs(this->get(i0, j)) > std::abs(max)) {
                 max = this->get(i0, j);
                 ind = j;
             }
@@ -1123,7 +1146,7 @@ bool Matrix<T>::compare(const Matrix<T>& M) const
     assert((this->rows == M.rows) & (this->cols == M.cols));
     for (unsigned int i = 0; i < this->rows; i++) {
         for (unsigned int j = 0; j < this->cols; j++) {
-            if (this->get(i, j) - M.get(i, j) > pow(10,-10)) {
+            if (this->get(i, j) - M.get(i, j) > std::pow(10,-10)) {
                 return 0;
             }
         }

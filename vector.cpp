@@ -6,12 +6,20 @@
 #include <iomanip>
 
 template <class T>
+bool Vector<T>::allocate(unsigned int _ndim)
+{
+    data = new T[_ndim];
+    if (!data) return false;
+    memset(data, 0, _ndim * sizeof(T));
+    return true;
+}
+
+template <class T>
 Vector<T>::Vector(unsigned int len, bool row_vec)
 {
     this->is_row_vec = row_vec;
     this->length = len;
-    this->data = (T*)malloc(sizeof(T) * len);
-    memset(this->data, 0, sizeof(T)*len);
+    allocate(len);
 }
 
 template <class T>
@@ -21,7 +29,7 @@ Vector<T>::Vector(unsigned int len, bool row_vec, T start, T end)
     srand((unsigned int) time(&t));
     this->length = len;
     this->is_row_vec = row_vec;
-    this->data = (T*)malloc(sizeof(T) * len);
+    allocate(len);
 
     for (unsigned int i = 0; i < len; i++) {
         this->data[i] = ((T)rand()/(T)(RAND_MAX)) * (end - start) + start;
@@ -33,14 +41,21 @@ Vector<T>::Vector(unsigned int len, bool row_vec, T v)
 {
     this->is_row_vec = row_vec;
     this->length = len;
-    this->data = (T*)malloc(sizeof(T) * len);
-    memset(this->data, v, sizeof(T) * len);
+    allocate(len);
+}
+
+template <class T>
+Vector<T>::Vector(const Vector& v)
+{
+    allocate(v.length);
+
+    data = v.data;
 }
 
 template <class T>
 Vector<T>::~Vector(void)
 {
-    free(this->data);
+    delete[] data;
 }
 
 template <class T>
@@ -306,7 +321,7 @@ T Vector<T>::magnitude(void) const
     for (unsigned int i = 0; i < this->length; i++) {
         temp += this->data[i]*this->data[i];
     }
-    return sqrt(temp);
+    return std::sqrt(temp);
 }
 
 template <class T>
@@ -355,7 +370,7 @@ T Vector<T>::max(void) const
 {
     T m = this->get(0);
     for (unsigned int i = 0; i <  this->length; i++) {
-        if (abs(this->get(i)) > abs(m))
+        if (std::abs(this->get(i)) > std::abs(m))
             m = this->get(i);
     }
 
