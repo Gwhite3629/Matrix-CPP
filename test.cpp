@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     M = Q.outer(R);
     M.print(5);
 
-    Vector<std::complex<double>> E(M.rows, 1);
+    Vector<std::complex<double>> E(M.nrow(), 1);
 
     E = M.eigenvalues(10000);
 

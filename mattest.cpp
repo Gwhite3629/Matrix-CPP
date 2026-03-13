@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
     m.print(3);
     std::cout << "\n";
 
-    double D = m.echelon_determinant();
+    float D = m.echelon_determinant();
     std::cout << "Det: " << D << std::endl;
     D = m.laplace_determinant();
     std::cout << "Det: " << D << std::endl;
@@ -50,17 +50,35 @@ int main(int argc, char *argv[])
     std::cout << "Two Norm: " << Ctwo << "\n";
     std::cout << "Inf Norm: " << Cinf << std::endl;
 
-    Matrix<double> L1(100, 100, -1, 1);
-    Matrix<double> L2(100, 100, -1, 1);
+    Matrix<float> L1(100, 100, -10, 10);
+    Matrix<float> L2(100, 100, -10, 10);
 
-    Matrix<double> R = L1.outer(L2);
+    Matrix<float> R = L1.outer(L2);
 
     std::cout << "Sum: " << R.sum() << std::endl;
+    float FD;
+    FD = R.echelon_determinant();
+    std::cout << "Det: " << D << std::endl;
+    FD = R.laplace_determinant();
+    std::cout << "Det: " << D << std::endl;
 
-    D = R.echelon_determinant();
-    std::cout << "Det: " << D << std::endl;
-    D = R.laplace_determinant();
-    std::cout << "Det: " << D << std::endl;
+    Matrix<float> L(100,100);
+    Matrix<float> U(100,100);
+
+    R.LU_fast(&L,&U);
+
+    float Ldet = L.echelon_determinant();
+    float Udet = U.echelon_determinant();
+
+    FD = Ldet * Udet;
+    std::cout << "Det with LU method: " << D << std::endl;
+
+    Matrix<int> Ident(100, 100);
+    Ident.I();
+    D = Ident.echelon_determinant();
+    std::cout << "Identity Det Echelon: " << D << std::endl;
+    D = Ident.laplace_determinant();
+    std::cout << "Identity Det Laplace: " << D << std::endl;
 
     //Cinf = R.condition(0);
     //Cone = R.condition(1);
@@ -71,22 +89,26 @@ int main(int argc, char *argv[])
     //std::cout << "Two Norm: " << Ctwo << "\n";
     //std::cout << "Inf Norm: " << Cinf << std::endl;
 
-    Matrix<int> Re(3,4);
+    Matrix<float> Re(3,4);
 
-    Re(0,0) =  1;Re(0,1) = 2;Re(0,2) = -1;Re(0,3) =  -4;
-    Re(1,0) =  2;Re(1,1) = 3;Re(1,2) = -1;Re(1,3) = -11;
-    Re(2,0) = -2;Re(2,1) = 0;Re(2,2) = -3;Re(2,3) =  22;
+    Re(0,0) =  2;Re(0,1) =  1;Re(0,2) = -1;Re(0,3) =   8;
+    Re(1,0) = -3;Re(1,1) = -1;Re(1,2) =  2;Re(1,3) = -11;
+    Re(2,0) = -2;Re(2,1) =  1;Re(2,2) =  2;Re(2,3) =  -3;
 
-    Matrix<int> RR = Re.copy();
-    Matrix<int> RE = Re.copy();
-    Matrix<int> RRE = Re.copy();
+    Matrix<float> In = Re.copy().slice(0,2,0,2);
+    Matrix<float> RR = Re.copy();
+    Matrix<float> RE = Re.copy();
+    Matrix<float> RRE = Re.copy();
 
+    In.invert();
     RR.reduce();
     RE.echelon();
     RRE.echelon();
     RRE.reduce();
 
     Re.print(4);
+    std::cout << std::endl;
+    In.print(4);
     std::cout << std::endl;
     RR.print(4);
     std::cout << std::endl;

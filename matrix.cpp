@@ -411,8 +411,8 @@ T Matrix<T>::reduce(void)
 template <class T>
 T Matrix<T>::echelon(void)
 {
-    T h = 0;
-    T k = 0;
+    int h = 0;
+    int k = 0;
     T d = 1;
 
     while ((h < this->rows) & (k < this->cols)) {
@@ -452,7 +452,7 @@ void Matrix<T>::invert(void)
     a.reduce();
     Matrix<T> test(a.rows, a.rows);
     test = a.slice(0,a.rows-1,0,a.rows-1);
-    assert(test.compare(Id));
+    //assert(test.compare(Id));
     if (test.compare(Id)) {
         Matrix<T> inv(a.rows, a.rows);
         inv = a.slice(0,a.rows-1,a.rows,2*a.rows-1);
@@ -677,7 +677,7 @@ Vector<std::complex<T> > Matrix<T>::eigenvalues(unsigned int iterations) const
             if (flag) {
                 flag = 0;
             } else if (abs(A.get(j+1, j)) > pow(10,-5)) {
-                std::complex<T> z(((A.get(j, j)+A.get(j+1, j+1))/2),std::sqrt(abs(A.get(j, j+1))*abs(A.get(j+1, j))));
+                std::complex<T> z(((A.get(j, j)+A.get(j+1, j+1))/2),sqrt(abs(A.get(j, j+1))*abs(A.get(j+1, j))));
                 E.set(j, z);
                 E.set(j+1, std::conj(E.get(j)));
                 flag = 1;
@@ -768,15 +768,15 @@ T Matrix<T>::infnorm(void) const
 template <class T>
 void Matrix<T>::QR(Matrix *Q, Matrix *R) const
 {
-    T m = this->rows;
-    T n = this->cols;
+    int m = this->rows;
+    int n = this->cols;
     Matrix<T> A(m, n);
     A = this->copy();
     Vector<T> d(n, 0);
     for (unsigned int j = 0; j < n; j++) {
         T s = 0;
         for (unsigned int i = j; i < m; i++) {
-            s += pow(A.get(i, j), 2);
+            s += A.get(i, j) * A.get(i, j);
         }
         s = sqrt(s);
         if (A.get(j, j) > 0) {

@@ -38,7 +38,7 @@ int main(void)
     std::cout << "Two Norm: " << Ctwo << "\n";
     std::cout << "Inf Norm: " << Cinf << std::endl;
 
-    Vector<std::complex<double>> E(M.rows, 1);
+    Vector<std::complex<double>> E(M.nrow(), 1);
     unsigned int k = 0;
     unsigned int b = 1;
     while(k < 100001) {

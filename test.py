@@ -28,7 +28,7 @@ e2 = []
 e3 = []
 lines = []
 
-with open("datafiles/m3.txt") as f:
+with open("data.txt") as f:
     for l in f:
         mo = re.match(r'^([0-9]+),(-?[0-9]+\.?[0-9]+e?[+-]?[0-9]+[+-]?[0-9]*\.?[0-9]+e?[+-]?[0-9]*j?),(-?[0-9]+\.?[0-9]+e?[+-]?[0-9]+[+-]?[0-9]*\.?[0-9]+e?[+-]?[0-9]*j?),(-?[0-9]+\.?[0-9]+e?[+-]?[0-9]*[+-]?[0-9]*\.?[0-9]+e?[+-]?[0-9]*j?)?$', l)
         if mo != None:
@@ -55,11 +55,11 @@ e2dif = np.abs((np.absolute(desirede2)-np.absolute(e2))/np.absolute(e2))
 e3dif = np.abs((np.absolute(desirede3)-np.absolute(e3))/np.absolute(e3))
 
 fig, ax = plt.subplots()
-ax.scatter(iter, e1dif, label="First Eigenvalue")
-ax.scatter(iter, e2dif, label="Second Eigenvalue")
-ax.scatter(iter, e3dif, label="Third Eigenvalue")
-#ax.scatter(iter, (e1dif+e2dif)/2, label="AVG(e1,e2)")
-#ax.scatter(iter, e3dif, label="e3")
+#ax.scatter(iter, e1dif, label="First Eigenvalue")
+#ax.scatter(iter, e2dif, label="Second Eigenvalue")
+#ax.scatter(iter, e3dif, label="Third Eigenvalue")
+ax.scatter(iter, (e1dif+e2dif)/2, label="AVG(e1,e2)")
+ax.scatter(iter, e3dif, label="e3")
 ax.legend(loc="best")
 ax.grid()
 ax.set_title("Convergence of eigenvalue solver")
