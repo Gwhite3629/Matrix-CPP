@@ -64,6 +64,7 @@ public:
     T reduce(void);
     T echelon(void);
     void invert(void);
+    Matrix inverse(void) const;
     Matrix augment(const Matrix&) const;
     Matrix slice(unsigned int, unsigned int, unsigned int, unsigned int) const;
 

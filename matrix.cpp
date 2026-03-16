@@ -460,6 +460,18 @@ void Matrix<T>::invert(void)
 }
 
 template <class T>
+Matrix<T> Matrix<T>::inverse(void) const
+{
+    assert(is_square);
+
+    Matrix<T> inv(this->rows, this->cols);
+    inv = this->copy();
+    inv.invert();
+
+    return inv;
+}
+
+template <class T>
 Matrix<T> Matrix<T>::augment(const Matrix& M)const
 {
     assert(this->rows == M.rows);
@@ -654,13 +666,13 @@ Vector<std::complex<T> > Matrix<T>::eigenvalues(unsigned int iterations) const
     Matrix<T> Q(this->rows, this->cols);
     Matrix<T> R(this->rows, this->cols);
 
-    A.QR(&Q, &R);
+    A.QR_fast(&Q, &R);
     Matrix<T> q(this->rows, this->cols);
     q = Q.copy();
     q.transpose();
     A = (Q.outer(*this)).outer(q);
     for (unsigned int i = 0; i < iterations; i++) {
-        A.QR(&Q, &R);
+        A.QR_fast(&Q, &R);
         A = R.outer(Q);
     }
     Vector<std::complex<T>> E(this->rows, 1);
@@ -737,7 +749,7 @@ T Matrix<T>::twonorm(void) const
     AC = this->copy_transpose();
     P = AC.outer(A);
     Vector<std::complex<T> > E(this->cols, 1);
-    E = P.eigenvalues(10000);
+    E = P.eigenvalues(1000);
     std::complex<T> m = E.max();
     return std::sqrt(std::abs(m));
 }
@@ -839,24 +851,48 @@ void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
     if (!this->is_square) {
         return;
     }
-    int n_rot = (this->rows-1)*(this->rows)/2;
+    //int n_rot = (this->rows-1)*(this->rows)/2;
 
-    Matrix<T> givM (this->rows, this->cols);
-    givM = *this;
+    Matrix<T> G (2, 2);
+    //givM = *this;
+
+    T a = 0, b = 0;
 
     *R = *this;
 
     Q->I();
 
+    for (unsigned int j = 0; j < this->rows - 1; j++) {
+        for (unsigned int i = this->rows - 1; i > j; i--) {
+            a = R->get(i-1, j);
+            b = R->get(i, j);
+            G.set(0,0,a);
+            G.set(0,1,b);
+            G.set(1,0,-b);
+            G.set(1,1,a);
+            G /= std::hypot(a,b);
+            Matrix<T> t(2,this->cols - j);
+            t = G.outer(R->slice(i-1,i,j,this->cols));
+            for (unsigned int k = 0; k < (this->cols - j); k++) {
+                R->set(i-1,j + k,t.get(0,k));
+                R->set(i,j + k,t.get(1,k));
+            }
+        }
+    }
+
+    /*
     for (unsigned int i = 1; i < this->rows; i++) {
         for (unsigned int j = 0; j < i; j++) {
             givM = R->Givens(i, j);
             *R = givM.outer(*R);
-            *Q = givM.outer(*Q);
+            //*Q = givM.outer(*Q);
         }
     }
+    */
 
-    Q->transpose();
+    //Q->transpose();
+
+    *Q = this->outer(R->inverse());
 }
 
 /*

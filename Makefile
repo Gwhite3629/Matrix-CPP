@@ -1,5 +1,5 @@
-CC=g++-15
-LINK=g++-15
+CC=g++
+LINK=g++
 
 TESTDIR:=tests
 OBJDIR:=objs

@@ -41,10 +41,10 @@ int main(void)
     Vector<std::complex<double>> E(M.nrow(), 1);
     unsigned int k = 0;
     unsigned int b = 1;
-    while(k < 100001) {
-        for (unsigned int i = 1; i < 101; i++)
-        {
-            k = b*i;
+    while(k < 1001) {
+        //for (unsigned int i = 1; i < 11; i++)
+        //{
+            //k = b*i;
             E = M.eigenvalues(k);
             file << k << ",";
             for (unsigned int j = 0; j < E.length; j++) {
@@ -58,8 +58,9 @@ int main(void)
                     file << ",";
             }
             file << "\n";
-        }
-        b = b*10;
+        //}
+        //b = b*10;
+        k++;
     }
     file.close();
     return 0;
