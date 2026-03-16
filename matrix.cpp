@@ -836,6 +836,33 @@ void Matrix<T>::QR(Matrix *Q, Matrix *R) const
 template <class T>
 void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
 {
+    if (!this->is_square) {
+        return;
+    }
+    int n_rot = (this->rows-1)*(this->rows)/2;
+
+    Matrix<T> givM (this->rows, this->cols);
+    givM = *this;
+
+    *R = *this;
+
+    Q->I();
+
+    for (unsigned int i = 1; i < this->rows; i++) {
+        for (unsigned int j = 0; j < i; j++) {
+            givM = R->Givens(i, j);
+            *R = givM.outer(*R);
+            *Q = givM.outer(*Q);
+        }
+    }
+
+    Q->transpose();
+}
+
+/*
+template <class T>
+void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
+{
     unsigned int s = this->rows;
     unsigned int n = this->rows;
     unsigned int z = 0;
@@ -875,6 +902,7 @@ void Matrix<T>::QR_fast(Matrix *Q, Matrix *R) const
     }
     (*R) = (Q->copy_transpose()).outer((*this));
 }
+*/
 
 template <class T>
 Matrix<T> Matrix<T>::Cholesky_fast(void) const
@@ -962,7 +990,7 @@ void Matrix<T>::SVD(Matrix *E, Matrix *U, Matrix *V) const
 }
 
 template <class T>
-Matrix<T> Matrix<T>::Givens(unsigned int i, unsigned int j)
+Matrix<T> Matrix<T>::Givens(unsigned int i, unsigned int j) const
 {
     Matrix<T> givens_rotation(rows, cols);
 
